@@ -1,8 +1,8 @@
 # ⚽ Firmafoot - Career Football Manager
 
-**Firmafoot** é um simulador de gerenciamento de futebol (Football Manager) moderno, rápido e imersivo rodando diretamente no navegador. O jogo foi desenvolvido utilizando uma arquitetura modular em **Pure HTML5, Vanilla CSS3 e JavaScript (ES6 Modules)**, com persistência de dados local em `LocalStorage`.
+**Firmafoot** é um simulador de gerenciamento de futebol (Football Manager) moderno, rápido e imersivo rodando diretamente no navegador. O jogo foi desenvolvido utilizando uma arquitetura modular em **Pure HTML5, Vanilla CSS3 e JavaScript (ES6 Modules)**, com autenticação mandatória e persistência de dados 100% em **Nuvem (Cloud Saves)**, integrada com decodificação de JWTs no servidor.
 
-Treine seu time do coração, controle as finanças da sua "firma", mude de posições táticas com arrastar-e-soltar, gerencie a moral de cada jogador, faça contratos comerciais e construa uma carreira de sucesso!
+Treine seu time do coração, controle as finanças da sua "firma", mude de posições táticas com arrastar-e-soltar, gerencie a moral de cada jogador, faça contratos comerciais e construa uma carreira de sucesso sincronizada de onde estiver!
 
 ---
 
@@ -68,8 +68,8 @@ Adicionamos a pasta [firmafoot-multiplayer](file:///C:/Users/rafael.ferraz/brasf
 ## 🛠️ Tecnologias Utilizadas
 * **HTML5** & **CSS3** (Visual Glassmorphism, responsividade tática e animações em Keyframes).
 * **JavaScript Moderno (ES6 Modules)** (Estrutura componentizada sem frameworks pesados, garantindo carregamento instantâneo).
-* **LocalStorage API** (Gravação automática e gerenciamento de saves).
-* **PowerShell Server Script** (Servidor HTTP local leve integrado para desenvolvimento rápido).
+* **Google Identity Services (OAuth / JWT)** (Autenticação oficial unificada segura do Google).
+* **PowerShell REST API & DB** (Servidor HTTP local integrado gerenciando persistência segura de contas e saves em nuvem no backend).
 * **Google Sign-In API** (Autenticação unificada obrigatória integrada com decodificação de JWTs no backend).
 * **NestJS & React (WebSockets)** (Fundação da nova arquitetura multiplayer em tempo real).
 
