@@ -79,14 +79,20 @@ O **Firmafoot** suporta dois modos de persistência de dados de forma inteligent
 
 ---
 
-## 🚀 Como Iniciar Localmente
+## 🚀 Como Executar e Hospedar
 
 ### Pré-requisitos
 * Um navegador web moderno (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari).
-* [Git](https://git-scm.com/) instalado em sua máquina.
-* [Node.js](https://nodejs.org/) (versão >= 16.0.0).
+* [Node.js](https://nodejs.org/) (versão >= 16.0.0) instalado.
 
-### Executando o Jogo
+### Método 1: Execução Direta via NPX (Sem Clone)
+Se o pacote estiver publicado no NPM, você e seus amigos podem rodar o jogo localmente de forma instantânea sem clonar o código, apenas executando:
+```bash
+npx firmafoot
+```
+*(Nota: Substitua pelo nome do seu pacote personalizado caso publique com outro nome).*
+
+### Método 2: Executando o Código-Fonte
 1. Clone este repositório:
    ```bash
    git clone https://github.com/unonnn/firmafoot.git
@@ -103,6 +109,22 @@ O **Firmafoot** suporta dois modos de persistência de dados de forma inteligent
    ```
 4. Abra seu navegador em:
    👉 **[http://localhost:8080/](http://localhost:8080/)**
+
+---
+
+## 📦 Como Publicar no NPM (Registry)
+
+Se você deseja disponibilizar o **Firmafoot** para ser executado via `npx` por qualquer pessoa:
+
+1. Faça login na sua conta do NPM no terminal:
+   ```bash
+   npm login
+   ```
+2. Caso o nome de pacote `firmafoot` já esteja sendo usado por outro projeto no registro público, altere a propriedade `"name"` no seu [package.json](file:///C:/Users/rafael.ferraz/brasfoot-game/package.json) para um nome único (ex: `"firmafoot-app"` ou seu escopo `@seu-usuario/firmafoot`).
+3. Publique o pacote na rede:
+   ```bash
+   npm publish --access public
+   ```
 
 ---
 

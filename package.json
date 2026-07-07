@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Firmafoot - Football Manager Online",
   "main": "server.js",
+  "bin": {
+    "firmafoot": "./bin/cli.js"
+  },
   "scripts": {
     "start": "node server.js",
     "prisma:generate": "prisma generate",
