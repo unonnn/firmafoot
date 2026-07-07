@@ -15,7 +15,7 @@ export function renderMarket(estado, container) {
         <span>Mercado de Transferências</span>
         <div>
           <button id="btn-atualizar-mercado" class="btn btn-secondary btn-sm" style="border-color: var(--accent-color); font-weight:600;">
-            🔍 Contratar Scout (R$ 50k)
+            🔍 Contratar Scout (R$ ${userTeam.saf === "city" ? "25k" : "50k"})
           </button>
         </div>
       </div>
@@ -123,11 +123,12 @@ export function renderMarket(estado, container) {
 
     // Atualiza a lista do Scout
     document.getElementById("btn-atualizar-mercado").addEventListener("click", () => {
-      if (userTeam.saldo < 50000) {
-        alert("Saldo insuficiente para pagar a taxa de R$ 50.000 de scout!");
+      const custoScout = userTeam.saf === "city" ? 25000 : 50000;
+      if (userTeam.saldo < custoScout) {
+        alert(`Saldo insuficiente para pagar a taxa de R$ ${custoScout.toLocaleString("pt-BR")} de scout!`);
         return;
       }
-      userTeam.saldo -= 50000;
+      userTeam.saldo -= custoScout;
       atualizarMercadoAleatoriamente(estado);
       salvarJogo(estado);
       
@@ -325,6 +326,9 @@ export function renderMarket(estado, container) {
 
       if (tipoProposta === "compra") {
         proposalCost = Math.round(jogador.valor * multValorClube);
+        if (userTeam.saf === "city") {
+          proposalCost = Math.round(proposalCost * 0.9); // 10% de desconto do Grupo City
+        }
         if (isFreeAgent) {
           currentChance = playerChance;
           extraInfoText = `Contrato com jogador livre. Pague taxas diretas para assinar contrato: ${formatarDinheiro(proposalCost)}.`;
@@ -350,9 +354,11 @@ export function renderMarket(estado, container) {
             ? `⚠️ O ${ownerClub.nome} resistirá à proposta pois o jogador é titular absoluto.`
             : `ℹ️ O ${ownerClub.nome} aceita negociar a liberação do jogador reserva.`;
         }
-      } else {
         // Empréstimo
         proposalCost = Math.round(jogador.valor * 0.05); // 5% do valor do jogador como assinatura
+        if (userTeam.saf === "city") {
+          proposalCost = Math.round(proposalCost * 0.9); // 10% de desconto do Grupo City
+        }
         const isStarterInOwner = ownerClub.escalacao.titulares.includes(jogador.id);
 
         if (isStarterInOwner) {

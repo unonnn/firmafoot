@@ -6,6 +6,12 @@ const STORAGE_KEY = "brasfoot_game_save";
 export function salvarJogo(estado) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(estado));
+    
+    // Se o usuário estiver logado, realiza a sincronização na nuvem em background
+    const token = getAuthToken();
+    if (token) {
+      salvarJogoNuvem(estado, token);
+    }
     return true;
   } catch (e) {
     console.error("Erro ao salvar o jogo", e);
@@ -234,4 +240,61 @@ function gerarMercadoInicial(times) {
   });
   
   return mercado;
+}
+
+export function getAuthToken() {
+  return localStorage.getItem("firmafoot_auth_token");
+}
+
+export function getAuthUsername() {
+  return localStorage.getItem("firmafoot_auth_username");
+}
+
+export function setAuthSession(username, token) {
+  localStorage.setItem("firmafoot_auth_token", token);
+  localStorage.setItem("firmafoot_auth_username", username);
+}
+
+export function clearAuthSession() {
+  localStorage.removeItem("firmafoot_auth_token");
+  localStorage.removeItem("firmafoot_auth_username");
+}
+
+async function salvarJogoNuvem(estado, token) {
+  try {
+    const res = await fetch("/api/save", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${token}`
+      },
+      body: JSON.stringify(estado)
+    });
+    if (!res.ok) {
+      console.warn("Falha no salvamento em nuvem:", await res.json());
+    }
+  } catch (err) {
+    console.error("Erro de conexão para salvar na nuvem:", err);
+  }
+}
+
+export async function carregarJogoNuvem() {
+  const token = getAuthToken();
+  if (!token) return null;
+  
+  try {
+    const res = await fetch("/api/save", {
+      method: "GET",
+      headers: {
+        "Authorization": `Bearer ${token}`
+      }
+    });
+    if (res.ok) {
+      const estado = await res.json();
+      return estado;
+    }
+  } catch (err) {
+    console.error("Erro de conexão ao carregar da nuvem:", err);
+  }
+  return null;
 }

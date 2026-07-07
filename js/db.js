@@ -11,8 +11,8 @@ export const TIMES_BASE = [
   { id: "int", nome: "Internacional", sigla: "INT", rep: 4, saldo: 20000000, corPrimaria: "#e21a22", corSecundaria: "#ffffff", estadio: "Beira-Rio", capacidade: 50800 },
   { id: "flu", nome: "Fluminense", sigla: "FLU", rep: 4, saldo: 18000000, corPrimaria: "#861b2c", corSecundaria: "#165a29", estadio: "Maracanã", capacidade: 78000 },
   { id: "bot", nome: "Botafogo", sigla: "BOT", rep: 4, saldo: 25000000, corPrimaria: "#000000", corSecundaria: "#ffffff", estadio: "Nilton Santos", capacidade: 44000 },
-  { id: "vas", nome: "Vasco da Gama", sigla: "VAS", rep: 3, saldo: 15000000, corPrimaria: "#000000", corSecundaria: "#ffffff", estadio: "São Januário", capacidade: 21000 },
-  { id: "cru", nome: "Cruzeiro", sigla: "CRU", rep: 3, saldo: 16000000, corPrimaria: "#0033a0", corSecundaria: "#ffffff", estadio: "Mineirão", capacidade: 61000 },
+  { id: "vas", nome: "Vasco da Gama", sigla: "VAS", rep: 4, saldo: 15000000, corPrimaria: "#000000", corSecundaria: "#ffffff", estadio: "São Januário", capacidade: 21000 },
+  { id: "cru", nome: "Cruzeiro", sigla: "CRU", rep: 4, saldo: 16000000, corPrimaria: "#0033a0", corSecundaria: "#ffffff", estadio: "Mineirão", capacidade: 61000 },
   { id: "cap", nome: "Athletico Paranaense", sigla: "CAP", rep: 4, saldo: 22000000, corPrimaria: "#e21a22", corSecundaria: "#000000", estadio: "Ligga Arena", capacidade: 42300 },
   { id: "bah", nome: "Bahia", sigla: "BAH", rep: 3, saldo: 18000000, corPrimaria: "#005696", corSecundaria: "#e21a22", estadio: "Arena Fonte Nova", capacidade: 48000 },
   { id: "for", nome: "Fortaleza", sigla: "FOR", rep: 3, saldo: 12000000, corPrimaria: "#0051a2", corSecundaria: "#e21a22", estadio: "Castelão", capacidade: 63000 },
@@ -329,6 +329,7 @@ export function inicializarBaseTimes() {
     
     return {
       ...t,
+      rep: t.rep * 20, // Converte escala 1-5 estrelas do banco para 20-100 para o estado do jogo
       saf: false,
       emprestimo: 0,
       patrocinioMaster: null,

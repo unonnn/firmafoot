@@ -5,7 +5,12 @@ import {
   existeSave, 
   inicializarNovoJogo,
   atualizarResultadoClassificacao,
-  obterDataFormatada
+  obterDataFormatada,
+  getAuthToken,
+  getAuthUsername,
+  setAuthSession,
+  clearAuthSession,
+  carregarJogoNuvem
 } from "./state.js";
 import { iniciarPartida, simularMinutoPartida, simularPartidaCompleta } from "./engine.js";
 import { formatarDinheiro, formatarDinheiroCompleto } from "./utils.js";
@@ -49,16 +54,134 @@ const btnSimularDia = document.getElementById("btn-simular-dia");
 const conteudoTela = document.getElementById("conteudo-tela");
 
 // Inicialização da Aplicação
+// Inicialização da Aplicação
 function inicializarApp() {
-  if (existeSave()) {
-    btnCarregarJogo.classList.remove("hidden");
-    btnCarregarJogo.addEventListener("click", () => {
-      const save = carregarJogo();
-      if (save) iniciarJogoComEstado(save);
+  const authBox = document.getElementById("auth-box");
+  const loggedSetupArea = document.getElementById("logged-setup-area");
+  const userDisplayName = document.getElementById("user-display-name");
+  const btnAuthLogoutSetup = document.getElementById("btn-auth-logout-setup");
+  const btnAuthLogoutHeader = document.getElementById("btn-auth-logout-header");
+  const btnMockGoogle = document.getElementById("btn-mock-google");
+
+  // Handler de login autenticado
+  const processarLoginSucesso = async (username, token, displayName) => {
+    setAuthSession(username, token);
+    localStorage.setItem("firmafoot_auth_displayname", displayName);
+    
+    // Tenta carregar o save do usuário na nuvem
+    const saveObj = await carregarJogoNuvem();
+    if (saveObj) {
+      alert(`Bem-vindo, ${displayName}!\nSua carreira foi sincronizada e carregada da nuvem.`);
+      iniciarJogoComEstado(saveObj);
+    } else {
+      // Se não houver save, exibe o painel de seleção de times
+      if (authBox) authBox.classList.add("hidden");
+      if (loggedSetupArea) loggedSetupArea.classList.remove("hidden");
+      if (userDisplayName) userDisplayName.innerText = displayName;
+      desenharEscolhaTimes();
+    }
+  };
+
+  // Callback Global exigido pelo SDK do Google
+  window.handleGoogleSignIn = async (response) => {
+    try {
+      const res = await fetch("/api/auth/google", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ credential: response.credential })
+      });
+      const data = await res.json();
+      if (res.ok && data.success) {
+        await processarLoginSucesso(data.username, data.token, data.displayName);
+      } else {
+        alert("Falha ao autenticar com o Google: " + (data.error || "Erro desconhecido."));
+      }
+    } catch (err) {
+      alert("Erro de conexão ao autenticar com o Google.");
+    }
+  };
+
+  // Bypass para desenvolvimento / testes
+  if (btnMockGoogle) {
+    btnMockGoogle.addEventListener("click", async (e) => {
+      e.preventDefault();
+      const mockUsername = prompt("Digite seu nome ou e-mail de teste:", "treinador_teste@firmafoot.com");
+      if (!mockUsername) return;
+      const mockDisplayName = mockUsername.split("@")[0];
+
+      try {
+        const res = await fetch("/api/auth/google", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ 
+            credential: "mock_token", 
+            mockUsername: mockUsername, 
+            mockDisplayName: mockDisplayName 
+          })
+        });
+        const data = await res.json();
+        if (res.ok && data.success) {
+          await processarLoginSucesso(data.username, data.token, data.displayName);
+        }
+      } catch (err) {
+        alert("Erro ao simular login de desenvolvimento.");
+      }
     });
   }
-  
-  desenharEscolhaTimes();
+
+  // Ação de Sair
+  const lidarLogout = () => {
+    clearAuthSession();
+    localStorage.removeItem("firmafoot_auth_displayname");
+    
+    // Esconde o container do jogo e mostra tela inicial
+    document.getElementById("jogo-container").classList.add("hidden");
+    document.getElementById("tela-inicial").classList.add("screen");
+    document.getElementById("tela-inicial").classList.add("active");
+    
+    if (authBox) authBox.classList.remove("hidden");
+    if (loggedSetupArea) loggedSetupArea.classList.add("hidden");
+    
+    if (window.google && window.google.accounts) {
+      window.google.accounts.id.disableAutoSelect();
+    }
+    alert("Desconectado com sucesso.");
+  };
+
+  if (btnAuthLogoutSetup) {
+    btnAuthLogoutSetup.addEventListener("click", lidarLogout);
+  }
+  if (btnAuthLogoutHeader) {
+    btnAuthLogoutHeader.addEventListener("click", (e) => {
+      e.preventDefault();
+      lidarLogout();
+    });
+  }
+
+  // Verifica na inicialização se já está logado
+  const token = getAuthToken();
+  const username = getAuthUsername();
+  const displayName = localStorage.getItem("firmafoot_auth_displayname") || username;
+
+  if (token && username) {
+    processarLoginSucesso(username, token, displayName);
+  } else {
+    if (authBox) authBox.classList.remove("hidden");
+    if (loggedSetupArea) loggedSetupArea.classList.add("hidden");
+  }
+
+  // Permite fechar qualquer janela (modal) clicando fora do conteúdo (no backdrop escuro)
+  document.querySelectorAll(".modal").forEach(modal => {
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        // Bloqueia fechar a partida em andamento para não quebrar a simulação
+        if (modal.id === "modal-partida") return;
+        
+        modal.classList.remove("active");
+      }
+    });
+  });
+
   configurarNavegacao();
 }
 
@@ -276,37 +399,82 @@ Diretoria Executiva do ${novoTime.nome}.`,
 
 // Gera propostas comerciais aleatórias para o clube com base em reputação
 function gerarPropostasPatrocinio(rep) {
-  const kitMarcas = ["Volt", "Adidas", "Nike", "Puma", "Umbro", "Kappa", "Reebok", "Fila"];
+  let kitMarcasDisponiveis = [];
+  let fixoMin, fixoMax, royMin, royMax;
+  let tierName = "";
+  
+  if (rep >= 75) {
+    tierName = "Tier 1 (Elite)";
+    kitMarcasDisponiveis = ["Nike", "Adidas", "Puma"];
+    fixoMin = 1100000;
+    fixoMax = 1500000;
+    royMin = 0.18;
+    royMax = 0.25;
+  } else if (rep >= 45) {
+    tierName = "Tier 2 (Pro)";
+    kitMarcasDisponiveis = ["Umbro", "Kappa", "Reebok", "Fila", "New Balance"];
+    fixoMin = 700000;
+    fixoMax = 1000000;
+    royMin = 0.12;
+    royMax = 0.17;
+  } else {
+    tierName = "Tier 3 (Desenvolvimento)";
+    kitMarcasDisponiveis = ["Volt", "Penalty", "Topper", "Lupo Sport", "Kanxa", "Super Bolla"];
+    fixoMin = 350000;
+    fixoMax = 550000;
+    royMin = 0.08;
+    royMax = 0.11;
+  }
+
   const kitPropostas = [];
-  while (kitPropostas.length < 3) {
-    const nome = kitMarcas[Math.floor(Math.random() * kitMarcas.length)];
-    if (kitPropostas.some(p => p.nome === nome)) continue;
-    const fixo = Math.round(rep * (800000 + Math.random() * 800000));
-    const royalties = Number((0.08 + Math.random() * 0.15).toFixed(2));
+  const marcasEmbaralhadas = [...kitMarcasDisponiveis].sort(() => 0.5 - Math.random());
+  
+  for (let i = 0; i < Math.min(3, marcasEmbaralhadas.length); i++) {
+    const nome = marcasEmbaralhadas[i];
+    const fixo = Math.round(rep * (fixoMin + Math.random() * (fixoMax - fixoMin)));
+    const royalties = Number((royMin + Math.random() * (royMax - royMin)).toFixed(2));
+    
     kitPropostas.push({
       nome,
       fixo,
       royalties,
-      desc: `${nome} oferece R$ ${formatarDinheiro(fixo)} fixos e ${Math.round(royalties*100)}% de royalties em produtos.`
+      tier: tierName,
+      desc: `[${tierName}] A ${nome} oferece R$ ${formatarDinheiro(fixo)} fixo anual + ${Math.round(royalties*100)}% de royalties em vendas de camisas oficiais.`
     });
   }
 
   const masterMarcas = ["Betano", "Nubank", "Pixbet", "Crefisa", "BMG", "Caixa", "Banco Inter", "EstrelaBet", "Superbet"];
   const masterPropostas = [];
-  while (masterPropostas.length < 3) {
+  
+  const marcasMasterEscolhidas = [];
+  while (marcasMasterEscolhidas.length < 3) {
     const nome = masterMarcas[Math.floor(Math.random() * masterMarcas.length)];
-    if (masterPropostas.some(p => p.nome === nome)) continue;
-    const fixo = Math.round(rep * (1800000 + Math.random() * 1500000));
-    const bonusVitoria = Math.round(50000 + Math.random() * 150000);
-    const camisaLimpa = Math.random() < 0.35;
+    if (!marcasMasterEscolhidas.includes(nome)) {
+      marcasMasterEscolhidas.push(nome);
+    }
+  }
+
+  for (let i = 0; i < 3; i++) {
+    const nome = marcasMasterEscolhidas[i];
+    const camisaLimpa = (i === 0);
+    
+    let fixo, bonusVitoria;
+    if (camisaLimpa) {
+      fixo = Math.round(rep * (1000000 + Math.random() * 900000));
+      bonusVitoria = Math.round(30000 + Math.random() * 60000);
+    } else {
+      fixo = Math.round(rep * (1800000 + Math.random() * 1500000));
+      bonusVitoria = Math.round(60000 + Math.random() * 120000);
+    }
+
     masterPropostas.push({
       nome,
       fixo,
       bonusVitoria,
       camisaLimpa,
       desc: camisaLimpa 
-        ? `A ${nome} oferece patrocínio com 'Camisa Limpa' (torcida adora!). Bônus de vitória: R$ ${formatarDinheiro(bonusVitoria)}.` 
-        : `A ${nome} exige estampa de logo principal (reduz vendas de camisas em 25% e público do estádio em 5%). Bônus de vitória: R$ ${formatarDinheiro(bonusVitoria)}.`
+        ? `A ${nome} oferece patrocínio com 'Camisa Limpa' (Sem logo frontal. A torcida adora, mantendo 100% das vendas de camisas e público cheio!).` 
+        : `A ${nome} exige estampa de logo principal (Reduz em 25% as vendas de camisas oficiais e afasta 5% do público).`
     });
   }
 
@@ -1099,7 +1267,11 @@ function processarConclusaoDaRodada() {
   if (userJogo.homeTeamId === estadoAtual.timeUsuarioId) {
     let bilheteriaLiquida = userJogo.renda;
     if (userTeam.saf) {
-      bilheteriaLiquida = Math.round(userJogo.renda * 0.90);
+      let percent = 0.10;
+      if (userTeam.saf === "textor") percent = 0.15;
+      else if (userTeam.saf === "city") percent = 0.10;
+      else if (userTeam.saf === "minoritaria") percent = 0.04;
+      bilheteriaLiquida = Math.round(userJogo.renda * (1 - percent));
     }
     userTeam.saldo += bilheteriaLiquida;
   }

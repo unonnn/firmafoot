@@ -10,22 +10,64 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <!-- Link para o CSS principal -->
   <link rel="stylesheet" href="style.css">
+  <!-- API de Autenticação Google Identity Services -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 <body>
 
-  <!-- Tela Inicial: Seleção de Times / Carregar Save -->
+  <!-- Tela Inicial: Login Google Obrigatório / Seleção de Times -->
   <div id="tela-inicial" class="screen active">
     <div class="glass-container text-center hero-section">
       <h1 class="glow-text">FIRMA<span>FOOT</span></h1>
-      <p class="subtitle">Torne-se o maior técnico de futebol do Brasil</p>
+      <p class="subtitle">O Manager de Futebol da beira do gramado à beira do escritório</p>
       
-      <div class="save-actions">
-        <button id="btn-carregar-jogo" class="btn btn-secondary btn-lg hidden">Carregar Jogo Salvo</button>
+      <!-- Login Google Box -->
+      <div id="auth-box" class="glass-card" style="margin: 40px auto; padding: 25px; max-width: 420px; text-align: center; border: 1px solid var(--glass-border);">
+        <h3 style="font-size: 1rem; font-weight: 700; color: #fff; margin-bottom: 8px;">☁️ Conecte sua Conta</h3>
+        <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 20px; line-height: 1.4;">
+          Faça login com sua conta Google para sincronizar sua carreira automaticamente no computador e no celular.
+        </p>
+        
+        <!-- Google Sign-In Button Container -->
+        <div style="display: flex; justify-content: center; margin-bottom: 10px;">
+          <!-- 
+            O Client ID padrão abaixo serve para desenvolvimento.
+            Em produção, configure sua credencial do Google Cloud Console.
+          -->
+          <div id="g_id_onload"
+               data-client_id="845233261623-googleclientid.apps.googleusercontent.com"
+               data-context="signin"
+               data-ux_mode="popup"
+               data-callback="handleGoogleSignIn"
+               data-auto_prompt="false">
+          </div>
+          <div class="g_id_signin"
+               data-type="standard"
+               data-shape="rectangular"
+               data-theme="dark"
+               data-text="signin_with"
+               data-size="large"
+               data-logo_alignment="left">
+          </div>
+        </div>
+
+        <div style="margin-top: 15px; border-top: 1px solid rgba(255,255,255,0.06); padding-top: 12px;">
+          <a href="#" id="btn-mock-google" style="font-size: 0.72rem; color: var(--accent-color); text-decoration: none; font-weight: 600;">⚡ Ignorar (Modo Desenvolvimento / Testes)</a>
+        </div>
       </div>
-      
-      <h2 class="title-select-team">Escolha seu Clube:</h2>
-      <div id="grid-times-inicial" class="grid-teams">
-        <!-- Inserido dinamicamente via JS -->
+
+      <!-- Área Logada: Início de Carreira (Se não houver save na nuvem) -->
+      <div id="logged-setup-area" class="hidden">
+        <h2 class="title-select-team" style="margin-top: 20px; display: flex; justify-content: center; align-items: center; gap: 8px;">
+          <span>Seja bem-vindo, </span><span id="user-display-name" style="color: var(--accent-color); font-weight: 800;">Treinador</span>!
+          <button id="btn-auth-logout-setup" style="font-size: 0.75rem; background: rgba(255,0,0,0.15); border: 1px solid rgba(255,0,0,0.25); color: var(--danger-color); padding: 2px 8px; border-radius: 4px; cursor: pointer; margin-left: 10px;">Sair</button>
+        </h2>
+        
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px;">Escolha o clube que deseja comandar para dar o pontapé inicial na sua carreira:</p>
+        
+        <div id="grid-times-inicial" class="grid-teams">
+          <!-- Inserido dinamicamente via JS -->
+        </div>
       </div>
     </div>
   </div>
@@ -54,7 +96,11 @@
             <span class="club-color-dot" id="user-club-color"></span>
             <span id="user-club-name" style="font-weight:700;">Flamengo</span>
           </div>
-          <span id="user-board-confidence" style="font-size:0.7rem; color:var(--success-color); font-weight:600;" title="Confiança da Diretoria">Diretoria: 70%</span>
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span id="user-board-confidence" style="font-size:0.7rem; color:var(--success-color); font-weight:600;" title="Confiança da Diretoria">Diretoria: 70%</span>
+            <span style="font-size:0.7rem; color:rgba(255,255,255,0.25);">|</span>
+            <a href="#" id="btn-auth-logout-header" style="font-size:0.7rem; color:var(--danger-color); text-decoration:none; font-weight:600;" title="Sair da Conta">Sair</a>
+          </div>
         </div>
         <div class="balance-badge" id="user-club-balance">R$ 50,0M</div>
       </div>

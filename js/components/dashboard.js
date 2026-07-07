@@ -163,5 +163,89 @@ export function renderDashboard(estado, container) {
         <p style="margin-top: 10px; color: var(--text-muted);">Dica: Visite a aba <strong>Plantel & Táticas</strong> para definir sua escalação de titulares e reservas antes de clicar em <strong>JOGAR PARTIDA</strong>.</p>
       </div>
     </div>
+
+    <!-- Ranking Global de Técnicos (Firmafoot Cloud) -->
+    <div class="glass-card" style="margin-top: 24px; padding: 20px;">
+      <div class="section-title" style="margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center;">
+        <span>🏆 Ranking Global de Técnicos (Firmafoot Cloud)</span>
+        <button id="btn-atualizar-ranking" class="btn btn-secondary btn-sm" style="font-size: 0.75rem; padding: 4px 8px;">🔄 Atualizar</button>
+      </div>
+      <div class="table-responsive" style="max-height: 250px; overflow-y: auto;">
+        <table class="custom-table" style="font-size: 0.88rem;">
+          <thead>
+            <tr>
+              <th style="width: 50px; text-align: center;">Pos</th>
+              <th>Treinador</th>
+              <th>Clube Atual</th>
+              <th style="text-align: center;">Títulos Conquistados</th>
+              <th style="text-align: center;">Reputação do Clube</th>
+              <th style="text-align: center;">Saldo em Caixa</th>
+            </tr>
+          </thead>
+          <tbody id="ranking-global-tbody">
+            <tr>
+              <td colspan="6" style="text-align: center; color: var(--text-muted); padding: 20px;">
+                Carregando dados do ranking...
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   `;
+
+  // Carrega os dados do Ranking Global de forma assíncrona
+  setTimeout(async () => {
+    const tbody = document.getElementById("ranking-global-tbody");
+    const btnRecarregar = document.getElementById("btn-atualizar-ranking");
+    
+    const carregarRanking = async () => {
+      try {
+        if (tbody) {
+          tbody.innerHTML = `<tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 15px;">Atualizando ranking...</td></tr>`;
+        }
+        const res = await fetch("/api/leaderboard");
+        if (res.ok) {
+          const list = await res.json();
+          if (tbody) {
+            if (list.length === 0) {
+              tbody.innerHTML = `<tr><td colspan="6" style="text-align: center; color: var(--text-muted); padding: 15px;">Nenhum treinador no ranking ainda. Conecte sua conta para começar!</td></tr>`;
+            } else {
+              tbody.innerHTML = list.map((user, index) => {
+                const isCurrentUser = user.username === localStorage.getItem("firmafoot_auth_username") 
+                  ? "style='background: rgba(0, 240, 255, 0.04); font-weight: 700; border-left: 3px solid var(--accent-color);'" 
+                  : "";
+                
+                const saldoFormatado = user.saldo >= 1000000 
+                  ? `R$ ${(user.saldo / 1000000).toFixed(1).replace(".", ",")}M` 
+                  : `R$ ${(user.saldo / 1000).toFixed(0)}k`;
+                
+                const estrelas = "★".repeat(Math.ceil(user.reputacao / 20));
+
+                return `
+                  <tr ${isCurrentUser}>
+                    <td style="text-align: center;"><strong>${index + 1}º</strong></td>
+                    <td style="color: #fff;">${user.username}</td>
+                    <td>${user.time || "Nenhum"}</td>
+                    <td style="text-align: center; color: var(--warning-color); font-weight: 700;">🏆 ${user.titulos}</td>
+                    <td style="text-align: center; color: var(--warning-color);">${estrelas}</td>
+                    <td style="text-align: center; color: var(--success-color); font-weight: 700;">${saldoFormatado}</td>
+                  </tr>
+                `;
+              }).join("");
+            }
+          }
+        }
+      } catch (err) {
+        if (tbody) {
+          tbody.innerHTML = `<tr><td colspan="6" style="text-align: center; color: var(--danger-color); padding: 15px;">Erro ao carregar o ranking global.</td></tr>`;
+        }
+      }
+    };
+
+    if (btnRecarregar) {
+      btnRecarregar.addEventListener("click", carregarRanking);
+    }
+    carregarRanking();
+  }, 100);
 }

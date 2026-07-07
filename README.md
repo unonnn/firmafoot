@@ -52,11 +52,26 @@ Treine seu time do coração, controle as finanças da sua "firma", mude de posi
 
 ---
 
+## 🌐 Firmafoot Multiplayer Online (Nova Arquitetura)
+
+Adicionamos a pasta [firmafoot-multiplayer](file:///C:/Users/rafael.ferraz/brasfoot-game/firmafoot-multiplayer) contendo toda a fundação e código core para migrar o Firmafoot de um simulador local standalone para uma **plataforma multiplayer online assíncrona baseada em microsserviços**, ideal para ser jogada em servidores internos ou de trabalho.
+
+### 🏗️ Arquitetura e Stack Utilizada:
+* **Backend:** [NestJS](https://nestjs.com/) (TypeScript) - Estrutura robusta, injetável e modular.
+* **Banco de Dados & ORM:** [Prisma](https://www.prisma.io/) + **PostgreSQL** - Migrations ágeis e transações ACID.
+* **Real-time Engine:** [Socket.io](https://socket.io/) (WebSockets) - Disseminação instantânea de lances e updates em tempo real.
+* **Agendamento (Scheduler):** `@nestjs/schedule` (Cron Jobs) - Simulações de rodadas assíncronas automáticas.
+* **Frontend:** [React](https://react.dev/) (Hooks e Componentes estruturados).
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 * **HTML5** & **CSS3** (Visual Glassmorphism, responsividade tática e animações em Keyframes).
 * **JavaScript Moderno (ES6 Modules)** (Estrutura componentizada sem frameworks pesados, garantindo carregamento instantâneo).
-* **LocalStorage API** (Gravação automática e gerenciamento de múltiplos saves).
+* **LocalStorage API** (Gravação automática e gerenciamento de saves).
 * **PowerShell Server Script** (Servidor HTTP local leve integrado para desenvolvimento rápido).
+* **Google Sign-In API** (Autenticação unificada obrigatória integrada com decodificação de JWTs no backend).
+* **NestJS & React (WebSockets)** (Fundação da nova arquitetura multiplayer em tempo real).
 
 ---
 
@@ -66,7 +81,7 @@ Treine seu time do coração, controle as finanças da sua "firma", mude de posi
 * Um navegador web moderno (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari).
 * [Git](https://git-scm.com/) instalado em sua máquina.
 
-### Executando o Jogo
+### Executando o Jogo Standalone
 1. Clone este repositório:
    ```bash
    git clone https://github.com/unonnn/firmafoot.git
@@ -87,20 +102,35 @@ Treine seu time do coração, controle as finanças da sua "firma", mude de posi
 firmafoot/
 ├── index.html               # Estrutura principal e esqueleto de Modais
 ├── style.css                # Estilização Glassmorphism e posicionamentos táticos
-├── server.ps1               # Script do servidor web local PowerShell
-└── js/
-    ├── main.js              # Controlador central do jogo, avanços e rodadas
-    ├── db.js                # Banco de dados de times, jogadores e atributos
-    ├── state.js             # Serialização e manipulação do LocalStorage (Saves)
-    ├── engine.js            # Motor físico de simulação de gols e cartões da partida
-    ├── utils.js             # Formatadores de moeda e auxiliares matemáticos
-    └── components/          # Telas modulares injetadas dinamicamente
-        ├── dashboard.js     # Mural de notícias, finanças gerais e classificação
-        ├── tactics.js       # Campo tático de arraste e listagem de plantel
-        ├── market.js        # Painel de transferências e propostas
-        ├── finances.js      # Gerenciamento de ingressos, dívida e modelo SAF
-        ├── classification.js# Tabela de pontuação, saldo de gols e histórico
-        └── inbox.js         # Leitor de e-mails obrigatórios e ações comerciais
+├── server.ps1               # Script do servidor web local PowerShell (com Google Auth API)
+├── database/                # Banco de dados local baseado em JSON (Saves e Users)
+├── js/
+│   ├── main.js              # Controlador central do jogo, avanços e rodadas
+│   ├── db.js                # Banco de dados de times, jogadores e atributos (com Tiers de Fornecedores)
+│   ├── state.js             # Serialização e manipulação do Google Cloud Saves
+│   ├── engine.js            # Motor físico de simulação de gols e cartões da partida
+│   ├── utils.js             # Formatadores de moeda e auxiliares matemáticos
+│   └── components/          # Telas modulares injetadas dinamicamente
+│       ├── dashboard.js     # Mural de notícias, ranking de técnicos e classificação
+│       ├── tactics.js       # Campo tático de arraste e listagem de plantel
+│       ├── market.js        # Painel de transferências, propostas e empréstimos
+│       ├── finances.js      # Gerenciamento de ingressos, dívida, patrocinadores e 3 modelos SAF
+│       ├── classification.js# Tabela de pontuação, saldo de gols e histórico
+│       └── inbox.js         # Leitor de e-mails obrigatórios e ações comerciais
+└── firmafoot-multiplayer/   # Arquitetura Multiplayer Online (NestJS + React + Socket.io)
+    ├── prisma/
+    │   └── schema.prisma    # Modelagem relacional do banco de dados (PostgreSQL)
+    ├── backend/             # Código core do servidor de jogo (NestJS)
+    │   └── src/
+    │       ├── app.module.ts# Módulo principal NestJS
+    │       ├── prisma/      # Conexão com banco relacional
+    │       ├── finance/     # Módulo financeiro (Transações ACID)
+    │       ├── match/       # Simulador automático de partidas via Cron Jobs
+    │       └── market/      # WebSocket Gateways para leilões em tempo real
+    └── frontend/            # Componentes React de conexão
+        └── src/
+            ├── hooks/       # Custom hook de escuta e conexões WebSocket (Socket.io)
+            └── components/  # Renderização do Plantel e Leilões em tempo real
 ```
 
 ---

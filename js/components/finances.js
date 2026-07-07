@@ -26,10 +26,15 @@ export function renderFinances(estado, container) {
     
     let receitaEstimada = publicoEstimado * precoIngresso;
     
-    // Taxa SAF de 10% se for SAF
+    // Taxa SAF se for SAF
     let taxaSafEstimada = 0;
     if (userTeam.saf) {
-      taxaSafEstimada = Math.round(receitaEstimada * 0.1);
+      let percent = 0.10;
+      if (userTeam.saf === "textor") percent = 0.15;
+      else if (userTeam.saf === "city") percent = 0.10;
+      else if (userTeam.saf === "minoritaria") percent = 0.04;
+      
+      taxaSafEstimada = Math.round(receitaEstimada * percent);
       receitaEstimada -= taxaSafEstimada;
     }
 
@@ -81,8 +86,8 @@ export function renderFinances(estado, container) {
             </div>
             ` : ""}
             ${userTeam.saf ? `
-            <div style="display: flex; justify-content: space-between; color: var(--danger-color);">
-              <span>Royalties SAF (10%):</span>
+            <div style="display: flex; justify-content: space-between; color: var(--danger-color); font-size: 0.82rem; margin-top: 4px;">
+              <span>Royalties SAF (${userTeam.saf === "textor" ? "15%" : userTeam.saf === "minoritaria" ? "4%" : "10%"}):</span>
               <span>- ${formatarDinheiroCompleto(taxaSafEstimada)}</span>
             </div>
             ` : ""}
@@ -193,17 +198,53 @@ export function renderFinances(estado, container) {
           <div style="font-size: 0.9rem;">
             ${userTeam.saf 
               ? `<div style="background: rgba(var(--success-color-rgb), 0.05); padding: 12px; border-radius: 8px; border: 1px solid rgba(var(--success-color-rgb), 0.2);">
-                   <strong style="color: var(--success-color);">Clube Convertido em SAF 💼</strong>
-                   <p style="margin-top: 5px; font-size: 0.8rem; color: var(--text-muted); line-height: 1.4;">
-                     Aporte de R$ 50M consolidado. 10% da bilheteria é repassada ao grupo investidor a cada rodada.
+                   <strong style="color: var(--success-color);">
+                     SAF Ativa: ${userTeam.saf === "textor" ? "Modelo Imperial (Estilo Textor) 💼" : userTeam.saf === "city" ? "Modelo Grupo Global (Estilo City) 🌍" : "Modelo Parcial (SAF Minoritária) 🤝"}
+                   </strong>
+                   <p style="margin-top: 5px; font-size: 0.8rem; color: var(--text-muted); line-height: 1.45;">
+                     ${userTeam.saf === "textor" 
+                       ? "Aporte de R$ 60M consolidado. 50% das dívidas amortizadas. Royalties: 15% das receitas de jogos repassadas ao investidor." 
+                       : userTeam.saf === "city" 
+                         ? "Aporte de R$ 40M consolidado. Vantagens: 50% de desconto nos olheiros, 10% de desconto em compras do mercado. Royalties: 10% de taxa." 
+                         : "Aporte de R$ 15M consolidado. Vantagem: Controle político mantido pela associação. Royalties mínimos: 4% de taxa."}
                    </p>
                  </div>`
-              : `<div style="background: rgba(255,255,255,0.02); padding: 12px; border-radius: 8px; border: 1px solid var(--glass-border);">
-                   <strong>Clube Associativo Comum</strong>
-                   <p style="margin-top: 5px; font-size: 0.8rem; color: var(--text-muted); line-height: 1.4; margin-bottom: 12px;">
-                     Aporte de **R$ 50.000.000** em troca de **10% de royalties sobre bilheterias** permanentemente.
-                   </p>
-                   <button id="btn-converter-saf" class="btn btn-primary btn-sm" style="width: 100%;">Converter para SAF</button>
+              : `<div style="display: flex; flex-direction: column; gap: 12px;">
+                   <!-- Modelo Textor -->
+                   <div style="background: rgba(255,255,255,0.01); padding: 12px; border-radius: 8px; border: 1px solid var(--glass-border);">
+                     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                       <strong style="color: #fff; font-size: 0.85rem;">Modelo Imperial (Estilo Textor)</strong>
+                       <span style="color: var(--success-color); font-weight: 700; font-size: 0.8rem;">+ R$ 60M</span>
+                     </div>
+                     <p style="font-size: 0.74rem; color: var(--text-muted); line-height: 1.35; margin-bottom: 8px;">
+                       Venda do controle total. Amortiza **50% das dívidas bancárias** atuais. Investidor exige **15% de royalties** de bilheterias.
+                     </p>
+                     <button id="btn-saf-textor" class="btn btn-primary btn-sm" style="width: 100%; font-size: 0.75rem; padding: 4px 8px;">Adotar Modelo Textor</button>
+                   </div>
+
+                   <!-- Modelo Grupo City -->
+                   <div style="background: rgba(255,255,255,0.01); padding: 12px; border-radius: 8px; border: 1px solid var(--glass-border);">
+                     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                       <strong style="color: #fff; font-size: 0.85rem;">Modelo Grupo Global (Estilo City)</strong>
+                       <span style="color: var(--success-color); font-weight: 700; font-size: 0.8rem;">+ R$ 40M</span>
+                     </div>
+                     <p style="font-size: 0.74rem; color: var(--text-muted); line-height: 1.35; margin-bottom: 8px;">
+                       Parceria de rede. **50% de desconto nos olheiros/scouts** e **10% de desconto em transferências**. Investidor exige **10% de royalties**.
+                     </p>
+                     <button id="btn-saf-city" class="btn btn-primary btn-sm" style="width: 100%; font-size: 0.75rem; padding: 4px 8px;">Adotar Modelo Grupo City</button>
+                   </div>
+
+                   <!-- Modelo Minoritária -->
+                   <div style="background: rgba(255,255,255,0.01); padding: 12px; border-radius: 8px; border: 1px solid var(--glass-border);">
+                     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                       <strong style="color: #fff; font-size: 0.85rem;">Modelo Parcial (SAF Minoritária)</strong>
+                       <span style="color: var(--success-color); font-weight: 700; font-size: 0.8rem;">+ R$ 15M</span>
+                     </div>
+                     <p style="font-size: 0.74rem; color: var(--text-muted); line-height: 1.35; margin-bottom: 8px;">
+                       Venda parcial sem perda de controle da associação tradicional do clube. Investidor exige apenas **4% de royalties**.
+                     </p>
+                     <button id="btn-saf-minoritaria" class="btn btn-primary btn-sm" style="width: 100%; font-size: 0.75rem; padding: 4px 8px;">Adotar Modelo Minoritário</button>
+                   </div>
                  </div>`
             }
           </div>
@@ -288,16 +329,44 @@ export function renderFinances(estado, container) {
       drawScreen();
     });
 
-    // Evento Converter SAF
-    const btnSaf = document.getElementById("btn-converter-saf");
-    if (btnSaf) {
-      btnSaf.addEventListener("click", () => {
-        const conf = confirm("ATENÇÃO: Você deseja converter o clube em SAF?\n\n• Aporte de Capital: +R$ 50.000.000 imediatos.\n• Taxa de Bilheteria: -10% de toda bilheteria repassada permanentemente.\n\nEsta ação é irreversível!");
+    // Eventos Converter SAF
+    const btnTextor = document.getElementById("btn-saf-textor");
+    const btnCity = document.getElementById("btn-saf-city");
+    const btnMinoritaria = document.getElementById("btn-saf-minoritaria");
+
+    if (btnTextor) {
+      btnTextor.addEventListener("click", () => {
+        const conf = confirm("Deseja adotar o Modelo Imperial (Estilo Textor)?\n\n• Aporte de Capital: +R$ 60.000.000 em caixa.\n• Dívida Bancária: Reduzida em 50%.\n• Royalties de Bilheteria: -15% permanentemente.\n\nEsta ação é irreversível!");
         if (!conf) return;
-        
-        userTeam.saf = true;
-        userTeam.saldo += 50000000;
-        
+        userTeam.saf = "textor";
+        userTeam.saldo += 60000000;
+        if (userTeam.emprestimo > 0) {
+          userTeam.emprestimo = Math.round(userTeam.emprestimo * 0.5);
+        }
+        salvarJogo(estado);
+        document.getElementById("user-club-balance").innerText = formatarDinheiro(userTeam.saldo);
+        drawScreen();
+      });
+    }
+
+    if (btnCity) {
+      btnCity.addEventListener("click", () => {
+        const conf = confirm("Deseja adotar o Modelo Grupo Global (Estilo City)?\n\n• Aporte de Capital: +R$ 40.000.000 em caixa.\n• Rede de Scouts: 50% de desconto nos olheiros e 10% nas compras de jogadores.\n• Royalties de Bilheteria: -10% permanentemente.\n\nEsta ação é irreversível!");
+        if (!conf) return;
+        userTeam.saf = "city";
+        userTeam.saldo += 40000000;
+        salvarJogo(estado);
+        document.getElementById("user-club-balance").innerText = formatarDinheiro(userTeam.saldo);
+        drawScreen();
+      });
+    }
+
+    if (btnMinoritaria) {
+      btnMinoritaria.addEventListener("click", () => {
+        const conf = confirm("Deseja adotar o Modelo Parcial (SAF Minoritária)?\n\n• Aporte de Capital: +R$ 15.000.000 em caixa.\n• Royalties de Bilheteria: -4% permanentemente (associação tradicional retém o controle).\n\nEsta ação é irreversível!");
+        if (!conf) return;
+        userTeam.saf = "minoritaria";
+        userTeam.saldo += 15000000;
         salvarJogo(estado);
         document.getElementById("user-club-balance").innerText = formatarDinheiro(userTeam.saldo);
         drawScreen();

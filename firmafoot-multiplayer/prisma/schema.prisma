@@ -1,0 +1,91 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum MatchStatus {
+  PENDENTE
+  EM_ANDAMENTO
+  FINALIZADA
+}
+
+enum Position {
+  GOL
+  ZAG
+  LE
+  LD
+  VOL
+  MEI
+  PE
+  PD
+  CA
+}
+
+model User {
+  id              String          @id @default(uuid())
+  nome            String
+  email           String          @unique
+  saldoFinanceiro Decimal         @default(0.0) @db.Decimal(15, 2)
+  team            Team?
+  bids            MarketAuction[]
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+}
+
+model Team {
+  id              String          @id @default(uuid())
+  nome            String          @unique
+  estadio         String          @default("Arena")
+  capacidade      Int             @default(15000)
+  ownerId         String          @unique
+  owner           User            @relation(fields: [ownerId], references: [id])
+  jogadores       Player[]
+  homeMatches     Match[]         @relation("HomeTeam")
+  awayMatches     Match[]         @relation("AwayTeam")
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+}
+
+model Player {
+  id              String          @id @default(uuid())
+  nome            String
+  posicao         Position
+  forca           Int             @default(50)
+  salario         Decimal         @db.Decimal(12, 2)
+  valorMercado    Decimal         @db.Decimal(15, 2)
+  teamId          String?
+  team            Team?           @relation(fields: [teamId], references: [id])
+  auction         MarketAuction?
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+}
+
+model Match {
+  id              String          @id @default(uuid())
+  homeTeamId      String
+  homeTeam        Team            @relation("HomeTeam", fields: [homeTeamId], references: [id])
+  awayTeamId      String
+  awayTeam        Team            @relation("AwayTeam", fields: [awayTeamId], references: [id])
+  golsHome        Int             @default(0)
+  golsAway        Int             @default(0)
+  dataAgendada    DateTime
+  status          MatchStatus     @default(PENDENTE)
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+}
+
+model MarketAuction {
+  id              String          @id @default(uuid())
+  playerId        String          @unique
+  player          Player          @relation(fields: [playerId], references: [id])
+  lanceAtual      Decimal         @db.Decimal(15, 2)
+  maiorLanceUserId String?
+  maiorLanceUser  User?           @relation(fields: [maiorLanceUserId], references: [id])
+  dataExpiracao   DateTime
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+}
