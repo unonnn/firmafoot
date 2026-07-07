@@ -81,17 +81,22 @@ Adicionamos a pasta [firmafoot-multiplayer](file:///C:/Users/rafael.ferraz/brasf
 * Um navegador web moderno (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari).
 * [Git](https://git-scm.com/) instalado em sua máquina.
 
-### Executando o Jogo Standalone
+### Executando o Jogo (Standalone / Carreira com Cloud Saves)
 1. Clone este repositório:
    ```bash
    git clone https://github.com/unonnn/firmafoot.git
    cd firmafoot
    ```
-2. Inicie o servidor local (se estiver usando o script auxiliar Windows PowerShell):
+2. **Método A (Recomendado - Node.js / Produção):** Instale as dependências e inicie o servidor:
+   ```bash
+   npm install
+   npm start
+   ```
+3. **Método B (Desenvolvimento Windows - PowerShell):** Inicie o script auxiliar caso prefira:
    ```powershell
    ./server.ps1
    ```
-3. Abra seu navegador em:
+4. Abra seu navegador em:
    👉 **[http://localhost:8080/](http://localhost:8080/)**
 
 ---
