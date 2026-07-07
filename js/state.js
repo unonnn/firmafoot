@@ -266,3 +266,22 @@ export async function carregarJogoNuvem() {
   }
   return null;
 }
+
+export async function deletarSaveNuvem() {
+  const token = getAuthToken();
+  if (!token) return;
+  
+  try {
+    const res = await fetch("/api/save", {
+      method: "DELETE",
+      headers: {
+        "Authorization": `Bearer ${token}`
+      }
+    });
+    if (!res.ok) {
+      console.warn("Falha ao deletar o save na nuvem.");
+    }
+  } catch (err) {
+    console.error("Erro ao deletar save na nuvem:", err);
+  }
+}

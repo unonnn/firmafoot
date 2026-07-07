@@ -198,6 +198,55 @@ try {
                     $resData = @{ error = "Não autorizado!" }
                 }
             }
+            elseif ($urlPath -eq "/api/save" -and $request.HttpMethod -eq "DELETE") {
+                $authHeader = $request.Headers["Authorization"]
+                if ($authHeader -match "Bearer token_(.+)") {
+                    $username = $Matches[1]
+                    $userSaveFile = [System.IO.Path]::Combine($savesFolder, "$username.json")
+                    if (Test-Path $userSaveFile) {
+                        Remove-Item -Path $userSaveFile -Force
+                    }
+                    
+                    # Reseta os dados no ranking
+                    [array]$updated = @()
+                    foreach ($u in $users) {
+                        $rep = 50
+                        $titulos = 0
+                        $saldo = 0
+                        $time = "Nenhum"
+                        $dispName = $u.displayName
+                        if ($null -eq $dispName) { $dispName = $u.username }
+                        
+                        if ($u.username -eq $username) {
+                            $rep = 50
+                            $titulos = 0
+                            $saldo = 0
+                            $time = "Nenhum"
+                        } else {
+                            if ($null -ne $u.reputacao) { $rep = $u.reputacao }
+                            if ($null -ne $u.titulos) { $titulos = $u.titulos }
+                            if ($null -ne $u.saldo) { $saldo = $u.saldo }
+                            if ($null -ne $u.time) { $time = $u.time }
+                        }
+                        
+                        $updatedUser = @{
+                            username = $u.username
+                            password = $u.password
+                            displayName = $dispName
+                            reputacao = $rep
+                            titulos = $titulos
+                            saldo = $saldo
+                            time = $time
+                        }
+                        $updated = $updated + $updatedUser
+                    }
+                    $updated | ConvertTo-Json -Depth 5 | Set-Content -Path $usersFile
+                    $resData = @{ success = $true }
+                } else {
+                    $statusCode = 401
+                    $resData = @{ error = "Não autorizado!" }
+                }
+            }
             elseif ($urlPath -eq "/api/leaderboard" -and $request.HttpMethod -eq "GET") {
                 $resData = @()
                 if ($users.Count -gt 0 -or $users.Length -gt 0) {

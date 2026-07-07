@@ -235,6 +235,57 @@ app.post('/api/save', async (req, res) => {
   }
 });
 
+// API: Deletar Save (Resetar Carreira)
+app.delete('/api/save', async (req, res) => {
+  const authHeader = req.headers.authorization;
+  if (!authHeader || !authHeader.startsWith('Bearer token_')) {
+    return res.status(401).json({ error: 'Não autorizado.' });
+  }
+
+  const username = authHeader.replace('Bearer token_', '');
+
+  if (useDatabase && prisma) {
+    try {
+      await prisma.save.deleteMany({
+        where: { username }
+      });
+      await prisma.user.update({
+        where: { username },
+        data: {
+          reputacao: 50,
+          titulos: 0,
+          saldo: 0,
+          time: 'Nenhum'
+        }
+      });
+      return res.json({ success: true });
+    } catch (err) {
+      console.error('Erro ao resetar save no banco relacional:', err);
+    }
+  }
+
+  // Fallback local
+  const saveFilePath = path.join(SAVES_FOLDER, `${username}.json`);
+  try {
+    if (fs.existsSync(saveFilePath)) {
+      fs.unlinkSync(saveFilePath);
+    }
+    const users = readUsersLocal();
+    const userIndex = users.findIndex(u => u.username === username);
+    if (userIndex !== -1) {
+      users[userIndex].reputacao = 50;
+      users[userIndex].titulos = 0;
+      users[userIndex].saldo = 0;
+      users[userIndex].time = 'Nenhum';
+      saveUsersLocal(users);
+    }
+    return res.json({ success: true });
+  } catch (err) {
+    console.error('Erro ao resetar save local:', err);
+    return res.status(500).json({ error: 'Erro ao resetar save local.' });
+  }
+});
+
 // API: Ranking de Técnicos (Leaderboard)
 app.get('/api/leaderboard', async (req, res) => {
   if (useDatabase && prisma) {

@@ -8,7 +8,8 @@ import {
   getAuthUsername,
   setAuthSession,
   clearAuthSession,
-  carregarJogoNuvem
+  carregarJogoNuvem,
+  deletarSaveNuvem
 } from "./state.js";
 import { iniciarPartida, simularMinutoPartida, simularPartidaCompleta } from "./engine.js";
 import { formatarDinheiro, formatarDinheiroCompleto } from "./utils.js";
@@ -153,6 +154,27 @@ function inicializarApp() {
     btnAuthLogoutHeader.addEventListener("click", (e) => {
       e.preventDefault();
       lidarLogout();
+    });
+  }
+
+  const btnResetCareer = document.getElementById("btn-reset-career");
+  if (btnResetCareer) {
+    btnResetCareer.addEventListener("click", async (e) => {
+      e.preventDefault();
+      const conf = confirm("⚠️ ATENÇÃO: Tem certeza que deseja RESETAR sua carreira atual? Todo o progresso de save na nuvem e dados de ranking serão excluídos permanentemente.");
+      if (!conf) return;
+
+      await deletarSaveNuvem();
+
+      // Esconde o container do jogo e volta para a tela de escolha de times do setup logado
+      document.getElementById("jogo-container").classList.add("hidden");
+      
+      if (authBox) authBox.classList.add("hidden");
+      if (loggedSetupArea) loggedSetupArea.classList.remove("hidden");
+      if (userDisplayName) userDisplayName.innerText = localStorage.getItem("firmafoot_auth_displayname") || getAuthUsername();
+      
+      desenharEscolhaTimes();
+      alert("Carreira resetada com sucesso! Você pode escolher um novo clube para começar.");
     });
   }
 
