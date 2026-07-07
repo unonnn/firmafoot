@@ -1,45 +1,13 @@
 import { inicializarBaseTimes, obterPosicaoSecundaria } from "./db.js";
 
-// Salva e carrega o estado do jogo utilizando LocalStorage
-const STORAGE_KEY = "brasfoot_game_save";
-
 export function salvarJogo(estado) {
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(estado));
-    
-    // Se o usuário estiver logado, realiza a sincronização na nuvem em background
-    const token = getAuthToken();
-    if (token) {
-      salvarJogoNuvem(estado, token);
-    }
+  const token = getAuthToken();
+  if (token) {
+    salvarJogoNuvem(estado, token);
     return true;
-  } catch (e) {
-    console.error("Erro ao salvar o jogo", e);
-    return false;
   }
-}
-
-export function carregarJogo() {
-  try {
-    const data = localStorage.getItem(STORAGE_KEY);
-    return data ? JSON.parse(data) : null;
-  } catch (e) {
-    console.error("Erro ao carregar o jogo", e);
-    return null;
-  }
-}
-
-export function existeSave() {
-  try {
-    return localStorage.getItem(STORAGE_KEY) !== null;
-  } catch (e) {
-    console.warn("Acesso ao localStorage indisponível ou bloqueado:", e);
-    return false;
-  }
-}
-
-export function deletarSave() {
-  localStorage.removeItem(STORAGE_KEY);
+  console.warn("Tentativa de salvar o jogo sem usuário estar autenticado na nuvem.");
+  return false;
 }
 
 // Algoritmo de Round-Robin (Algoritmo de Berger) para gerar tabela de jogos

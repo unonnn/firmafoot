@@ -1,8 +1,6 @@
 import { TIMES_BASE, inicializarBaseTimes, obterPosicaoSecundaria, mapearPosicaoGenericaParaEspecifica } from "./db.js";
 import { 
-  carregarJogo, 
   salvarJogo, 
-  existeSave, 
   inicializarNovoJogo,
   atualizarResultadoClassificacao,
   obterDataFormatada,
