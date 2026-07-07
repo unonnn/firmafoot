@@ -1,0 +1,31 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id              String   @id @default(uuid())
+  username        String   @unique // Google Email or Guest ID
+  password        String   @default("oauth_managed")
+  displayName     String
+  reputacao       Int      @default(50)
+  titulos         Int      @default(0)
+  saldo           Decimal  @default(0) @db.Decimal(15, 2)
+  time            String   @default("Nenhum")
+  save            Save?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Save {
+  id              String   @id @default(uuid())
+  username        String   @unique
+  user            User     @relation(fields: [username], references: [username], onDelete: Cascade)
+  saveData        Json     // Stores the entire career JSON state
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

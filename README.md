@@ -52,26 +52,30 @@ Treine seu time do coração, controle as finanças da sua "firma", mude de posi
 
 ---
 
-## 🌐 Firmafoot Multiplayer Online (Nova Arquitetura)
+## 💾 Persistência de Dados & Banco de Dados (Produção)
 
-Adicionamos a pasta [firmafoot-multiplayer](file:///C:/Users/rafael.ferraz/brasfoot-game/firmafoot-multiplayer) contendo toda a fundação e código core para migrar o Firmafoot de um simulador local standalone para uma **plataforma multiplayer online assíncrona baseada em microsserviços**, ideal para ser jogada em servidores internos ou de trabalho.
+O **Firmafoot** suporta dois modos de persistência de dados de forma inteligente e automática:
 
-### 🏗️ Arquitetura e Stack Utilizada:
-* **Backend:** [NestJS](https://nestjs.com/) (TypeScript) - Estrutura robusta, injetável e modular.
-* **Banco de Dados & ORM:** [Prisma](https://www.prisma.io/) + **PostgreSQL** - Migrations ágeis e transações ACID.
-* **Real-time Engine:** [Socket.io](https://socket.io/) (WebSockets) - Disseminação instantânea de lances e updates em tempo real.
-* **Agendamento (Scheduler):** `@nestjs/schedule` (Cron Jobs) - Simulações de rodadas assíncronas automáticas.
-* **Frontend:** [React](https://react.dev/) (Hooks e Componentes estruturados).
+1. **Modo Desenvolvimento (Sem Banco Externo):**
+   * Se o servidor for iniciado sem a variável de ambiente `DATABASE_URL`, o sistema ativa automaticamente o fallback local baseado em arquivos JSON (dentro do diretório `database/`).
+   * Perfeito para rodar localmente sem precisar configurar nada.
+2. **Modo Produção (Banco Relacional PostgreSQL):**
+   * Ao rodar em servidores de produção (ex: Render, Railway, Heroku), onde o sistema de arquivos é volátil e zera a cada reinicialização, o jogo conecta-se a um banco **PostgreSQL** via **Prisma ORM**.
+   * Para ativar o banco, configure a variável de ambiente `DATABASE_URL` no seu painel de hospedagem e execute:
+     ```bash
+     npm run prisma:generate
+     npm run prisma:push
+     ```
+   * Isso cria as tabelas de **User** (perfis autenticados via Google) e **Save** (contendo o JSON completo da carreira do usuário) garantindo que os saves nunca sejam apagados.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 * **HTML5** & **CSS3** (Visual Glassmorphism, responsividade tática e animações em Keyframes).
 * **JavaScript Moderno (ES6 Modules)** (Estrutura componentizada sem frameworks pesados, garantindo carregamento instantâneo).
-* **Google Identity Services (OAuth / JWT)** (Autenticação oficial unificada segura do Google).
-* **PowerShell REST API & DB** (Servidor HTTP local integrado gerenciando persistência segura de contas e saves em nuvem no backend).
-* **Google Sign-In API** (Autenticação unificada obrigatória integrada com decodificação de JWTs no backend).
-* **NestJS & React (WebSockets)** (Fundação da nova arquitetura multiplayer em tempo real).
+* **Google Identity Services (OAuth / JWT)** (Autenticação unificada segura do Google).
+* **Node.js (Express) & Prisma ORM** (Servidor HTTP de produção gerenciando rotas de login, saves em nuvem e ranking de técnicos).
+* **PostgreSQL** (Banco de dados relacional oficial utilizado em produção).
 
 ---
 
@@ -80,19 +84,20 @@ Adicionamos a pasta [firmafoot-multiplayer](file:///C:/Users/rafael.ferraz/brasf
 ### Pré-requisitos
 * Um navegador web moderno (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari).
 * [Git](https://git-scm.com/) instalado em sua máquina.
+* [Node.js](https://nodejs.org/) (versão >= 16.0.0).
 
-### Executando o Jogo (Standalone / Carreira com Cloud Saves)
+### Executando o Jogo
 1. Clone este repositório:
    ```bash
    git clone https://github.com/unonnn/firmafoot.git
    cd firmafoot
    ```
-2. **Método A (Recomendado - Node.js / Produção):** Instale as dependências e inicie o servidor:
+2. **Método A (Recomendado - Node.js):** Instale as dependências e inicie o servidor local:
    ```bash
    npm install
    npm start
    ```
-3. **Método B (Desenvolvimento Windows - PowerShell):** Inicie o script auxiliar caso prefira:
+3. **Método B (PowerShell - Exclusivo Windows):** Inicie o script auxiliar de desenvolvimento:
    ```powershell
    ./server.ps1
    ```
@@ -107,7 +112,11 @@ Adicionamos a pasta [firmafoot-multiplayer](file:///C:/Users/rafael.ferraz/brasf
 firmafoot/
 ├── index.html               # Estrutura principal e esqueleto de Modais
 ├── style.css                # Estilização Glassmorphism e posicionamentos táticos
-├── server.ps1               # Script do servidor web local PowerShell (com Google Auth API)
+├── server.js                # Servidor de Produção em Node.js (com Google Auth e Prisma SQL)
+├── server.ps1               # Servidor de Desenvolvimento local em PowerShell
+├── package.json             # Definição de dependências e scripts de inicialização
+├── prisma/
+│   └── schema.prisma        # Modelagem do banco de dados relacional para Produção
 ├── database/                # Banco de dados local baseado em JSON (Saves e Users)
 ├── js/
 │   ├── main.js              # Controlador central do jogo, avanços e rodadas
@@ -116,26 +125,12 @@ firmafoot/
 │   ├── engine.js            # Motor físico de simulação de gols e cartões da partida
 │   ├── utils.js             # Formatadores de moeda e auxiliares matemáticos
 │   └── components/          # Telas modulares injetadas dinamicamente
-│       ├── dashboard.js     # Mural de notícias, ranking de técnicos e classificação
+│       ├── dashboard.js     # Mural de notícias, ranking global de técnicos e classificação
 │       ├── tactics.js       # Campo tático de arraste e listagem de plantel
 │       ├── market.js        # Painel de transferências, propostas e empréstimos
 │       ├── finances.js      # Gerenciamento de ingressos, dívida, patrocinadores e 3 modelos SAF
 │       ├── classification.js# Tabela de pontuação, saldo de gols e histórico
 │       └── inbox.js         # Leitor de e-mails obrigatórios e ações comerciais
-└── firmafoot-multiplayer/   # Arquitetura Multiplayer Online (NestJS + React + Socket.io)
-    ├── prisma/
-    │   └── schema.prisma    # Modelagem relacional do banco de dados (PostgreSQL)
-    ├── backend/             # Código core do servidor de jogo (NestJS)
-    │   └── src/
-    │       ├── app.module.ts# Módulo principal NestJS
-    │       ├── prisma/      # Conexão com banco relacional
-    │       ├── finance/     # Módulo financeiro (Transações ACID)
-    │       ├── match/       # Simulador automático de partidas via Cron Jobs
-    │       └── market/      # WebSocket Gateways para leilões em tempo real
-    └── frontend/            # Componentes React de conexão
-        └── src/
-            ├── hooks/       # Custom hook de escuta e conexões WebSocket (Socket.io)
-            └── components/  # Renderização do Plantel e Leilões em tempo real
 ```
 
 ---
