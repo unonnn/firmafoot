@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firmafoot - Career Football Manager</title>
+  <!-- Google Fonts para Tipografia Premium -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Link para o CSS principal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Tela Inicial: Seleção de Times / Carregar Save -->
+  <div id="tela-inicial" class="screen active">
+    <div class="glass-container text-center hero-section">
+      <h1 class="glow-text">FIRMA<span>FOOT</span></h1>
+      <p class="subtitle">Torne-se o maior técnico de futebol do Brasil</p>
+      
+      <div class="save-actions">
+        <button id="btn-carregar-jogo" class="btn btn-secondary btn-lg hidden">Carregar Jogo Salvo</button>
+      </div>
+      
+      <h2 class="title-select-team">Escolha seu Clube:</h2>
+      <div id="grid-times-inicial" class="grid-teams">
+        <!-- Inserido dinamicamente via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Container Principal do Jogo (Sessão Logada) -->
+  <div id="jogo-container" class="hidden">
+    <!-- Barra Superior / Menu de Navegação -->
+    <header class="app-header">
+      <div class="brand">
+        <span class="logo-text">FIRMAFOOT</span>
+        <span class="season-badge" id="info-ano">2026</span>
+      </div>
+      
+      <nav class="main-nav">
+        <button class="nav-btn active" data-target="inbox">Caixa de Entrada <span class="badge-unread hidden" id="inbox-badge">0</span></button>
+        <button class="nav-btn" data-target="dashboard">Dashboard</button>
+        <button class="nav-btn" data-target="tactics">Plantel & Táticas</button>
+        <button class="nav-btn" data-target="classification">Classificação</button>
+        <button class="nav-btn" data-target="market">Mercado</button>
+        <button class="nav-btn" data-target="finances">Finanças & Estádio</button>
+      </nav>
+
+      <div class="header-user-info">
+        <div class="club-indicator" style="display:flex; flex-direction:column; align-items:flex-start; gap:2px;">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <span class="club-color-dot" id="user-club-color"></span>
+            <span id="user-club-name" style="font-weight:700;">Flamengo</span>
+          </div>
+          <span id="user-board-confidence" style="font-size:0.7rem; color:var(--success-color); font-weight:600;" title="Confiança da Diretoria">Diretoria: 70%</span>
+        </div>
+        <div class="balance-badge" id="user-club-balance">R$ 50,0M</div>
+      </div>
+    </header>
+
+    <!-- Barra de Calendário e Avanço Diário (FIFA Style) -->
+    <div class="next-match-bar">
+      <div class="calendar-panel" style="min-width: 250px;">
+        <span class="next-match-label">DATA ATUAL</span>
+        <h3 id="info-data-atual" style="font-size: 1.15rem; font-weight: 700; color: #fff; margin-top: 2px;">Segunda-feira, 1 de Janeiro</h3>
+        <span id="info-calendario-status" style="font-size: 0.75rem; color: var(--accent-color); font-weight: 600; display: block; margin-top: 2px;">Nenhum evento hoje</span>
+      </div>
+      
+      <div class="next-match-info" style="align-items: center; border-left: 1px solid rgba(255,255,255,0.08); border-right: 1px solid rgba(255,255,255,0.08); padding: 0 30px; flex-grow: 1;">
+        <span class="next-match-label" id="info-rodada-label">PRÓXIMA PARTIDA (Rodada 1)</span>
+        <div class="match-fixture-preview" style="font-size: 1.1rem; margin-top: 4px;">
+          <span id="fixture-home-name">Mandante</span>
+          <span class="vs-badge">VS</span>
+          <span id="fixture-away-name">Visitante</span>
+        </div>
+      </div>
+      
+      <div class="calendar-actions" style="display: flex; gap: 10px; align-items: center;">
+        <button id="btn-simular-dia" class="btn btn-primary btn-pulse">AVANÇAR DIA</button>
+        <button id="btn-jogar-rodada" class="btn btn-secondary hidden" style="background: var(--success-color); color: #000; font-weight: 700; border: none;">JOGAR PARTIDA</button>
+      </div>
+    </div>
+
+    <!-- Conteúdo Principal Dinâmico -->
+    <main class="app-content">
+      <!-- As telas serão injetadas dentro desta tag pelos respectivos componentes JS -->
+      <section id="conteudo-tela" class="glass-card fade-in">
+        <!-- Conteúdo Injetado -->
+      </section>
+    </main>
+  </div>
+
+  <!-- MODAL DE SIMULAÇÃO DE PARTIDA EM TEMPO REAL -->
+  <div id="modal-partida" class="modal">
+    <div class="modal-content glass-card max-width-lg">
+      <div class="modal-header">
+        <h2>Simulação da Partida em Tempo Real</h2>
+      </div>
+      
+      <div class="match-live-board">
+        <!-- Time de Casa -->
+        <div class="live-team" id="live-home-team">
+          <div class="live-team-badge" id="live-home-badge"></div>
+          <h3 id="live-home-name">Flamengo</h3>
+          <span class="live-posture" id="live-home-posture-label">Equilibrado</span>
+        </div>
+        
+        <!-- Placar e Tempo -->
+        <div class="live-scoreboard">
+          <div class="live-timer"><span id="live-timer-min">0</span>'</div>
+          <div class="live-scores">
+            <span id="live-score-home">0</span>
+            <span class="colon">:</span>
+            <span id="live-score-away">0</span>
+          </div>
+        </div>
+
+        <!-- Time de Fora -->
+        <div class="live-team" id="live-away-team">
+          <div class="live-team-badge" id="live-away-badge"></div>
+          <h3 id="live-away-name">Palmeiras</h3>
+          <span class="live-posture" id="live-away-posture-label">Equilibrado</span>
+        </div>
+      </div>
+
+      <!-- Barra de Controle de Postura Tática do Usuário -->
+      <div class="match-controls" style="flex-direction: column; align-items: stretch; gap: 10px;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h4>Postura do seu Time:</h4>
+          <div class="btn-group">
+            <button class="btn btn-sm btn-posture" data-posture="defensiva">Defensivo</button>
+            <button class="btn btn-sm btn-posture active" data-posture="equilibrada">Equilibrado</button>
+            <button class="btn btn-sm btn-posture" data-posture="ofensiva">Ofensivo</button>
+          </div>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px;">
+          <h4>Instruções do Técnico:</h4>
+          <div class="btn-group">
+            <button class="btn btn-sm btn-shout active" data-shout="nenhum">Nenhum</button>
+            <button class="btn btn-sm btn-shout" data-shout="exigir">Exigir Mais</button>
+            <button class="btn btn-sm btn-shout" data-shout="concentrar">Concentrar</button>
+            <button class="btn btn-sm btn-shout" data-shout="acalmar">Acalmar</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Painel de Eventos do Jogo / Transmissão e Substituições -->
+      <div class="match-simulation-body">
+        <!-- Narrativas de lances importantes -->
+        <div class="match-narration">
+          <div class="section-title">Transmissão da Partida</div>
+          <div id="narration-log" class="narration-log">
+            <div class="narrative-line info">Apita o árbitro! Começa o jogo no Maracanã!</div>
+          </div>
+        </div>
+        
+        <!-- Painel Rápido de Tática/Substituições de Jogo -->
+        <div class="match-live-tactics">
+          <div class="section-title">Gols da Partida</div>
+          <div class="goals-lists">
+            <div class="goals-list-column">
+              <ul id="live-home-scorers"></ul>
+            </div>
+            <div class="goals-list-column">
+              <ul id="live-away-scorers"></ul>
+            </div>
+          </div>
+          
+          <div class="section-title" style="margin-top: 15px;">Ações Rápidas</div>
+          <div class="quick-substitutions-panel">
+            <p class="small-text">Para substituições detalhadas, monte a escalação ideal antes da rodada.</p>
+            <div id="live-stats" class="live-stats-table">
+              <!-- Estatísticas de chutes, faltas, etc -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rodapé do Modal -->
+      <div class="modal-footer">
+        <button id="btn-match-speed" class="btn btn-secondary btn-sm">Velocidade: Rápida</button>
+        <button id="btn-match-finish" class="btn btn-primary hidden">Concluir Partida</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DE SELEÇÃO DE PATROCÍNIO (INÍCIO DE TEMPORADA) -->
+  <div id="modal-patrocinio" class="modal">
+    <div class="modal-content glass-card" style="max-width: 650px; max-height: 90vh; overflow-y: auto;">
+      <div class="modal-header">
+        <h2>Parcerias Comerciais da Temporada</h2>
+      </div>
+      <p style="margin-bottom: 15px; color: var(--text-muted); font-size: 0.85rem;">
+        Selecione as parcerias comerciais para financiar sua campanha nesta temporada:
+      </p>
+      
+      <div class="section-title">1. Patrocinador de Material Esportivo</div>
+      <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px;" id="kit-options-container">
+        <!-- Injetado via JS -->
+      </div>
+
+      <div class="section-title">2. Patrocinador Master</div>
+      <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px;" id="master-options-container">
+        <!-- Injetado via JS -->
+      </div>
+      
+      <div class="section-title">3. Patrocinadores Secundários</div>
+      <p style="margin-bottom: 10px; color: var(--text-muted); font-size: 0.78rem;">
+        Selecione um patrocinador secundário para cada slot de seu uniforme:
+      </p>
+      
+      <div style="font-size: 0.82rem; font-weight: 700; color: #fff; margin-bottom: 6px;">Patrocínio de Mangas (Sleeves):</div>
+      <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 15px;" id="sleeves-options-container">
+        <!-- Injetado via JS -->
+      </div>
+      
+      <div style="font-size: 0.82rem; font-weight: 700; color: #fff; margin-bottom: 6px;">Patrocínio de Costas (Back):</div>
+      <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 15px;" id="back-options-container">
+        <!-- Injetado via JS -->
+      </div>
+      
+      <div style="font-size: 0.82rem; font-weight: 700; color: #fff; margin-bottom: 6px;">Patrocínio de Calção (Shorts):</div>
+      <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px;" id="shorts-options-container">
+        <!-- Injetado via JS -->
+      </div>
+      
+      <button id="btn-confirmar-patrocinios" class="btn btn-primary" style="width: 100%; margin-top: 10px;" disabled>Assinar Contratos</button>
+    </div>
+  </div>
+
+  <!-- MODAL DE NEGOCIAÇÃO DE CONTRATO (MERCADO) -->
+  <div id="modal-negociacao" class="modal">
+    <div class="modal-content glass-card" style="max-width: 550px;">
+      <div class="modal-header">
+        <h2>Negociar com o Jogador</h2>
+      </div>
+      
+      <div style="background: rgba(255,255,255,0.01); border: 1px solid var(--glass-border); padding: 15px; border-radius: 8px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;">
+        <div>
+          <h3 id="negoc-player-name" style="font-size: 1.2rem; color: #fff; font-weight:700;">Neymar</h3>
+          <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 2px;">
+            Força: <strong id="negoc-player-force" style="color:var(--accent-color);">85</strong> | 
+            Idade: <span id="negoc-player-age">29</span> anos | 
+            Posição: <span id="negoc-player-pos" class="player-badge-pos MEI">MEI</span>
+          </p>
+        </div>
+        <div style="text-align: right;">
+          <span style="font-size: 0.75rem; color: var(--text-muted);">Custo de Transferência:</span>
+          <div id="negoc-player-value" style="font-size: 1.2rem; color: var(--success-color); font-weight:700;">R$ 15,0M</div>
+        </div>
+      </div>
+
+      <div class="section-title">Interesse do Jogador no Projeto</div>
+      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 0.88rem; margin-bottom: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <span>Reputação do Clube:</span>
+          <span id="negoc-eval-rep" style="font-weight:600;">⭐️⭐️⭐️ (Adequado)</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <span>Qualidade do Elenco:</span>
+          <span id="negoc-eval-roster" style="font-weight:600;">Atraente</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <span>Briga por Título / Rebaixamento:</span>
+          <span id="negoc-eval-position" style="font-weight:600; color: var(--success-color);">Zona G4 (Excelente)</span>
+        </div>
+      </div>
+
+      <div class="section-title">Proposta de Contrato (Salário)</div>
+      <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px;">
+        <div style="display: flex; gap: 10px;">
+          <button class="btn btn-secondary btn-sm btn-negoc-salario" data-multi="1.0" style="flex:1;">Padrão</button>
+          <button class="btn btn-secondary btn-sm btn-negoc-salario" data-multi="1.25" style="flex:1;">Atraente (+25%)</button>
+          <button class="btn btn-secondary btn-sm btn-negoc-salario" data-multi="1.5" style="flex:1;">Estrela (+50%)</button>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 0.85rem; padding: 4px 10px; background: rgba(0,0,0,0.15); border-radius: 6px; border: 1px solid var(--glass-border);">
+          <span>Salário Oferecido:</span>
+          <strong id="negoc-salary-offered" style="color:var(--success-color);">R$ 150k / semana</strong>
+        </div>
+      </div>
+
+      <!-- Probabilidade de Acerto -->
+      <div style="margin-bottom: 20px;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 5px;">
+          <span>Chance de Acordo Comercial:</span>
+          <strong id="negoc-chance-pct" style="color:var(--accent-color);">75%</strong>
+        </div>
+        <div style="width: 100%; height: 8px; background: rgba(255,255,255,0.05); border-radius: 4px; overflow: hidden; border: 1px solid var(--glass-border);">
+          <div id="negoc-chance-bar" style="width: 75%; height: 100%; background: var(--accent-color); transition: width 0.3s ease;"></div>
+        </div>
+      </div>
+
+      <div class="modal-footer" style="padding-top: 15px; margin-top: 0;">
+        <button id="btn-negoc-cancelar" class="btn btn-secondary btn-sm">Recuar Negociação</button>
+        <button id="btn-negoc-confirmar" class="btn btn-primary btn-sm">Enviar Proposta Oficial</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DE INTERAÇÃO COM JOGADOR (PLANTEL) -->
+  <div id="modal-jogador" class="modal">
+    <div class="modal-content glass-card" style="max-width: 550px;">
+      <!-- Conteúdo dinâmico injetado via JS -->
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
+
+
+
