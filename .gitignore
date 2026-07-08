@@ -29,3 +29,8 @@ build/
 *.njsproj
 *.sln
 *.swp
+
+# Ferramentas locais de análise (graphify) — cache/config, não faz parte do app
+.graphifyignore
+graphify-out/
+.agents/
