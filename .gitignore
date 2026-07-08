@@ -2,6 +2,10 @@
 database/
 *.json.bak
 
+# Volumes do docker-compose.yml (Postgres/Redis) — nunca versionar dados locais
+/data/
+/redis/
+
 # Node / Dependencies
 node_modules/
 npm-debug.log*

@@ -1,0 +1,73 @@
+services:
+  db:
+    image: postgres:18-alpine
+    container_name: postgres18_server
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:8-alpine
+    container_name: redis_server
+    restart: always
+    ports:
+      - "6379:6379"
+    command: redis-server --save 60 1 --loglevel warning
+    volumes:
+      - ./redis:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # App web (Next.js). Build a partir de online/Dockerfile.
+  web:
+    build:
+      context: ./online
+      dockerfile: Dockerfile
+    container_name: firmafoot_web
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://admin:admin@db:5432/admin
+      REDIS_URL: redis://redis:6379
+      AUTH_SECRET: ${AUTH_SECRET:?defina AUTH_SECRET num .env na raiz do projeto (ex: openssl rand -base64 32)}
+      AUTH_TRUST_HOST: "true"
+      NEXTAUTH_URL: ${NEXTAUTH_URL:-http://localhost:3000}
+    ports:
+      - "3000:3000"
+
+  # Mesma imagem do `web`, só troca o comando: consome a fila de processamento de
+  # rodada (ver online/src/worker.ts) em vez de servir HTTP. Precisa ficar sempre no
+  # ar — sem ele, "Marcar Pronto" enfileira mas a rodada nunca é processada.
+  worker:
+    build:
+      context: ./online
+      dockerfile: Dockerfile
+    container_name: firmafoot_worker
+    restart: always
+    command: ["node_modules/.bin/tsx", "src/worker.ts"]
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://admin:admin@db:5432/admin
+      REDIS_URL: redis://redis:6379
