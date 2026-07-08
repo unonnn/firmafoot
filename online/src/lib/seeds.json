@@ -1,0 +1,8032 @@
+{
+  "SE Palmeiras": [
+    {
+      "name": "Carlos Miguel            € 7.00 mi.",
+      "position": "GOL",
+      "age": 27,
+      "strength": 72
+    },
+    {
+      "name": "Kaique Pereira            € 2.00 mi.",
+      "position": "GOL",
+      "age": 23,
+      "strength": 78
+    },
+    {
+      "name": "Marcelo Lomba            € 75 mil",
+      "position": "GOL",
+      "age": 39,
+      "strength": 72
+    },
+    {
+      "name": "Alexander Barboza            € 5.00 mi.",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 72
+    },
+    {
+      "name": "Murilo            € 5.00 mi.",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 77
+    },
+    {
+      "name": "Naves            € 4.00 mi.",
+      "position": "ZAG",
+      "age": 24,
+      "strength": 75
+    },
+    {
+      "name": "Bruno Fuchs            € 4.00 mi.",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 67
+    },
+    {
+      "name": "Luis Benedetti            € 4.00 mi.",
+      "position": "ZAG",
+      "age": 20,
+      "strength": 66
+    },
+    {
+      "name": "Gustavo Gómez             € 3.50 mi.",
+      "position": "ZAG",
+      "age": 33,
+      "strength": 68
+    },
+    {
+      "name": "Joaquín Piquerez\n  \n            € 12.00 mi.",
+      "position": "LE",
+      "age": 27,
+      "strength": 78
+    },
+    {
+      "name": "Jefté             € 4.00 mi.",
+      "position": "LE",
+      "age": 22,
+      "strength": 66
+    },
+    {
+      "name": "Arthur Gabriel            € 3.00 mi.",
+      "position": "LE",
+      "age": 20,
+      "strength": 73
+    },
+    {
+      "name": "Agustín Giay            € 10.00 mi.",
+      "position": "LD",
+      "age": 22,
+      "strength": 66
+    },
+    {
+      "name": "Khellven            € 6.00 mi.",
+      "position": "LD",
+      "age": 25,
+      "strength": 73
+    },
+    {
+      "name": "Emiliano Martínez\n  \n            € 6.50 mi.",
+      "position": "VOL",
+      "age": 26,
+      "strength": 70
+    },
+    {
+      "name": "Marlon Freitas            € 6.00 mi.",
+      "position": "VOL",
+      "age": 31,
+      "strength": 70
+    },
+    {
+      "name": "Luis Pacheco            € 500 mil",
+      "position": "VOL",
+      "age": 18,
+      "strength": 71
+    },
+    {
+      "name": "Andreas Pereira            € 14.00 mi.",
+      "position": "MEI",
+      "age": 30,
+      "strength": 73
+    },
+    {
+      "name": "Lucas Evangelista            € 4.00 mi.",
+      "position": "MEI",
+      "age": 31,
+      "strength": 74
+    },
+    {
+      "name": "Larson            € 400 mil",
+      "position": "MEI",
+      "age": 20,
+      "strength": 68
+    },
+    {
+      "name": "Mauricio            € 15.00 mi.",
+      "position": "MEI",
+      "age": 25,
+      "strength": 77
+    },
+    {
+      "name": "Erick Belé            € 1.00 mi.",
+      "position": "MEI",
+      "age": 19,
+      "strength": 74
+    },
+    {
+      "name": "Felipe Anderson            € 1.50 mi.",
+      "position": "PE",
+      "age": 33,
+      "strength": 78
+    },
+    {
+      "name": "Riquelme Fillipi            € 1.00 mi.",
+      "position": "PE",
+      "age": 19,
+      "strength": 73
+    },
+    {
+      "name": "Allan\n  \n            € 20.00 mi.",
+      "position": "PD",
+      "age": 22,
+      "strength": 69
+    },
+    {
+      "name": "Jhon Arias            € 15.00 mi.",
+      "position": "PD",
+      "age": 28,
+      "strength": 76
+    },
+    {
+      "name": "Ramón Sosa            € 10.00 mi.",
+      "position": "CA",
+      "age": 26,
+      "strength": 72
+    },
+    {
+      "name": "Paulinho            € 9.00 mi.",
+      "position": "CA",
+      "age": 25,
+      "strength": 73
+    },
+    {
+      "name": "Vitor Roque             € 38.00 mi.",
+      "position": "CA",
+      "age": 21,
+      "strength": 65
+    },
+    {
+      "name": "Flaco López            € 25.00 mi.",
+      "position": "CA",
+      "age": 25,
+      "strength": 73
+    },
+    {
+      "name": "Luighi            € 4.00 mi.",
+      "position": "CA",
+      "age": 20,
+      "strength": 67
+    }
+  ],
+  "CR Flamengo": [
+    {
+      "name": "Agustín Rossi            € 10.00 mi.",
+      "position": "GOL",
+      "age": 30,
+      "strength": 79
+    },
+    {
+      "name": "Andrew            € 5.00 mi.",
+      "position": "GOL",
+      "age": 25,
+      "strength": 76
+    },
+    {
+      "name": "Dyogo Alves            € 400 mil",
+      "position": "GOL",
+      "age": 22,
+      "strength": 72
+    },
+    {
+      "name": "Léo Ortiz            € 12.00 mi.",
+      "position": "ZAG",
+      "age": 30,
+      "strength": 72
+    },
+    {
+      "name": "Léo Pereira            € 12.00 mi.",
+      "position": "ZAG",
+      "age": 30,
+      "strength": 66
+    },
+    {
+      "name": "Vitão            € 10.00 mi.",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 75
+    },
+    {
+      "name": "Danilo            € 2.00 mi.",
+      "position": "ZAG",
+      "age": 34,
+      "strength": 66
+    },
+    {
+      "name": "João Souza            € 800 mil",
+      "position": "ZAG",
+      "age": 19,
+      "strength": 75
+    },
+    {
+      "name": "Ayrton Lucas            € 4.00 mi.",
+      "position": "LE",
+      "age": 29,
+      "strength": 78
+    },
+    {
+      "name": "Alex Sandro            € 1.00 mi.",
+      "position": "LE",
+      "age": 35,
+      "strength": 76
+    },
+    {
+      "name": "Emerson Royal            € 5.00 mi.",
+      "position": "LD",
+      "age": 27,
+      "strength": 77
+    },
+    {
+      "name": "Guillermo Varela\n  \n            € 1.00 mi.",
+      "position": "LD",
+      "age": 33,
+      "strength": 67
+    },
+    {
+      "name": "Evertton Araújo            € 10.00 mi.",
+      "position": "VOL",
+      "age": 23,
+      "strength": 75
+    },
+    {
+      "name": "Erick Pulgar            € 4.50 mi.",
+      "position": "VOL",
+      "age": 32,
+      "strength": 66
+    },
+    {
+      "name": "Jorginho             € 4.00 mi.",
+      "position": "VOL",
+      "age": 34,
+      "strength": 71
+    },
+    {
+      "name": "Nicolás de la Cruz\n  \n            € 8.00 mi.",
+      "position": "MEI",
+      "age": 29,
+      "strength": 75
+    },
+    {
+      "name": "Saúl Ñíguez            € 1.00 mi.",
+      "position": "MEI",
+      "age": 31,
+      "strength": 68
+    },
+    {
+      "name": "Lucas Paquetá             € 32.00 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 77
+    },
+    {
+      "name": "Giorgian de Arrascaeta            € 14.00 mi.",
+      "position": "MEI",
+      "age": 32,
+      "strength": 74
+    },
+    {
+      "name": "Jorge Carrascal            € 13.00 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 75
+    },
+    {
+      "name": "Lorran            € 4.50 mi.",
+      "position": "MEI",
+      "age": 20,
+      "strength": 78
+    },
+    {
+      "name": "Samuel Lino            € 15.00 mi.",
+      "position": "PE",
+      "age": 26,
+      "strength": 68
+    },
+    {
+      "name": "Everton            € 7.00 mi.",
+      "position": "PE",
+      "age": 30,
+      "strength": 79
+    },
+    {
+      "name": "Gonzalo Plata            € 9.00 mi.",
+      "position": "PD",
+      "age": 25,
+      "strength": 66
+    },
+    {
+      "name": "Luiz Araújo            € 7.00 mi.",
+      "position": "PD",
+      "age": 30,
+      "strength": 70
+    },
+    {
+      "name": "Pedro            € 20.00 mi.",
+      "position": "CA",
+      "age": 29,
+      "strength": 70
+    },
+    {
+      "name": "Wallace Yan            € 5.00 mi.",
+      "position": "CA",
+      "age": 21,
+      "strength": 70
+    },
+    {
+      "name": "Bruno Henrique            € 750 mil",
+      "position": "CA",
+      "age": 35,
+      "strength": 75
+    }
+  ],
+  "Cruzeiro EC": [
+    {
+      "name": "Matheus Cunha            € 3.00 mi.",
+      "position": "GOL",
+      "age": 25,
+      "strength": 78
+    },
+    {
+      "name": "Léo Aragão            € 800 mil",
+      "position": "GOL",
+      "age": 24,
+      "strength": 79
+    },
+    {
+      "name": "Otávio Costa            € 500 mil",
+      "position": "GOL",
+      "age": 20,
+      "strength": 73
+    },
+    {
+      "name": "Cássio             € 250 mil",
+      "position": "GOL",
+      "age": 39,
+      "strength": 75
+    },
+    {
+      "name": "Fabrício Bruno            € 12.00 mi.",
+      "position": "ZAG",
+      "age": 30,
+      "strength": 65
+    },
+    {
+      "name": "Jonathan Jesus            € 8.00 mi.",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 69
+    },
+    {
+      "name": "João Marcelo            € 3.00 mi.",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 77
+    },
+    {
+      "name": "Lucas Villalba            € 1.70 mi.",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 72
+    },
+    {
+      "name": "Pedrão             € 125 mil",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 72
+    },
+    {
+      "name": "Kauã Prates            € 10.00 mi.",
+      "position": "LE",
+      "age": 17,
+      "strength": 71
+    },
+    {
+      "name": "Gabriel Rojas            € 4.00 mi.",
+      "position": "LE",
+      "age": 29,
+      "strength": 70
+    },
+    {
+      "name": "William            € 3.00 mi.",
+      "position": "LD",
+      "age": 31,
+      "strength": 73
+    },
+    {
+      "name": "Kauã Moraes            € 2.00 mi.",
+      "position": "LD",
+      "age": 19,
+      "strength": 67
+    },
+    {
+      "name": "Fagner            € 200 mil",
+      "position": "LD",
+      "age": 37,
+      "strength": 67
+    },
+    {
+      "name": "Lucas Romero\n  \n            € 2.50 mi.",
+      "position": "VOL",
+      "age": 32,
+      "strength": 70
+    },
+    {
+      "name": "Murilo Rhikman            € 500 mil",
+      "position": "VOL",
+      "age": 20,
+      "strength": 78
+    },
+    {
+      "name": "Lucas Silva             € 450 mil",
+      "position": "VOL",
+      "age": 33,
+      "strength": 67
+    },
+    {
+      "name": "Gerson            € 18.00 mi.",
+      "position": "MEI",
+      "age": 29,
+      "strength": 79
+    },
+    {
+      "name": "Christian            € 12.00 mi.",
+      "position": "MEI",
+      "age": 25,
+      "strength": 65
+    },
+    {
+      "name": "Matheus Henrique            € 4.50 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 65
+    },
+    {
+      "name": "Japa            € 1.00 mi.",
+      "position": "MEI",
+      "age": 22,
+      "strength": 67
+    },
+    {
+      "name": "Fabrizio Peralta            € 800 mil",
+      "position": "MEI",
+      "age": 23,
+      "strength": 65
+    },
+    {
+      "name": "Matheus Pereira            € 14.00 mi.",
+      "position": "MEI",
+      "age": 30,
+      "strength": 72
+    },
+    {
+      "name": "Luis Sinisterra            € 11.00 mi.",
+      "position": "PE",
+      "age": 27,
+      "strength": 78
+    },
+    {
+      "name": "Kaique Kenji            € 3.00 mi.",
+      "position": "PE",
+      "age": 20,
+      "strength": 71
+    },
+    {
+      "name": "Wanderson            € 3.00 mi.",
+      "position": "PE",
+      "age": 31,
+      "strength": 74
+    },
+    {
+      "name": "Bruno Rodrigues            € 1.20 mi.",
+      "position": "PE",
+      "age": 29,
+      "strength": 67
+    },
+    {
+      "name": "Keny Arroyo            € 10.00 mi.",
+      "position": "PD",
+      "age": 20,
+      "strength": 71
+    },
+    {
+      "name": "Marquinhos            € 2.50 mi.",
+      "position": "PD",
+      "age": 23,
+      "strength": 78
+    },
+    {
+      "name": "Kaio Jorge            € 25.00 mi.",
+      "position": "CA",
+      "age": 24,
+      "strength": 73
+    },
+    {
+      "name": "Néiser Villarreal            € 4.00 mi.",
+      "position": "CA",
+      "age": 21,
+      "strength": 66
+    },
+    {
+      "name": "Chico da Costa            € 1.00 mi.",
+      "position": "CA",
+      "age": 31,
+      "strength": 65
+    }
+  ],
+  "SC Corinthians": [
+    {
+      "name": "Hugo Souza            € 11.00 mi.",
+      "position": "GOL",
+      "age": 27,
+      "strength": 79
+    },
+    {
+      "name": "Matheus Donelli            € 1.00 mi.",
+      "position": "GOL",
+      "age": 24,
+      "strength": 78
+    },
+    {
+      "name": "Felipe Longo            € 500 mil",
+      "position": "GOL",
+      "age": 21,
+      "strength": 78
+    },
+    {
+      "name": "Kauê            € 300 mil",
+      "position": "GOL",
+      "age": 22,
+      "strength": 77
+    },
+    {
+      "name": "Tchoca            € 4.00 mi.",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 72
+    },
+    {
+      "name": "André Ramalho            € 800 mil",
+      "position": "ZAG",
+      "age": 34,
+      "strength": 69
+    },
+    {
+      "name": "Gustavo Henrique             € 700 mil",
+      "position": "ZAG",
+      "age": 33,
+      "strength": 76
+    },
+    {
+      "name": "Gabriel Paulista            € 500 mil",
+      "position": "ZAG",
+      "age": 35,
+      "strength": 71
+    },
+    {
+      "name": "Renato Santos",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 70
+    },
+    {
+      "name": "Matheus Bidu            € 7.00 mi.",
+      "position": "LE",
+      "age": 27,
+      "strength": 72
+    },
+    {
+      "name": "Hugo             € 700 mil",
+      "position": "LE",
+      "age": 28,
+      "strength": 79
+    },
+    {
+      "name": "Fabrizio Angileri            € 400 mil",
+      "position": "LE",
+      "age": 32,
+      "strength": 70
+    },
+    {
+      "name": "Matheuzinho            € 8.00 mi.",
+      "position": "LD",
+      "age": 25,
+      "strength": 76
+    },
+    {
+      "name": "Pedro Milans            € 1.50 mi.",
+      "position": "LD",
+      "age": 24,
+      "strength": 73
+    },
+    {
+      "name": "Raniele            € 4.00 mi.",
+      "position": "VOL",
+      "age": 29,
+      "strength": 66
+    },
+    {
+      "name": "Allan            € 2.50 mi.",
+      "position": "VOL",
+      "age": 29,
+      "strength": 71
+    },
+    {
+      "name": "Charles            € 900 mil",
+      "position": "VOL",
+      "age": 30,
+      "strength": 78
+    },
+    {
+      "name": "Breno Bidon            € 22.00 mi.",
+      "position": "MEI",
+      "age": 21,
+      "strength": 65
+    },
+    {
+      "name": "André            € 16.00 mi.",
+      "position": "MEI",
+      "age": 20,
+      "strength": 78
+    },
+    {
+      "name": "Matheus Pereira            € 2.50 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 74
+    },
+    {
+      "name": "Alex Santana            € 1.00 mi.",
+      "position": "MEI",
+      "age": 31,
+      "strength": 78
+    },
+    {
+      "name": "André Carrillo            € 800 mil",
+      "position": "MEI",
+      "age": 35,
+      "strength": 73
+    },
+    {
+      "name": "Bahia",
+      "position": "MEI",
+      "age": 20,
+      "strength": 74
+    },
+    {
+      "name": "Rodrigo Garro\n  \n            € 12.00 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 65
+    },
+    {
+      "name": "Jesse Lingard            € 2.00 mi.",
+      "position": "MEI",
+      "age": 33,
+      "strength": 77
+    },
+    {
+      "name": "Zakaria Labyad            € 400 mil",
+      "position": "MEI",
+      "age": 33,
+      "strength": 77
+    },
+    {
+      "name": "Kayke             € 1.50 mi.",
+      "position": "PE",
+      "age": 22,
+      "strength": 76
+    },
+    {
+      "name": "Vitinho             € 800 mil",
+      "position": "PE",
+      "age": 32,
+      "strength": 74
+    },
+    {
+      "name": "Kaio César            € 4.00 mi.",
+      "position": "PD",
+      "age": 22,
+      "strength": 72
+    },
+    {
+      "name": "Dieguinho            € 4.00 mi.",
+      "position": "PD",
+      "age": 18,
+      "strength": 79
+    },
+    {
+      "name": "Yuri Alberto            € 23.00 mi.",
+      "position": "CA",
+      "age": 25,
+      "strength": 66
+    },
+    {
+      "name": "Memphis Depay            € 7.00 mi.",
+      "position": "CA",
+      "age": 32,
+      "strength": 70
+    },
+    {
+      "name": "Gui Negão            € 7.00 mi.",
+      "position": "CA",
+      "age": 19,
+      "strength": 79
+    },
+    {
+      "name": "Pedro Raul            € 2.50 mi.",
+      "position": "CA",
+      "age": 29,
+      "strength": 66
+    }
+  ],
+  "Botafogo FR": [
+    {
+      "name": "Léo Linck            € 2.50 mi.",
+      "position": "GOL",
+      "age": 25,
+      "strength": 71
+    },
+    {
+      "name": "Raul            € 400 mil",
+      "position": "GOL",
+      "age": 28,
+      "strength": 73
+    },
+    {
+      "name": "Cristhian Loor            € 350 mil",
+      "position": "GOL",
+      "age": 20,
+      "strength": 68
+    },
+    {
+      "name": "Nahuel Ferraresi            € 4.50 mi.",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 69
+    },
+    {
+      "name": "Kaio             € 1.80 mi.",
+      "position": "ZAG",
+      "age": 30,
+      "strength": 70
+    },
+    {
+      "name": "Bastos             € 600 mil",
+      "position": "ZAG",
+      "age": 35,
+      "strength": 74
+    },
+    {
+      "name": "Ythallo            € 300 mil",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 75
+    },
+    {
+      "name": "Anthony            € 300 mil",
+      "position": "ZAG",
+      "age": 20,
+      "strength": 72
+    },
+    {
+      "name": "Alex Telles             € 2.80 mi.",
+      "position": "LE",
+      "age": 33,
+      "strength": 75
+    },
+    {
+      "name": "Marçal            € 200 mil",
+      "position": "LE",
+      "age": 37,
+      "strength": 75
+    },
+    {
+      "name": "Jhoan Hernández            € 150 mil",
+      "position": "LE",
+      "age": 20,
+      "strength": 76
+    },
+    {
+      "name": "Caio Roque",
+      "position": "LE",
+      "age": 24,
+      "strength": 72
+    },
+    {
+      "name": "Vitinho            € 9.00 mi.",
+      "position": "LD",
+      "age": 26,
+      "strength": 71
+    },
+    {
+      "name": "Mateo Ponte            € 2.00 mi.",
+      "position": "LD",
+      "age": 23,
+      "strength": 73
+    },
+    {
+      "name": "Newton            € 3.00 mi.",
+      "position": "VOL",
+      "age": 26,
+      "strength": 67
+    },
+    {
+      "name": "Patrick de Paula            € 2.50 mi.",
+      "position": "VOL",
+      "age": 26,
+      "strength": 77
+    },
+    {
+      "name": "Allan             € 1.00 mi.",
+      "position": "VOL",
+      "age": 35,
+      "strength": 71
+    },
+    {
+      "name": "Wallace Davi            € 1.00 mi.",
+      "position": "VOL",
+      "age": 19,
+      "strength": 79
+    },
+    {
+      "name": "Huguinho            € 300 mil",
+      "position": "VOL",
+      "age": 19,
+      "strength": 79
+    },
+    {
+      "name": "Danilo            € 32.00 mi.",
+      "position": "MEI",
+      "age": 25,
+      "strength": 65
+    },
+    {
+      "name": "Cristian Medina            € 9.00 mi.",
+      "position": "MEI",
+      "age": 24,
+      "strength": 69
+    },
+    {
+      "name": "Edenilson            € 250 mil",
+      "position": "MEI",
+      "age": 36,
+      "strength": 69
+    },
+    {
+      "name": "Santiago Rodríguez            € 6.00 mi.",
+      "position": "MEI",
+      "age": 26,
+      "strength": 69
+    },
+    {
+      "name": "Jordan Barrera            € 2.50 mi.",
+      "position": "MEI",
+      "age": 20,
+      "strength": 70
+    },
+    {
+      "name": "Álvaro Montoro\n  \n            € 10.00 mi.",
+      "position": "PE",
+      "age": 19,
+      "strength": 74
+    },
+    {
+      "name": "Matheus Martins            € 6.00 mi.",
+      "position": "PE",
+      "age": 22,
+      "strength": 67
+    },
+    {
+      "name": "Diego Hernández            € 1.50 mi.",
+      "position": "PE",
+      "age": 26,
+      "strength": 70
+    },
+    {
+      "name": "Nathan Fernandes             € 4.00 mi.",
+      "position": "PD",
+      "age": 21,
+      "strength": 68
+    },
+    {
+      "name": "Júnior Santos             € 3.00 mi.",
+      "position": "PD",
+      "age": 31,
+      "strength": 76
+    },
+    {
+      "name": "Lucas Villalba            € 1.50 mi.",
+      "position": "PD",
+      "age": 25,
+      "strength": 75
+    },
+    {
+      "name": "Joaquín Correa            € 1.50 mi.",
+      "position": "CA",
+      "age": 31,
+      "strength": 76
+    },
+    {
+      "name": "Arthur Cabral            € 9.00 mi.",
+      "position": "CA",
+      "age": 28,
+      "strength": 65
+    },
+    {
+      "name": "Chris Ramos            € 2.50 mi.",
+      "position": "CA",
+      "age": 29,
+      "strength": 68
+    },
+    {
+      "name": "Matheus Nascimento            € 2.00 mi.",
+      "position": "CA",
+      "age": 22,
+      "strength": 77
+    },
+    {
+      "name": "Kadir Barría            € 2.00 mi.",
+      "position": "CA",
+      "age": 18,
+      "strength": 76
+    },
+    {
+      "name": "Elias Manoel            € 1.50 mi.",
+      "position": "CA",
+      "age": 24,
+      "strength": 77
+    }
+  ],
+  "EC Bahia": [
+    {
+      "name": "Ronaldo            € 2.00 mi.",
+      "position": "GOL",
+      "age": 29,
+      "strength": 69
+    },
+    {
+      "name": "Léo Vieira             € 200 mil",
+      "position": "GOL",
+      "age": 35,
+      "strength": 77
+    },
+    {
+      "name": "Victor",
+      "position": "GOL",
+      "age": 20,
+      "strength": 69
+    },
+    {
+      "name": "Santiago Ramos Mingo            € 12.00 mi.",
+      "position": "ZAG",
+      "age": 24,
+      "strength": 66
+    },
+    {
+      "name": "Kanu            € 3.00 mi.",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 77
+    },
+    {
+      "name": "David Duarte            € 1.50 mi.",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 68
+    },
+    {
+      "name": "Marco Moreno            € 900 mil",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 74
+    },
+    {
+      "name": "Luiz Gustavo            € 600 mil",
+      "position": "ZAG",
+      "age": 20,
+      "strength": 74
+    },
+    {
+      "name": "Marcos Victor            € 450 mil",
+      "position": "ZAG",
+      "age": 24,
+      "strength": 69
+    },
+    {
+      "name": "Fredi Gomes",
+      "position": "ZAG",
+      "age": 20,
+      "strength": 73
+    },
+    {
+      "name": "Luciano Juba             € 14.00 mi.",
+      "position": "LE",
+      "age": 26,
+      "strength": 79
+    },
+    {
+      "name": "Iago             € 3.50 mi.",
+      "position": "LE",
+      "age": 29,
+      "strength": 78
+    },
+    {
+      "name": "Zé Guilherme            € 400 mil",
+      "position": "LE",
+      "age": 21,
+      "strength": 65
+    },
+    {
+      "name": "Román Gómez            € 1.50 mi.",
+      "position": "LD",
+      "age": 21,
+      "strength": 71
+    },
+    {
+      "name": "Caio Alexandre            € 7.00 mi.",
+      "position": "VOL",
+      "age": 27,
+      "strength": 77
+    },
+    {
+      "name": "Nicolás Acevedo            € 6.00 mi.",
+      "position": "VOL",
+      "age": 27,
+      "strength": 76
+    },
+    {
+      "name": "Erick            € 4.00 mi.",
+      "position": "VOL",
+      "age": 28,
+      "strength": 75
+    },
+    {
+      "name": "Jean Lucas            € 13.00 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 71
+    },
+    {
+      "name": "Rodrigo Nestor            € 7.00 mi.",
+      "position": "MEI",
+      "age": 25,
+      "strength": 68
+    },
+    {
+      "name": "Everton Ribeiro             € 1.00 mi.",
+      "position": "MEI",
+      "age": 37,
+      "strength": 71
+    },
+    {
+      "name": "Roger Gabriel",
+      "position": "MEI",
+      "age": 19,
+      "strength": 76
+    },
+    {
+      "name": "Erick Pulga            € 11.00 mi.",
+      "position": "PE",
+      "age": 25,
+      "strength": 74
+    },
+    {
+      "name": "Ruan Pablo             € 8.00 mi.",
+      "position": "PE",
+      "age": 17,
+      "strength": 73
+    },
+    {
+      "name": "Mateo Sanabria            € 2.00 mi.",
+      "position": "PE",
+      "age": 22,
+      "strength": 65
+    },
+    {
+      "name": "Cristian Olivera            € 5.00 mi.",
+      "position": "PD",
+      "age": 24,
+      "strength": 70
+    },
+    {
+      "name": "Michel Araújo            € 2.50 mi.",
+      "position": "PD",
+      "age": 29,
+      "strength": 77
+    },
+    {
+      "name": "Ademir            € 1.20 mi.",
+      "position": "PD",
+      "age": 31,
+      "strength": 76
+    },
+    {
+      "name": "Alejo Veliz            € 4.00 mi.",
+      "position": "CA",
+      "age": 22,
+      "strength": 74
+    },
+    {
+      "name": "Dell            € 4.00 mi.",
+      "position": "CA",
+      "age": 18,
+      "strength": 74
+    },
+    {
+      "name": "Willian José            € 1.20 mi.",
+      "position": "CA",
+      "age": 34,
+      "strength": 76
+    },
+    {
+      "name": "Everaldo            € 350 mil",
+      "position": "CA",
+      "age": 35,
+      "strength": 69
+    }
+  ],
+  "Fluminense FC": [
+    {
+      "name": "Vitor Eudes            € 400 mil",
+      "position": "GOL",
+      "age": 27,
+      "strength": 69
+    },
+    {
+      "name": "Marcelo Pitaluga            € 200 mil",
+      "position": "GOL",
+      "age": 23,
+      "strength": 65
+    },
+    {
+      "name": "Fábio            € 75 mil",
+      "position": "GOL",
+      "age": 45,
+      "strength": 79
+    },
+    {
+      "name": "Juan Pablo Freytes            € 5.00 mi.",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 76
+    },
+    {
+      "name": "Julián Millán            € 3.50 mi.",
+      "position": "ZAG",
+      "age": 28,
+      "strength": 73
+    },
+    {
+      "name": "Jemmes            € 3.00 mi.",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 67
+    },
+    {
+      "name": "Ignácio             € 2.00 mi.",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 76
+    },
+    {
+      "name": "Igor Rabello            € 1.40 mi.",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 77
+    },
+    {
+      "name": "Thiago Silva            € 500 mil",
+      "position": "ZAG",
+      "age": 41,
+      "strength": 65
+    },
+    {
+      "name": "Davi Schuindt            € 250 mil",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 73
+    },
+    {
+      "name": "Guilherme Arana            € 6.00 mi.",
+      "position": "LE",
+      "age": 29,
+      "strength": 72
+    },
+    {
+      "name": "Renê            € 400 mil",
+      "position": "LE",
+      "age": 33,
+      "strength": 65
+    },
+    {
+      "name": "Guga            € 2.00 mi.",
+      "position": "LD",
+      "age": 27,
+      "strength": 74
+    },
+    {
+      "name": "Julio Fidelis            € 300 mil",
+      "position": "LD",
+      "age": 19,
+      "strength": 73
+    },
+    {
+      "name": "Samuel Xavier \n  \n            € 200 mil",
+      "position": "LD",
+      "age": 36,
+      "strength": 67
+    },
+    {
+      "name": "Martinelli            € 16.00 mi.",
+      "position": "VOL",
+      "age": 24,
+      "strength": 79
+    },
+    {
+      "name": "Otávio            € 1.20 mi.",
+      "position": "VOL",
+      "age": 32,
+      "strength": 66
+    },
+    {
+      "name": "Hércules            € 15.00 mi.",
+      "position": "MEI",
+      "age": 25,
+      "strength": 74
+    },
+    {
+      "name": "Nonato            € 2.00 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 74
+    },
+    {
+      "name": "Alisson             € 800 mil",
+      "position": "MEI",
+      "age": 33,
+      "strength": 71
+    },
+    {
+      "name": "Jefferson Savarino            € 8.00 mi.",
+      "position": "MEI",
+      "age": 29,
+      "strength": 70
+    },
+    {
+      "name": "Luciano Acosta            € 5.00 mi.",
+      "position": "MEI",
+      "age": 32,
+      "strength": 77
+    },
+    {
+      "name": "David Terans            € 1.00 mi.",
+      "position": "MEI",
+      "age": 31,
+      "strength": 67
+    },
+    {
+      "name": "Ganso            € 300 mil",
+      "position": "MEI",
+      "age": 36,
+      "strength": 74
+    },
+    {
+      "name": "Yeferson Soteldo            € 3.50 mi.",
+      "position": "PE",
+      "age": 29,
+      "strength": 66
+    },
+    {
+      "name": "Matheus Reis",
+      "position": "PE",
+      "age": 19,
+      "strength": 72
+    },
+    {
+      "name": "Agustín Canobbio\n  \n            € 8.00 mi.",
+      "position": "PD",
+      "age": 27,
+      "strength": 71
+    },
+    {
+      "name": "Riquelme            € 6.00 mi.",
+      "position": "PD",
+      "age": 19,
+      "strength": 74
+    },
+    {
+      "name": "Kevin Serna            € 5.00 mi.",
+      "position": "PD",
+      "age": 28,
+      "strength": 77
+    },
+    {
+      "name": "John Kennedy            € 9.00 mi.",
+      "position": "CA",
+      "age": 24,
+      "strength": 72
+    },
+    {
+      "name": "Rodrigo Castillo            € 6.00 mi.",
+      "position": "CA",
+      "age": 27,
+      "strength": 79
+    },
+    {
+      "name": "Hulk            € 1.00 mi.",
+      "position": "CA",
+      "age": 39,
+      "strength": 79
+    },
+    {
+      "name": "Germán Cano            € 500 mil",
+      "position": "CA",
+      "age": 38,
+      "strength": 78
+    }
+  ],
+  "CR Vasco da Gama": [
+    {
+      "name": "Léo Jardim            € 7.00 mi.",
+      "position": "GOL",
+      "age": 31,
+      "strength": 73
+    },
+    {
+      "name": "Daniel Fuzato            € 900 mil",
+      "position": "GOL",
+      "age": 29,
+      "strength": 75
+    },
+    {
+      "name": "Pablo            € 50 mil",
+      "position": "GOL",
+      "age": 23,
+      "strength": 75
+    },
+    {
+      "name": "Robert Renan            € 10.00 mi.",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 66
+    },
+    {
+      "name": "Carlos Cuesta            € 8.00 mi.",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 68
+    },
+    {
+      "name": "Alan Saldivia            € 1.20 mi.",
+      "position": "ZAG",
+      "age": 24,
+      "strength": 77
+    },
+    {
+      "name": "Lucas Freitas            € 1.00 mi.",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 68
+    },
+    {
+      "name": "Walace Falcão",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 77
+    },
+    {
+      "name": "Cuiabano            € 10.00 mi.",
+      "position": "LE",
+      "age": 23,
+      "strength": 73
+    },
+    {
+      "name": "Lucas Piton            € 6.00 mi.",
+      "position": "LE",
+      "age": 25,
+      "strength": 77
+    },
+    {
+      "name": "Riquelme            € 700 mil",
+      "position": "LE",
+      "age": 23,
+      "strength": 69
+    },
+    {
+      "name": "Paulinho            € 600 mil",
+      "position": "LE",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Paulo Henrique            € 6.00 mi.",
+      "position": "LD",
+      "age": 29,
+      "strength": 65
+    },
+    {
+      "name": "José Luis Rodríguez            € 1.50 mi.",
+      "position": "LD",
+      "age": 29,
+      "strength": 68
+    },
+    {
+      "name": "JV Fonseca",
+      "position": "LD",
+      "age": 21,
+      "strength": 70
+    },
+    {
+      "name": "Cauan Barros            € 5.00 mi.",
+      "position": "VOL",
+      "age": 22,
+      "strength": 73
+    },
+    {
+      "name": "Thiago Mendes             € 1.30 mi.",
+      "position": "VOL",
+      "age": 34,
+      "strength": 70
+    },
+    {
+      "name": "Mateus Carvalho             € 1.20 mi.",
+      "position": "VOL",
+      "age": 24,
+      "strength": 75
+    },
+    {
+      "name": "Hugo Moura            € 1.00 mi.",
+      "position": "VOL",
+      "age": 28,
+      "strength": 71
+    },
+    {
+      "name": "Jair             € 800 mil",
+      "position": "VOL",
+      "age": 31,
+      "strength": 79
+    },
+    {
+      "name": "JP            € 2.00 mi.",
+      "position": "MEI",
+      "age": 21,
+      "strength": 78
+    },
+    {
+      "name": "Tchê Tchê            € 800 mil",
+      "position": "MEI",
+      "age": 33,
+      "strength": 76
+    },
+    {
+      "name": "Johan Rojas            € 3.80 mi.",
+      "position": "MEI",
+      "age": 23,
+      "strength": 71
+    },
+    {
+      "name": "Lukas Zuccarello            € 400 mil",
+      "position": "MEI",
+      "age": 19,
+      "strength": 68
+    },
+    {
+      "name": "Andrés Gómez            € 11.00 mi.",
+      "position": "PE",
+      "age": 23,
+      "strength": 65
+    },
+    {
+      "name": "David            € 1.50 mi.",
+      "position": "PE",
+      "age": 30,
+      "strength": 66
+    },
+    {
+      "name": "Nuno Moreira            € 7.00 mi.",
+      "position": "PD",
+      "age": 27,
+      "strength": 73
+    },
+    {
+      "name": "Marino Hinestroza            € 4.80 mi.",
+      "position": "PD",
+      "age": 23,
+      "strength": 77
+    },
+    {
+      "name": "Adson            € 2.50 mi.",
+      "position": "PD",
+      "age": 25,
+      "strength": 78
+    },
+    {
+      "name": "Loide Augusto            € 1.20 mi.",
+      "position": "PD",
+      "age": 26,
+      "strength": 79
+    },
+    {
+      "name": "Brenner            € 4.00 mi.",
+      "position": "CA",
+      "age": 26,
+      "strength": 74
+    },
+    {
+      "name": "Claudio Spinelli            € 3.00 mi.",
+      "position": "CA",
+      "age": 29,
+      "strength": 77
+    }
+  ],
+  "Santos FC": [
+    {
+      "name": "Gabriel Brazão            € 12.00 mi.",
+      "position": "GOL",
+      "age": 25,
+      "strength": 68
+    },
+    {
+      "name": "João Paulo            € 2.00 mi.",
+      "position": "GOL",
+      "age": 31,
+      "strength": 74
+    },
+    {
+      "name": "Diógenes            € 200 mil",
+      "position": "GOL",
+      "age": 25,
+      "strength": 73
+    },
+    {
+      "name": "Rodrigo Falcão",
+      "position": "GOL",
+      "age": 21,
+      "strength": 68
+    },
+    {
+      "name": "Lucas Veríssimo            € 4.50 mi.",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 76
+    },
+    {
+      "name": "Adonis Frías            € 3.00 mi.",
+      "position": "ZAG",
+      "age": 28,
+      "strength": 68
+    },
+    {
+      "name": "Zé Ivaldo            € 2.00 mi.",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 79
+    },
+    {
+      "name": "Alexis Duarte             € 1.80 mi.",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 77
+    },
+    {
+      "name": "Luan Peres            € 700 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 69
+    },
+    {
+      "name": "João Ananias            € 500 mil",
+      "position": "ZAG",
+      "age": 19,
+      "strength": 65
+    },
+    {
+      "name": "Alex            € 400 mil",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 69
+    },
+    {
+      "name": "João Alencar",
+      "position": "ZAG",
+      "age": 19,
+      "strength": 66
+    },
+    {
+      "name": "Vinicius Lira             € 4.00 mi.",
+      "position": "LE",
+      "age": 18,
+      "strength": 74
+    },
+    {
+      "name": "Gonzalo Escobar            € 800 mil",
+      "position": "LE",
+      "age": 29,
+      "strength": 72
+    },
+    {
+      "name": "Igor Vinícius            € 2.00 mi.",
+      "position": "LD",
+      "age": 29,
+      "strength": 79
+    },
+    {
+      "name": "Mayke            € 1.50 mi.",
+      "position": "LD",
+      "age": 33,
+      "strength": 77
+    },
+    {
+      "name": "Christian Oliva            € 1.40 mi.",
+      "position": "VOL",
+      "age": 30,
+      "strength": 66
+    },
+    {
+      "name": "Willian Arão            € 800 mil",
+      "position": "VOL",
+      "age": 34,
+      "strength": 70
+    },
+    {
+      "name": "João Schmidt             € 700 mil",
+      "position": "VOL",
+      "age": 33,
+      "strength": 74
+    },
+    {
+      "name": "Gustavinho            € 500 mil",
+      "position": "VOL",
+      "age": 21,
+      "strength": 71
+    },
+    {
+      "name": "Gabriel Bontempo            € 9.00 mi.",
+      "position": "MEI",
+      "age": 21,
+      "strength": 65
+    },
+    {
+      "name": "Gabriel Menino             € 7.00 mi.",
+      "position": "MEI",
+      "age": 25,
+      "strength": 76
+    },
+    {
+      "name": "Zé Rafael            € 1.50 mi.",
+      "position": "MEI",
+      "age": 33,
+      "strength": 69
+    },
+    {
+      "name": "Neymar             € 8.00 mi.",
+      "position": "MEI",
+      "age": 34,
+      "strength": 72
+    },
+    {
+      "name": "Miguelito            € 5.00 mi.",
+      "position": "MEI",
+      "age": 22,
+      "strength": 79
+    },
+    {
+      "name": "Thaciano             € 1.00 mi.",
+      "position": "MEI",
+      "age": 31,
+      "strength": 77
+    },
+    {
+      "name": "Pepê Fermino",
+      "position": "MEI",
+      "age": 19,
+      "strength": 68
+    },
+    {
+      "name": "Álvaro Barreal            € 7.00 mi.",
+      "position": "PE",
+      "age": 25,
+      "strength": 67
+    },
+    {
+      "name": "Moisés            € 2.00 mi.",
+      "position": "PE",
+      "age": 29,
+      "strength": 69
+    },
+    {
+      "name": "Gustavo Caballero            € 1.00 mi.",
+      "position": "PE",
+      "age": 24,
+      "strength": 70
+    },
+    {
+      "name": "Mateus Xavier            € 400 mil",
+      "position": "PE",
+      "age": 19,
+      "strength": 77
+    },
+    {
+      "name": "Benjamín Rollheiser            € 9.00 mi.",
+      "position": "PD",
+      "age": 26,
+      "strength": 65
+    },
+    {
+      "name": "Robinho Junior            € 5.00 mi.",
+      "position": "PD",
+      "age": 18,
+      "strength": 76
+    },
+    {
+      "name": "Enzo Boer",
+      "position": "PD",
+      "age": 21,
+      "strength": 74
+    },
+    {
+      "name": "Rony            € 4.50 mi.",
+      "position": "CA",
+      "age": 31,
+      "strength": 74
+    },
+    {
+      "name": "Gabriel Barbosa\n  \n            € 3.00 mi.",
+      "position": "CA",
+      "age": 29,
+      "strength": 74
+    },
+    {
+      "name": "Lautaro Díaz            € 1.50 mi.",
+      "position": "CA",
+      "age": 28,
+      "strength": 78
+    }
+  ],
+  "Grêmio FBPA": [
+    {
+      "name": "Gabriel Grando             € 1.50 mi.",
+      "position": "GOL",
+      "age": 26,
+      "strength": 73
+    },
+    {
+      "name": "Adriel            € 900 mil",
+      "position": "GOL",
+      "age": 25,
+      "strength": 71
+    },
+    {
+      "name": "Weverton            € 700 mil",
+      "position": "GOL",
+      "age": 38,
+      "strength": 70
+    },
+    {
+      "name": "Thiago Beltrame",
+      "position": "GOL",
+      "age": 23,
+      "strength": 69
+    },
+    {
+      "name": "Gabriel Menegon",
+      "position": "GOL",
+      "age": 17,
+      "strength": 77
+    },
+    {
+      "name": "Gustavo Martins             € 4.00 mi.",
+      "position": "ZAG",
+      "age": 23,
+      "strength": 78
+    },
+    {
+      "name": "Wagner Leonardo            € 3.00 mi.",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 78
+    },
+    {
+      "name": "Fabián Balbuena            € 900 mil",
+      "position": "ZAG",
+      "age": 34,
+      "strength": 70
+    },
+    {
+      "name": "Walter Kannemann             € 350 mil",
+      "position": "ZAG",
+      "age": 35,
+      "strength": 73
+    },
+    {
+      "name": "Wallace            € 200 mil",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 79
+    },
+    {
+      "name": "Luis Eduardo",
+      "position": "ZAG",
+      "age": 18,
+      "strength": 78
+    },
+    {
+      "name": "Marlon             € 4.00 mi.",
+      "position": "LE",
+      "age": 29,
+      "strength": 72
+    },
+    {
+      "name": "Caio Paulista            € 2.00 mi.",
+      "position": "LE",
+      "age": 28,
+      "strength": 72
+    },
+    {
+      "name": "Pedro Gabriel            € 2.00 mi.",
+      "position": "LE",
+      "age": 19,
+      "strength": 73
+    },
+    {
+      "name": "Cristian Pavón             € 1.70 mi.",
+      "position": "LD",
+      "age": 30,
+      "strength": 66
+    },
+    {
+      "name": "João Pedro            € 1.50 mi.",
+      "position": "LD",
+      "age": 29,
+      "strength": 77
+    },
+    {
+      "name": "Marcos Rocha            € 200 mil",
+      "position": "LD",
+      "age": 37,
+      "strength": 72
+    },
+    {
+      "name": "Leonel Pérez            € 6.00 mi.",
+      "position": "VOL",
+      "age": 21,
+      "strength": 78
+    },
+    {
+      "name": "Erick Noriega            € 5.00 mi.",
+      "position": "VOL",
+      "age": 24,
+      "strength": 70
+    },
+    {
+      "name": "Mathías Villasanti            € 4.00 mi.",
+      "position": "VOL",
+      "age": 29,
+      "strength": 78
+    },
+    {
+      "name": "Dodi            € 700 mil",
+      "position": "VOL",
+      "age": 30,
+      "strength": 79
+    },
+    {
+      "name": "Juan Nardoni             € 9.00 mi.",
+      "position": "MEI",
+      "age": 23,
+      "strength": 67
+    },
+    {
+      "name": "Tiaguinho            € 500 mil",
+      "position": "MEI",
+      "age": 18,
+      "strength": 70
+    },
+    {
+      "name": "Gabriel Mec            € 16.00 mi.",
+      "position": "MEI",
+      "age": 18,
+      "strength": 68
+    },
+    {
+      "name": "Miguel Monsalve            € 3.50 mi.",
+      "position": "MEI",
+      "age": 22,
+      "strength": 67
+    },
+    {
+      "name": "Riquelme            € 2.00 mi.",
+      "position": "MEI",
+      "age": 19,
+      "strength": 77
+    },
+    {
+      "name": "Francis Amuzu            € 9.00 mi.",
+      "position": "PE",
+      "age": 26,
+      "strength": 79
+    },
+    {
+      "name": "Willian            € 400 mil",
+      "position": "PE",
+      "age": 37,
+      "strength": 73
+    },
+    {
+      "name": "Tetê            € 9.00 mi.",
+      "position": "PD",
+      "age": 26,
+      "strength": 70
+    },
+    {
+      "name": "José Enamorado\n  \n            € 3.00 mi.",
+      "position": "PD",
+      "age": 27,
+      "strength": 76
+    },
+    {
+      "name": "Roger             € 400 mil",
+      "position": "PD",
+      "age": 18,
+      "strength": 69
+    },
+    {
+      "name": "Carlos Vinícius            € 7.00 mi.",
+      "position": "CA",
+      "age": 31,
+      "strength": 74
+    },
+    {
+      "name": "Martin Braithwaite            € 1.00 mi.",
+      "position": "CA",
+      "age": 35,
+      "strength": 77
+    }
+  ],
+  "RB Bragantino": [
+    {
+      "name": "Cleiton             € 5.00 mi.",
+      "position": "GOL",
+      "age": 28,
+      "strength": 71
+    },
+    {
+      "name": "Tiago Volpi            € 900 mil",
+      "position": "GOL",
+      "age": 35,
+      "strength": 79
+    },
+    {
+      "name": "Fabrício             € 100 mil",
+      "position": "GOL",
+      "age": 26,
+      "strength": 73
+    },
+    {
+      "name": "Fernando Costa",
+      "position": "GOL",
+      "age": 22,
+      "strength": 72
+    },
+    {
+      "name": "Gustavo Reis",
+      "position": "GOL",
+      "age": 21,
+      "strength": 67
+    },
+    {
+      "name": "Gustavo Marques            € 5.00 mi.",
+      "position": "ZAG",
+      "age": 24,
+      "strength": 76
+    },
+    {
+      "name": "Guzmán Rodríguez             € 3.50 mi.",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 71
+    },
+    {
+      "name": "Pedro Henrique            € 3.50 mi.",
+      "position": "ZAG",
+      "age": 30,
+      "strength": 65
+    },
+    {
+      "name": "Alix            € 3.00 mi.",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 68
+    },
+    {
+      "name": "Eduardo            € 750 mil",
+      "position": "ZAG",
+      "age": 28,
+      "strength": 75
+    },
+    {
+      "name": "Juninho Capixaba\n  \n            € 8.00 mi.",
+      "position": "LE",
+      "age": 29,
+      "strength": 79
+    },
+    {
+      "name": "Vanderlan            € 3.00 mi.",
+      "position": "LE",
+      "age": 23,
+      "strength": 77
+    },
+    {
+      "name": "Cauê Nascimento            € 500 mil",
+      "position": "LE",
+      "age": 19,
+      "strength": 72
+    },
+    {
+      "name": "Agustín Sant'Anna            € 3.50 mi.",
+      "position": "LD",
+      "age": 28,
+      "strength": 72
+    },
+    {
+      "name": "José Andrés Hurtado            € 3.00 mi.",
+      "position": "LD",
+      "age": 24,
+      "strength": 73
+    },
+    {
+      "name": "Ryan Augusto             € 1.00 mi.",
+      "position": "LD",
+      "age": 18,
+      "strength": 74
+    },
+    {
+      "name": "Fabinho             € 5.00 mi.",
+      "position": "VOL",
+      "age": 24,
+      "strength": 72
+    },
+    {
+      "name": "Matheus Fernandes             € 1.00 mi.",
+      "position": "VOL",
+      "age": 28,
+      "strength": 67
+    },
+    {
+      "name": "Gabriel            € 900 mil",
+      "position": "VOL",
+      "age": 33,
+      "strength": 73
+    },
+    {
+      "name": "Ignacio Sosa            € 5.00 mi.",
+      "position": "MEI",
+      "age": 22,
+      "strength": 73
+    },
+    {
+      "name": "Eric Ramires            € 3.50 mi.",
+      "position": "MEI",
+      "age": 25,
+      "strength": 77
+    },
+    {
+      "name": "Gustavo Neves            € 3.50 mi.",
+      "position": "MEI",
+      "age": 22,
+      "strength": 66
+    },
+    {
+      "name": "Praxedes            € 1.20 mi.",
+      "position": "MEI",
+      "age": 24,
+      "strength": 77
+    },
+    {
+      "name": "João Neto",
+      "position": "MEI",
+      "age": 23,
+      "strength": 71
+    },
+    {
+      "name": "Rodriguinho            € 6.00 mi.",
+      "position": "MEI",
+      "age": 22,
+      "strength": 75
+    },
+    {
+      "name": "Bruninho             € 1.00 mi.",
+      "position": "MEI",
+      "age": 23,
+      "strength": 77
+    },
+    {
+      "name": "Marcelinho Braz            € 400 mil",
+      "position": "MEI",
+      "age": 21,
+      "strength": 68
+    },
+    {
+      "name": "Vinicinho            € 3.50 mi.",
+      "position": "PE",
+      "age": 22,
+      "strength": 74
+    },
+    {
+      "name": "Henry Mosquera            € 3.50 mi.",
+      "position": "PE",
+      "age": 24,
+      "strength": 72
+    },
+    {
+      "name": "Davi Gomes             € 400 mil",
+      "position": "PE",
+      "age": 21,
+      "strength": 67
+    },
+    {
+      "name": "Lucas Barbosa            € 6.00 mi.",
+      "position": "PD",
+      "age": 25,
+      "strength": 71
+    },
+    {
+      "name": "José Herrera            € 2.50 mi.",
+      "position": "PD",
+      "age": 23,
+      "strength": 70
+    },
+    {
+      "name": "Ignacio Laquintana            € 1.00 mi.",
+      "position": "PD",
+      "age": 27,
+      "strength": 73
+    },
+    {
+      "name": "Kawê            € 300 mil",
+      "position": "PD",
+      "age": 24,
+      "strength": 70
+    },
+    {
+      "name": "Isidro Pitta            € 7.50 mi.",
+      "position": "CA",
+      "age": 26,
+      "strength": 72
+    },
+    {
+      "name": "Thiago Borbas            € 3.50 mi.",
+      "position": "CA",
+      "age": 24,
+      "strength": 75
+    },
+    {
+      "name": "Fernando            € 1.50 mi.",
+      "position": "CA",
+      "age": 27,
+      "strength": 73
+    },
+    {
+      "name": "Eduardo Sasha            € 800 mil",
+      "position": "CA",
+      "age": 34,
+      "strength": 74
+    },
+    {
+      "name": "Gabriel Novaes            € 600 mil",
+      "position": "CA",
+      "age": 27,
+      "strength": 65
+    }
+  ],
+  "Atlético Mineiro": [
+    {
+      "name": "Everson             € 900 mil",
+      "position": "GOL",
+      "age": 35,
+      "strength": 78
+    },
+    {
+      "name": "Pedro Cobra            € 600 mil",
+      "position": "GOL",
+      "age": 20,
+      "strength": 71
+    },
+    {
+      "name": "Gabriel Delfim            € 300 mil",
+      "position": "GOL",
+      "age": 23,
+      "strength": 79
+    },
+    {
+      "name": "Robert",
+      "position": "GOL",
+      "age": 21,
+      "strength": 71
+    },
+    {
+      "name": "Lyanco            € 4.50 mi.",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 70
+    },
+    {
+      "name": "Ruan            € 4.00 mi.",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 73
+    },
+    {
+      "name": "Léo Duarte            € 2.50 mi.",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 75
+    },
+    {
+      "name": "Iván Román\n  \n            € 1.50 mi.",
+      "position": "ZAG",
+      "age": 19,
+      "strength": 74
+    },
+    {
+      "name": "Júnior Alonso            € 1.50 mi.",
+      "position": "ZAG",
+      "age": 33,
+      "strength": 76
+    },
+    {
+      "name": "Vitor Hugo            € 500 mil",
+      "position": "ZAG",
+      "age": 35,
+      "strength": 72
+    },
+    {
+      "name": "Rômulo            € 450 mil",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Vitão",
+      "position": "ZAG",
+      "age": 18,
+      "strength": 69
+    },
+    {
+      "name": "Renan Lodi            € 11.00 mi.",
+      "position": "LE",
+      "age": 28,
+      "strength": 72
+    },
+    {
+      "name": "Kauã Pascini            € 500 mil",
+      "position": "LE",
+      "age": 18,
+      "strength": 78
+    },
+    {
+      "name": "Natanael            € 4.50 mi.",
+      "position": "LD",
+      "age": 24,
+      "strength": 74
+    },
+    {
+      "name": "Angelo Preciado            € 3.50 mi.",
+      "position": "LD",
+      "age": 28,
+      "strength": 69
+    },
+    {
+      "name": "Alexsander            € 5.50 mi.",
+      "position": "VOL",
+      "age": 22,
+      "strength": 71
+    },
+    {
+      "name": "Tomás Pérez            € 3.00 mi.",
+      "position": "VOL",
+      "age": 20,
+      "strength": 77
+    },
+    {
+      "name": "Patrick             € 1.50 mi.",
+      "position": "VOL",
+      "age": 22,
+      "strength": 69
+    },
+    {
+      "name": "Victor Hugo            € 7.00 mi.",
+      "position": "MEI",
+      "age": 22,
+      "strength": 66
+    },
+    {
+      "name": "Alan Franco            € 4.50 mi.",
+      "position": "MEI",
+      "age": 27,
+      "strength": 71
+    },
+    {
+      "name": "Maycon             € 2.00 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 65
+    },
+    {
+      "name": "Mamady Cissé            € 1.00 mi.",
+      "position": "MEI",
+      "age": 19,
+      "strength": 74
+    },
+    {
+      "name": "Índio",
+      "position": "MEI",
+      "age": 18,
+      "strength": 70
+    },
+    {
+      "name": "Gustavo Scarpa             € 4.50 mi.",
+      "position": "MEI",
+      "age": 32,
+      "strength": 76
+    },
+    {
+      "name": "Igor Gomes            € 2.50 mi.",
+      "position": "MEI",
+      "age": 27,
+      "strength": 74
+    },
+    {
+      "name": "Reinier            € 2.00 mi.",
+      "position": "MEI",
+      "age": 24,
+      "strength": 75
+    },
+    {
+      "name": "Tomás Cuello            € 6.00 mi.",
+      "position": "PE",
+      "age": 26,
+      "strength": 74
+    },
+    {
+      "name": "Dudu            € 800 mil",
+      "position": "PE",
+      "age": 34,
+      "strength": 73
+    },
+    {
+      "name": "Bernard            € 600 mil",
+      "position": "PE",
+      "age": 33,
+      "strength": 76
+    },
+    {
+      "name": "Alan Minda            € 3.00 mi.",
+      "position": "PD",
+      "age": 23,
+      "strength": 73
+    },
+    {
+      "name": "Cauã Soares            € 500 mil",
+      "position": "CA",
+      "age": 18,
+      "strength": 72
+    },
+    {
+      "name": "Mateo Cassierra            € 8.00 mi.",
+      "position": "CA",
+      "age": 29,
+      "strength": 68
+    }
+  ],
+  "São Paulo FC": [
+    {
+      "name": "Carlos Coronel            € 1.50 mi.",
+      "position": "GOL",
+      "age": 29,
+      "strength": 68
+    },
+    {
+      "name": "Rafael            € 400 mil",
+      "position": "GOL",
+      "age": 37,
+      "strength": 67
+    },
+    {
+      "name": "Young            € 100 mil",
+      "position": "GOL",
+      "age": 24,
+      "strength": 66
+    },
+    {
+      "name": "Felipe Preis",
+      "position": "GOL",
+      "age": 20,
+      "strength": 70
+    },
+    {
+      "name": "Alan Franco            € 4.00 mi.",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 69
+    },
+    {
+      "name": "Sabino             € 1.00 mi.",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 70
+    },
+    {
+      "name": "Matheus Belém            € 800 mil",
+      "position": "ZAG",
+      "age": 23,
+      "strength": 65
+    },
+    {
+      "name": "Rafael Tolói            € 800 mil",
+      "position": "ZAG",
+      "age": 35,
+      "strength": 71
+    },
+    {
+      "name": "Robert Arboleda            € 400 mil",
+      "position": "ZAG",
+      "age": 34,
+      "strength": 75
+    },
+    {
+      "name": "Luis Osorio",
+      "position": "ZAG",
+      "age": 19,
+      "strength": 78
+    },
+    {
+      "name": "Enzo Díaz            € 3.00 mi.",
+      "position": "LE",
+      "age": 30,
+      "strength": 79
+    },
+    {
+      "name": "Wendell            € 1.50 mi.",
+      "position": "LE",
+      "age": 32,
+      "strength": 67
+    },
+    {
+      "name": "Nicolas",
+      "position": "LE",
+      "age": 19,
+      "strength": 73
+    },
+    {
+      "name": "Maik            € 1.50 mi.",
+      "position": "LD",
+      "age": 21,
+      "strength": 70
+    },
+    {
+      "name": "João Moreira            € 1.00 mi.",
+      "position": "LD",
+      "age": 22,
+      "strength": 67
+    },
+    {
+      "name": "Lucas Ramon            € 700 mil",
+      "position": "LD",
+      "age": 32,
+      "strength": 69
+    },
+    {
+      "name": "Cédric Soares            € 500 mil",
+      "position": "LD",
+      "age": 34,
+      "strength": 77
+    },
+    {
+      "name": "Pablo Maia            € 5.00 mi.",
+      "position": "VOL",
+      "age": 24,
+      "strength": 76
+    },
+    {
+      "name": "Felipe Negrucci            € 1.00 mi.",
+      "position": "VOL",
+      "age": 22,
+      "strength": 68
+    },
+    {
+      "name": "Luan            € 1.00 mi.",
+      "position": "VOL",
+      "age": 27,
+      "strength": 78
+    },
+    {
+      "name": "Hugo Leonardo",
+      "position": "VOL",
+      "age": 22,
+      "strength": 79
+    },
+    {
+      "name": "Marcos Antônio            € 12.00 mi.",
+      "position": "MEI",
+      "age": 26,
+      "strength": 78
+    },
+    {
+      "name": "Damián Bobadilla            € 6.00 mi.",
+      "position": "MEI",
+      "age": 24,
+      "strength": 73
+    },
+    {
+      "name": "Danielzinho            € 1.00 mi.",
+      "position": "MEI",
+      "age": 31,
+      "strength": 71
+    },
+    {
+      "name": "Djhordney            € 500 mil",
+      "position": "MEI",
+      "age": 19,
+      "strength": 75
+    },
+    {
+      "name": "Cauly            € 3.00 mi.",
+      "position": "MEI",
+      "age": 30,
+      "strength": 77
+    },
+    {
+      "name": "Pedro Ferreira",
+      "position": "MEI",
+      "age": 19,
+      "strength": 75
+    },
+    {
+      "name": "Ferreirinha            € 4.00 mi.",
+      "position": "PE",
+      "age": 28,
+      "strength": 71
+    },
+    {
+      "name": "Lucca            € 3.00 mi.",
+      "position": "PE",
+      "age": 19,
+      "strength": 68
+    },
+    {
+      "name": "Victor Sá            € 2.50 mi.",
+      "position": "PE",
+      "age": 32,
+      "strength": 72
+    },
+    {
+      "name": "Tetê            € 1.00 mi.",
+      "position": "PE",
+      "age": 19,
+      "strength": 74
+    },
+    {
+      "name": "Artur            € 8.00 mi.",
+      "position": "PD",
+      "age": 28,
+      "strength": 65
+    },
+    {
+      "name": "Lucas Moura             € 2.00 mi.",
+      "position": "PD",
+      "age": 33,
+      "strength": 65
+    },
+    {
+      "name": "Ryan Francisco            € 4.50 mi.",
+      "position": "CA",
+      "age": 19,
+      "strength": 65
+    },
+    {
+      "name": "Gonzalo Tapia            € 3.50 mi.",
+      "position": "CA",
+      "age": 24,
+      "strength": 79
+    },
+    {
+      "name": "André Silva            € 3.00 mi.",
+      "position": "CA",
+      "age": 29,
+      "strength": 66
+    },
+    {
+      "name": "Jonathan Calleri             € 1.50 mi.",
+      "position": "CA",
+      "age": 32,
+      "strength": 77
+    },
+    {
+      "name": "Luciano            € 1.30 mi.",
+      "position": "CA",
+      "age": 33,
+      "strength": 72
+    },
+    {
+      "name": "Paulinho",
+      "position": "CA",
+      "age": 21,
+      "strength": 79
+    }
+  ],
+  "Athletico Paranaense": [
+    {
+      "name": "Mycael             € 2.00 mi.",
+      "position": "GOL",
+      "age": 22,
+      "strength": 76
+    },
+    {
+      "name": "Santos             € 400 mil",
+      "position": "GOL",
+      "age": 36,
+      "strength": 67
+    },
+    {
+      "name": "Matheus Soares",
+      "position": "GOL",
+      "age": 21,
+      "strength": 77
+    },
+    {
+      "name": "Arthur Dias            € 3.00 mi.",
+      "position": "ZAG",
+      "age": 19,
+      "strength": 69
+    },
+    {
+      "name": "Carlos Terán            € 2.00 mi.",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 74
+    },
+    {
+      "name": "Juan Felipe Aguirre            € 1.50 mi.",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 66
+    },
+    {
+      "name": "Léo            € 1.20 mi.",
+      "position": "ZAG",
+      "age": 30,
+      "strength": 65
+    },
+    {
+      "name": "Lucas Esquivel            € 7.00 mi.",
+      "position": "LE",
+      "age": 24,
+      "strength": 68
+    },
+    {
+      "name": "Léo Derik             € 2.50 mi.",
+      "position": "LE",
+      "age": 20,
+      "strength": 76
+    },
+    {
+      "name": "Gastón Benavídez            € 3.50 mi.",
+      "position": "LD",
+      "age": 30,
+      "strength": 67
+    },
+    {
+      "name": "Gilberto            € 2.20 mi.",
+      "position": "LD",
+      "age": 33,
+      "strength": 67
+    },
+    {
+      "name": "Gilberto Junior            € 2.00 mi.",
+      "position": "LD",
+      "age": 21,
+      "strength": 75
+    },
+    {
+      "name": "Dudu            € 700 mil",
+      "position": "LD",
+      "age": 29,
+      "strength": 68
+    },
+    {
+      "name": "Hayen Palacios            € 500 mil",
+      "position": "LD",
+      "age": 26,
+      "strength": 74
+    },
+    {
+      "name": "Luiz Gustavo             € 200 mil",
+      "position": "VOL",
+      "age": 38,
+      "strength": 72
+    },
+    {
+      "name": "Juan Portilla            € 5.00 mi.",
+      "position": "MEI",
+      "age": 27,
+      "strength": 66
+    },
+    {
+      "name": "João Cruz            € 2.00 mi.",
+      "position": "MEI",
+      "age": 20,
+      "strength": 79
+    },
+    {
+      "name": "Felipinho            € 1.00 mi.",
+      "position": "MEI",
+      "age": 24,
+      "strength": 77
+    },
+    {
+      "name": "Jádson            € 1.00 mi.",
+      "position": "MEI",
+      "age": 32,
+      "strength": 75
+    },
+    {
+      "name": "Alejandro García             € 700 mil",
+      "position": "MEI",
+      "age": 25,
+      "strength": 72
+    },
+    {
+      "name": "Dudu            € 5.00 mi.",
+      "position": "MEI",
+      "age": 20,
+      "strength": 77
+    },
+    {
+      "name": "Bruno Zapelli            € 4.50 mi.",
+      "position": "MEI",
+      "age": 24,
+      "strength": 76
+    },
+    {
+      "name": "Chiqueti            € 3.00 mi.",
+      "position": "MEI",
+      "age": 20,
+      "strength": 65
+    },
+    {
+      "name": "Isaac            € 1.20 mi.",
+      "position": "PE",
+      "age": 22,
+      "strength": 75
+    },
+    {
+      "name": "Stiven Mendoza            € 600 mil",
+      "position": "PE",
+      "age": 34,
+      "strength": 79
+    },
+    {
+      "name": "Daniel Aguilar",
+      "position": "PE",
+      "age": 22,
+      "strength": 77
+    },
+    {
+      "name": "Bruninho            € 7.00 mi.",
+      "position": "PD",
+      "age": 17,
+      "strength": 78
+    },
+    {
+      "name": "Leozinho            € 750 mil",
+      "position": "PD",
+      "age": 27,
+      "strength": 74
+    },
+    {
+      "name": "Kevin Viveros            € 10.00 mi.",
+      "position": "CA",
+      "age": 26,
+      "strength": 72
+    },
+    {
+      "name": "Jorge Rivaldo            € 2.00 mi.",
+      "position": "CA",
+      "age": 22,
+      "strength": 66
+    },
+    {
+      "name": "Renan Peixoto            € 1.50 mi.",
+      "position": "CA",
+      "age": 26,
+      "strength": 65
+    },
+    {
+      "name": "Renan Viana            € 225 mil",
+      "position": "CA",
+      "age": 23,
+      "strength": 66
+    }
+  ],
+  "SC Internacional": [
+    {
+      "name": "Anthoni            € 3.00 mi.",
+      "position": "GOL",
+      "age": 24,
+      "strength": 67
+    },
+    {
+      "name": "Sergio Rochet\n  \n            € 1.80 mi.",
+      "position": "GOL",
+      "age": 33,
+      "strength": 68
+    },
+    {
+      "name": "Henrique Menke            € 1.50 mi.",
+      "position": "GOL",
+      "age": 19,
+      "strength": 65
+    },
+    {
+      "name": "Kauan",
+      "position": "GOL",
+      "age": 23,
+      "strength": 71
+    },
+    {
+      "name": "Diego Esser",
+      "position": "GOL",
+      "age": 21,
+      "strength": 70
+    },
+    {
+      "name": "Victor Gabriel            € 5.00 mi.",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 68
+    },
+    {
+      "name": "Félix Torres            € 1.00 mi.",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 74
+    },
+    {
+      "name": "Juninho            € 700 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 67
+    },
+    {
+      "name": "Clayton            € 700 mil",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 70
+    },
+    {
+      "name": "Gabriel Mercado            € 100 mil",
+      "position": "ZAG",
+      "age": 39,
+      "strength": 76
+    },
+    {
+      "name": "Alexandro Bernabei            € 8.00 mi.",
+      "position": "LE",
+      "age": 25,
+      "strength": 72
+    },
+    {
+      "name": "Matheus Bahia            € 3.00 mi.",
+      "position": "LE",
+      "age": 26,
+      "strength": 69
+    },
+    {
+      "name": "Bruno Gomes            € 6.00 mi.",
+      "position": "LD",
+      "age": 25,
+      "strength": 78
+    },
+    {
+      "name": "Braian Aguirre            € 2.50 mi.",
+      "position": "LD",
+      "age": 25,
+      "strength": 77
+    },
+    {
+      "name": "Rodrigo Villagra            € 3.50 mi.",
+      "position": "VOL",
+      "age": 25,
+      "strength": 74
+    },
+    {
+      "name": "Thiago Maia            € 2.50 mi.",
+      "position": "VOL",
+      "age": 29,
+      "strength": 67
+    },
+    {
+      "name": "Ronaldo            € 2.00 mi.",
+      "position": "VOL",
+      "age": 29,
+      "strength": 75
+    },
+    {
+      "name": "Richard             € 500 mil",
+      "position": "VOL",
+      "age": 32,
+      "strength": 71
+    },
+    {
+      "name": "Benjamin",
+      "position": "VOL",
+      "age": 20,
+      "strength": 76
+    },
+    {
+      "name": "Alan Rodríguez             € 2.30 mi.",
+      "position": "MEI",
+      "age": 26,
+      "strength": 67
+    },
+    {
+      "name": "Paulinho Paula            € 1.00 mi.",
+      "position": "MEI",
+      "age": 29,
+      "strength": 72
+    },
+    {
+      "name": "Bruno Henrique            € 300 mil",
+      "position": "MEI",
+      "age": 36,
+      "strength": 65
+    },
+    {
+      "name": "Alan Patrick             € 2.00 mi.",
+      "position": "MEI",
+      "age": 35,
+      "strength": 72
+    },
+    {
+      "name": "Allex            € 1.00 mi.",
+      "position": "MEI",
+      "age": 20,
+      "strength": 74
+    },
+    {
+      "name": "Yago Noal            € 500 mil",
+      "position": "MEI",
+      "age": 19,
+      "strength": 79
+    },
+    {
+      "name": "Johan Carbonero            € 6.00 mi.",
+      "position": "PE",
+      "age": 26,
+      "strength": 71
+    },
+    {
+      "name": "Vitinho            € 5.00 mi.",
+      "position": "PE",
+      "age": 27,
+      "strength": 72
+    },
+    {
+      "name": "Kayky            € 5.00 mi.",
+      "position": "PD",
+      "age": 23,
+      "strength": 68
+    },
+    {
+      "name": "Bruno Tabata            € 1.50 mi.",
+      "position": "PD",
+      "age": 29,
+      "strength": 67
+    },
+    {
+      "name": "Alerrandro            € 3.00 mi.",
+      "position": "CA",
+      "age": 26,
+      "strength": 75
+    },
+    {
+      "name": "Raykkonen            € 1.00 mi.",
+      "position": "CA",
+      "age": 17,
+      "strength": 75
+    }
+  ],
+  "EC Vitória": [
+    {
+      "name": "Lucas Arcanjo            € 2.50 mi.",
+      "position": "GOL",
+      "age": 27,
+      "strength": 65
+    },
+    {
+      "name": "Gabriel            € 450 mil",
+      "position": "GOL",
+      "age": 33,
+      "strength": 72
+    },
+    {
+      "name": "Fintelman            € 100 mil",
+      "position": "GOL",
+      "age": 24,
+      "strength": 77
+    },
+    {
+      "name": "Yuri Sena",
+      "position": "GOL",
+      "age": 25,
+      "strength": 75
+    },
+    {
+      "name": "Riccieli             € 1.80 mi.",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 79
+    },
+    {
+      "name": "Cacá            € 1.50 mi.",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 72
+    },
+    {
+      "name": "Edu Ribeiro             € 800 mil",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 72
+    },
+    {
+      "name": "Camutanga             € 250 mil",
+      "position": "ZAG",
+      "age": 32,
+      "strength": 70
+    },
+    {
+      "name": "Neris            € 200 mil",
+      "position": "ZAG",
+      "age": 34,
+      "strength": 78
+    },
+    {
+      "name": "Luan Cândido            € 3.00 mi.",
+      "position": "LE",
+      "age": 25,
+      "strength": 65
+    },
+    {
+      "name": "Ramon            € 2.00 mi.",
+      "position": "LE",
+      "age": 25,
+      "strength": 76
+    },
+    {
+      "name": "Jamerson            € 800 mil",
+      "position": "LE",
+      "age": 27,
+      "strength": 67
+    },
+    {
+      "name": "Claudinho            € 1.70 mi.",
+      "position": "LD",
+      "age": 25,
+      "strength": 75
+    },
+    {
+      "name": "Fabiano            € 1.50 mi.",
+      "position": "LD",
+      "age": 26,
+      "strength": 79
+    },
+    {
+      "name": "Nathan Mendes             € 1.50 mi.",
+      "position": "LD",
+      "age": 23,
+      "strength": 67
+    },
+    {
+      "name": "Mateus Silva             € 800 mil",
+      "position": "LD",
+      "age": 27,
+      "strength": 76
+    },
+    {
+      "name": "Walace            € 2.50 mi.",
+      "position": "VOL",
+      "age": 31,
+      "strength": 76
+    },
+    {
+      "name": "Baralhas             € 2.50 mi.",
+      "position": "VOL",
+      "age": 27,
+      "strength": 77
+    },
+    {
+      "name": "Rúben Ismael             € 1.20 mi.",
+      "position": "VOL",
+      "age": 27,
+      "strength": 65
+    },
+    {
+      "name": "Dudu             € 600 mil",
+      "position": "VOL",
+      "age": 27,
+      "strength": 66
+    },
+    {
+      "name": "Caíque Gonçalves\n  \n            € 500 mil",
+      "position": "VOL",
+      "age": 30,
+      "strength": 75
+    },
+    {
+      "name": "Zé Breno",
+      "position": "VOL",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Zé Vitor            € 500 mil",
+      "position": "MEI",
+      "age": 26,
+      "strength": 65
+    },
+    {
+      "name": "Matheuzinho            € 3.00 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 71
+    },
+    {
+      "name": "Aitor Cantalapiedra            € 1.80 mi.",
+      "position": "MEI",
+      "age": 30,
+      "strength": 71
+    },
+    {
+      "name": "Emmanuel Martínez            € 1.20 mi.",
+      "position": "MEI",
+      "age": 32,
+      "strength": 68
+    },
+    {
+      "name": "Pablo            € 200 mil",
+      "position": "MEI",
+      "age": 22,
+      "strength": 73
+    },
+    {
+      "name": "Diego Tarzia            € 2.00 mi.",
+      "position": "PE",
+      "age": 23,
+      "strength": 67
+    },
+    {
+      "name": "Renê            € 1.00 mi.",
+      "position": "PE",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Lucas Braga             € 900 mil",
+      "position": "PE",
+      "age": 29,
+      "strength": 71
+    },
+    {
+      "name": "Kike Saverio            € 450 mil",
+      "position": "PE",
+      "age": 27,
+      "strength": 72
+    },
+    {
+      "name": "Anderson Pato             € 250 mil",
+      "position": "PE",
+      "age": 23,
+      "strength": 75
+    },
+    {
+      "name": "Erick            € 2.50 mi.",
+      "position": "PD",
+      "age": 28,
+      "strength": 77
+    },
+    {
+      "name": "Lucas Silva            € 700 mil",
+      "position": "PD",
+      "age": 26,
+      "strength": 74
+    },
+    {
+      "name": "Marinho            € 200 mil",
+      "position": "PD",
+      "age": 36,
+      "strength": 66
+    },
+    {
+      "name": "Osvaldo            € 75 mil",
+      "position": "PD",
+      "age": 39,
+      "strength": 76
+    },
+    {
+      "name": "Renato Kayzer            € 1.00 mi.",
+      "position": "CA",
+      "age": 30,
+      "strength": 73
+    },
+    {
+      "name": "Fabri            € 900 mil",
+      "position": "CA",
+      "age": 25,
+      "strength": 79
+    },
+    {
+      "name": "Renzo López            € 650 mil",
+      "position": "CA",
+      "age": 32,
+      "strength": 66
+    }
+  ],
+  "Coritiba FC": [
+    {
+      "name": "Pedro Morisco             € 5.00 mi.",
+      "position": "GOL",
+      "age": 22,
+      "strength": 77
+    },
+    {
+      "name": "Pedro Rangel            € 1.00 mi.",
+      "position": "GOL",
+      "age": 26,
+      "strength": 68
+    },
+    {
+      "name": "Keiller            € 500 mil",
+      "position": "GOL",
+      "age": 29,
+      "strength": 70
+    },
+    {
+      "name": "Benassi            € 50 mil",
+      "position": "GOL",
+      "age": 22,
+      "strength": 72
+    },
+    {
+      "name": "Jacy            € 2.50 mi.",
+      "position": "ZAG",
+      "age": 28,
+      "strength": 79
+    },
+    {
+      "name": "Tiago Cóser            € 1.50 mi.",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Maicon             € 100 mil",
+      "position": "ZAG",
+      "age": 37,
+      "strength": 78
+    },
+    {
+      "name": "Rodrigo Moledo            € 100 mil",
+      "position": "ZAG",
+      "age": 38,
+      "strength": 73
+    },
+    {
+      "name": "Thiago Santos            € 100 mil",
+      "position": "ZAG",
+      "age": 36,
+      "strength": 74
+    },
+    {
+      "name": "Felipe Jonatan            € 2.00 mi.",
+      "position": "LE",
+      "age": 28,
+      "strength": 70
+    },
+    {
+      "name": "João Almeida            € 400 mil",
+      "position": "LE",
+      "age": 20,
+      "strength": 78
+    },
+    {
+      "name": "Bruno Melo            € 250 mil",
+      "position": "LE",
+      "age": 33,
+      "strength": 72
+    },
+    {
+      "name": "JP Chermont            € 4.00 mi.",
+      "position": "LD",
+      "age": 20,
+      "strength": 67
+    },
+    {
+      "name": "Tinga             € 450 mil",
+      "position": "LD",
+      "age": 32,
+      "strength": 69
+    },
+    {
+      "name": "Vini Paulista            € 1.00 mi.",
+      "position": "VOL",
+      "age": 25,
+      "strength": 78
+    },
+    {
+      "name": "Wallisson            € 900 mil",
+      "position": "VOL",
+      "age": 28,
+      "strength": 78
+    },
+    {
+      "name": "Willian Oliveira            € 300 mil",
+      "position": "VOL",
+      "age": 33,
+      "strength": 78
+    },
+    {
+      "name": "Sebastián Gómez             € 1.80 mi.",
+      "position": "MEI",
+      "age": 30,
+      "strength": 65
+    },
+    {
+      "name": "Fernando Sobral            € 1.50 mi.",
+      "position": "MEI",
+      "age": 31,
+      "strength": 68
+    },
+    {
+      "name": "Geovane Meurer            € 375 mil",
+      "position": "MEI",
+      "age": 24,
+      "strength": 68
+    },
+    {
+      "name": "Gustavo            € 500 mil",
+      "position": "MEI",
+      "age": 23,
+      "strength": 74
+    },
+    {
+      "name": "Josué            € 350 mil",
+      "position": "MEI",
+      "age": 35,
+      "strength": 76
+    },
+    {
+      "name": "Joaquín Lavega            € 4.00 mi.",
+      "position": "PE",
+      "age": 21,
+      "strength": 70
+    },
+    {
+      "name": "Breno Lopes            € 3.00 mi.",
+      "position": "PE",
+      "age": 30,
+      "strength": 75
+    },
+    {
+      "name": "Brian Ocampo            € 1.00 mi.",
+      "position": "PE",
+      "age": 27,
+      "strength": 68
+    },
+    {
+      "name": "Keno             € 300 mil",
+      "position": "PE",
+      "age": 36,
+      "strength": 75
+    },
+    {
+      "name": "Lucas Ronier            € 6.00 mi.",
+      "position": "PD",
+      "age": 21,
+      "strength": 79
+    },
+    {
+      "name": "Fabinho            € 1.00 mi.",
+      "position": "PD",
+      "age": 26,
+      "strength": 76
+    },
+    {
+      "name": "Pedro Rocha\n  \n            € 1.50 mi.",
+      "position": "CA",
+      "age": 31,
+      "strength": 67
+    },
+    {
+      "name": "Renato Marques            € 1.00 mi.",
+      "position": "CA",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Rodrigo Rodrigues             € 500 mil",
+      "position": "CA",
+      "age": 30,
+      "strength": 66
+    },
+    {
+      "name": "Éberth            € 250 mil",
+      "position": "CA",
+      "age": 23,
+      "strength": 71
+    }
+  ],
+  "Mirassol FC": [
+    {
+      "name": "Walter            € 150 mil",
+      "position": "GOL",
+      "age": 38,
+      "strength": 74
+    },
+    {
+      "name": "Alex Muralha            € 75 mil",
+      "position": "GOL",
+      "age": 36,
+      "strength": 72
+    },
+    {
+      "name": "Georgemy            € 50 mil",
+      "position": "GOL",
+      "age": 30,
+      "strength": 65
+    },
+    {
+      "name": "Thomazella",
+      "position": "GOL",
+      "age": 35,
+      "strength": 71
+    },
+    {
+      "name": "Willian Machado\n  \n            € 2.00 mi.",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 65
+    },
+    {
+      "name": "João Victor            € 1.50 mi.",
+      "position": "ZAG",
+      "age": 28,
+      "strength": 77
+    },
+    {
+      "name": "Lucas Oliveira            € 1.00 mi.",
+      "position": "ZAG",
+      "age": 30,
+      "strength": 73
+    },
+    {
+      "name": "Rodrigues            € 700 mil",
+      "position": "ZAG",
+      "age": 28,
+      "strength": 77
+    },
+    {
+      "name": "Reinaldo             € 350 mil",
+      "position": "LE",
+      "age": 36,
+      "strength": 76
+    },
+    {
+      "name": "Victor Luís            € 300 mil",
+      "position": "LE",
+      "age": 33,
+      "strength": 67
+    },
+    {
+      "name": "Igor Formiga             € 2.00 mi.",
+      "position": "LD",
+      "age": 27,
+      "strength": 68
+    },
+    {
+      "name": "Daniel Borges            € 300 mil",
+      "position": "LD",
+      "age": 33,
+      "strength": 66
+    },
+    {
+      "name": "Neto Moura            € 2.00 mi.",
+      "position": "VOL",
+      "age": 29,
+      "strength": 74
+    },
+    {
+      "name": "Gabriel Pires            € 400 mil",
+      "position": "VOL",
+      "age": 32,
+      "strength": 69
+    },
+    {
+      "name": "Denilson            € 2.00 mi.",
+      "position": "MEI",
+      "age": 25,
+      "strength": 75
+    },
+    {
+      "name": "José Aldo            € 1.50 mi.",
+      "position": "MEI",
+      "age": 27,
+      "strength": 69
+    },
+    {
+      "name": "Shaylon            € 1.00 mi.",
+      "position": "MEI",
+      "age": 29,
+      "strength": 68
+    },
+    {
+      "name": "Eduardo            € 600 mil",
+      "position": "MEI",
+      "age": 36,
+      "strength": 79
+    },
+    {
+      "name": "Chico Kim            € 150 mil",
+      "position": "MEI",
+      "age": 35,
+      "strength": 78
+    },
+    {
+      "name": "Alesson            € 2.50 mi.",
+      "position": "PE",
+      "age": 27,
+      "strength": 71
+    },
+    {
+      "name": "Antonio Galeano            € 3.50 mi.",
+      "position": "PD",
+      "age": 26,
+      "strength": 77
+    },
+    {
+      "name": "Negueba             € 3.00 mi.",
+      "position": "PD",
+      "age": 26,
+      "strength": 69
+    },
+    {
+      "name": "Everton Galdino            € 1.00 mi.",
+      "position": "PD",
+      "age": 29,
+      "strength": 70
+    },
+    {
+      "name": "Carlos Eduardo            € 500 mil",
+      "position": "PD",
+      "age": 29,
+      "strength": 67
+    },
+    {
+      "name": "Luiz Filipe            € 100 mil",
+      "position": "PD",
+      "age": 25,
+      "strength": 70
+    },
+    {
+      "name": "Edson Carioca            € 1.50 mi.",
+      "position": "CA",
+      "age": 29,
+      "strength": 77
+    },
+    {
+      "name": "Nathan Fogaça             € 1.50 mi.",
+      "position": "CA",
+      "age": 27,
+      "strength": 67
+    },
+    {
+      "name": "André Luis            € 1.00 mi.",
+      "position": "CA",
+      "age": 32,
+      "strength": 76
+    },
+    {
+      "name": "Tiquinho Soares            € 800 mil",
+      "position": "CA",
+      "age": 35,
+      "strength": 75
+    }
+  ],
+  "Clube do Remo": [
+    {
+      "name": "Ivan            € 1.00 mi.",
+      "position": "GOL",
+      "age": 29,
+      "strength": 79
+    },
+    {
+      "name": "Marcelo Rangel             € 50 mil",
+      "position": "GOL",
+      "age": 38,
+      "strength": 70
+    },
+    {
+      "name": "Ygor Vinhas            € 50 mil",
+      "position": "GOL",
+      "age": 32,
+      "strength": 65
+    },
+    {
+      "name": "Tchamba            € 800 mil",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 77
+    },
+    {
+      "name": "Kayky Almeida             € 800 mil",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 79
+    },
+    {
+      "name": "Thalisson             € 400 mil",
+      "position": "ZAG",
+      "age": 24,
+      "strength": 73
+    },
+    {
+      "name": "Léo Andrade            € 350 mil",
+      "position": "ZAG",
+      "age": 28,
+      "strength": 69
+    },
+    {
+      "name": "Marllon             € 350 mil",
+      "position": "ZAG",
+      "age": 34,
+      "strength": 76
+    },
+    {
+      "name": "Cristian Tassano            € 350 mil",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 79
+    },
+    {
+      "name": "Braian Cufré            € 1.20 mi.",
+      "position": "LE",
+      "age": 29,
+      "strength": 75
+    },
+    {
+      "name": "Mayk            € 500 mil",
+      "position": "LE",
+      "age": 26,
+      "strength": 67
+    },
+    {
+      "name": "Edson Kauã",
+      "position": "LE",
+      "age": 22,
+      "strength": 77
+    },
+    {
+      "name": "João Lucas             € 1.50 mi.",
+      "position": "LD",
+      "age": 28,
+      "strength": 75
+    },
+    {
+      "name": "Matheus Alexandre            € 900 mil",
+      "position": "LD",
+      "age": 27,
+      "strength": 78
+    },
+    {
+      "name": "Marcelinho            € 600 mil",
+      "position": "LD",
+      "age": 27,
+      "strength": 68
+    },
+    {
+      "name": "Kadu Santos            € 350 mil",
+      "position": "LD",
+      "age": 20,
+      "strength": 78
+    },
+    {
+      "name": "Leonel Picco            € 3.00 mi.",
+      "position": "VOL",
+      "age": 27,
+      "strength": 75
+    },
+    {
+      "name": "Zé Welison            € 1.00 mi.",
+      "position": "VOL",
+      "age": 31,
+      "strength": 77
+    },
+    {
+      "name": "David Braga            € 650 mil",
+      "position": "VOL",
+      "age": 24,
+      "strength": 67
+    },
+    {
+      "name": "Edson Fernando            € 500 mil",
+      "position": "VOL",
+      "age": 28,
+      "strength": 76
+    },
+    {
+      "name": "Zé Ricardo            € 500 mil",
+      "position": "VOL",
+      "age": 27,
+      "strength": 76
+    },
+    {
+      "name": "Freitas            € 50 mil",
+      "position": "VOL",
+      "age": 23,
+      "strength": 68
+    },
+    {
+      "name": "Patrick            € 600 mil",
+      "position": "MEI",
+      "age": 33,
+      "strength": 74
+    },
+    {
+      "name": "Giovanni Pavani            € 350 mil",
+      "position": "MEI",
+      "age": 29,
+      "strength": 79
+    },
+    {
+      "name": "Franco Catarozzi            € 350 mil",
+      "position": "MEI",
+      "age": 26,
+      "strength": 72
+    },
+    {
+      "name": "Vitor Bueno            € 1.00 mi.",
+      "position": "MEI",
+      "age": 31,
+      "strength": 76
+    },
+    {
+      "name": "Jajá            € 800 mil",
+      "position": "PE",
+      "age": 27,
+      "strength": 77
+    },
+    {
+      "name": "Jáderson            € 750 mil",
+      "position": "PE",
+      "age": 25,
+      "strength": 78
+    },
+    {
+      "name": "Alef Manga            € 600 mil",
+      "position": "PE",
+      "age": 31,
+      "strength": 74
+    },
+    {
+      "name": "Yago Pikachu            € 600 mil",
+      "position": "PD",
+      "age": 34,
+      "strength": 77
+    },
+    {
+      "name": "Tico",
+      "position": "PD",
+      "age": 19,
+      "strength": 78
+    },
+    {
+      "name": "Gabriel Taliari             € 1.80 mi.",
+      "position": "CA",
+      "age": 29,
+      "strength": 68
+    },
+    {
+      "name": "Carlinhos            € 900 mil",
+      "position": "CA",
+      "age": 29,
+      "strength": 79
+    },
+    {
+      "name": "Rafael Monti            € 600 mil",
+      "position": "CA",
+      "age": 26,
+      "strength": 65
+    },
+    {
+      "name": "Gabriel Poveda            € 500 mil",
+      "position": "CA",
+      "age": 28,
+      "strength": 74
+    },
+    {
+      "name": "Eduardo Melo             € 75 mil",
+      "position": "CA",
+      "age": 25,
+      "strength": 67
+    }
+  ],
+  "Chapecoense": [
+    {
+      "name": "Anderson            € 450 mil",
+      "position": "GOL",
+      "age": 28,
+      "strength": 68
+    },
+    {
+      "name": "Rafael Santos            € 75 mil",
+      "position": "GOL",
+      "age": 37,
+      "strength": 73
+    },
+    {
+      "name": "Matheus Aurélio",
+      "position": "GOL",
+      "age": 27,
+      "strength": 74
+    },
+    {
+      "name": "Doma             € 1.20 mi.",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 68
+    },
+    {
+      "name": "João Paulo            € 700 mil",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 66
+    },
+    {
+      "name": "Victor Caetano             € 700 mil",
+      "position": "ZAG",
+      "age": 28,
+      "strength": 68
+    },
+    {
+      "name": "Bruno Leonardo             € 400 mil",
+      "position": "ZAG",
+      "age": 30,
+      "strength": 78
+    },
+    {
+      "name": "Rafael Thyere             € 250 mil",
+      "position": "ZAG",
+      "age": 33,
+      "strength": 76
+    },
+    {
+      "name": "Kauan Faria",
+      "position": "ZAG",
+      "age": 23,
+      "strength": 79
+    },
+    {
+      "name": "Vinicius Eduardo",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 65
+    },
+    {
+      "name": "Mancha            € 500 mil",
+      "position": "LE",
+      "age": 25,
+      "strength": 69
+    },
+    {
+      "name": "Bruno Pacheco            € 250 mil",
+      "position": "LE",
+      "age": 34,
+      "strength": 66
+    },
+    {
+      "name": "Da Silva",
+      "position": "LE",
+      "age": 26,
+      "strength": 71
+    },
+    {
+      "name": "Marcos Vinícius            € 400 mil",
+      "position": "LD",
+      "age": 29,
+      "strength": 65
+    },
+    {
+      "name": "Everton            € 300 mil",
+      "position": "LD",
+      "age": 31,
+      "strength": 76
+    },
+    {
+      "name": "Gustavo Talles",
+      "position": "LD",
+      "age": 22,
+      "strength": 73
+    },
+    {
+      "name": "Carvalheira            € 2.50 mi.",
+      "position": "VOL",
+      "age": 27,
+      "strength": 73
+    },
+    {
+      "name": "Camilo            € 2.00 mi.",
+      "position": "VOL",
+      "age": 27,
+      "strength": 65
+    },
+    {
+      "name": "Vinicius Balieiro            € 400 mil",
+      "position": "VOL",
+      "age": 27,
+      "strength": 76
+    },
+    {
+      "name": "João Vitor            € 900 mil",
+      "position": "MEI",
+      "age": 28,
+      "strength": 69
+    },
+    {
+      "name": "Bruno Matias             € 500 mil",
+      "position": "MEI",
+      "age": 27,
+      "strength": 79
+    },
+    {
+      "name": "David Antunes            € 200 mil",
+      "position": "MEI",
+      "age": 20,
+      "strength": 65
+    },
+    {
+      "name": "Robert Santos             € 1.00 mi.",
+      "position": "MEI",
+      "age": 22,
+      "strength": 67
+    },
+    {
+      "name": "Max            € 600 mil",
+      "position": "MEI",
+      "age": 25,
+      "strength": 74
+    },
+    {
+      "name": "Giovanni Augusto            € 150 mil",
+      "position": "MEI",
+      "age": 36,
+      "strength": 77
+    },
+    {
+      "name": "Wermeson",
+      "position": "MEI",
+      "age": 25,
+      "strength": 69
+    },
+    {
+      "name": "Italo Vargas            € 1.00 mi.",
+      "position": "PE",
+      "age": 23,
+      "strength": 76
+    },
+    {
+      "name": "Maurício Garcez             € 800 mil",
+      "position": "PE",
+      "age": 29,
+      "strength": 73
+    },
+    {
+      "name": "Ênio            € 800 mil",
+      "position": "PE",
+      "age": 25,
+      "strength": 77
+    },
+    {
+      "name": "Kevin Ramírez            € 400 mil",
+      "position": "PE",
+      "age": 32,
+      "strength": 78
+    },
+    {
+      "name": "Marcinho            € 650 mil",
+      "position": "PD",
+      "age": 31,
+      "strength": 71
+    },
+    {
+      "name": "Rubens            € 250 mil",
+      "position": "PD",
+      "age": 23,
+      "strength": 68
+    },
+    {
+      "name": "Neto Pessoa            € 350 mil",
+      "position": "CA",
+      "age": 32,
+      "strength": 70
+    },
+    {
+      "name": "Yannick Bolasie            € 150 mil",
+      "position": "CA",
+      "age": 37,
+      "strength": 76
+    },
+    {
+      "name": "João Bom",
+      "position": "CA",
+      "age": 21,
+      "strength": 65
+    }
+  ],
+  "Fortaleza EC": [
+    {
+      "name": "Brenno            € 500 mil",
+      "position": "GOL",
+      "age": 27,
+      "strength": 67
+    },
+    {
+      "name": "João Ricardo            € 300 mil",
+      "position": "GOL",
+      "age": 37,
+      "strength": 75
+    },
+    {
+      "name": "Magrão            € 250 mil",
+      "position": "GOL",
+      "age": 26,
+      "strength": 76
+    },
+    {
+      "name": "Vinícius            € 250 mil",
+      "position": "GOL",
+      "age": 32,
+      "strength": 78
+    },
+    {
+      "name": "Lucas Gazal            € 1.20 mi.",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 77
+    },
+    {
+      "name": "Tomás Cardona            € 900 mil",
+      "position": "ZAG",
+      "age": 30,
+      "strength": 66
+    },
+    {
+      "name": "Luan Freitas            € 500 mil",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 75
+    },
+    {
+      "name": "Kauã Rocha            € 500 mil",
+      "position": "ZAG",
+      "age": 19,
+      "strength": 78
+    },
+    {
+      "name": "Gabriel Fuentes            € 1.70 mi.",
+      "position": "LE",
+      "age": 29,
+      "strength": 68
+    },
+    {
+      "name": "Maurício Mucuri            € 600 mil",
+      "position": "LE",
+      "age": 25,
+      "strength": 73
+    },
+    {
+      "name": "Maílton            € 2.30 mi.",
+      "position": "LD",
+      "age": 28,
+      "strength": 75
+    },
+    {
+      "name": "Paulinho            € 400 mil",
+      "position": "LD",
+      "age": 21,
+      "strength": 79
+    },
+    {
+      "name": "Ryan            € 3.00 mi.",
+      "position": "VOL",
+      "age": 22,
+      "strength": 66
+    },
+    {
+      "name": "Ronald            € 2.50 mi.",
+      "position": "VOL",
+      "age": 23,
+      "strength": 73
+    },
+    {
+      "name": "Rodrigo Santos            € 500 mil",
+      "position": "VOL",
+      "age": 25,
+      "strength": 72
+    },
+    {
+      "name": "Lucas Sasha            € 150 mil",
+      "position": "VOL",
+      "age": 36,
+      "strength": 79
+    },
+    {
+      "name": "Pierre            € 1.00 mi.",
+      "position": "MEI",
+      "age": 24,
+      "strength": 71
+    },
+    {
+      "name": "Matheus Rossetto            € 1.00 mi.",
+      "position": "MEI",
+      "age": 30,
+      "strength": 66
+    },
+    {
+      "name": "Tomás Pochettino            € 3.50 mi.",
+      "position": "MEI",
+      "age": 30,
+      "strength": 69
+    },
+    {
+      "name": "Calebe            € 1.80 mi.",
+      "position": "MEI",
+      "age": 26,
+      "strength": 79
+    },
+    {
+      "name": "Lucca Prior            € 750 mil",
+      "position": "MEI",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Lucas Crispim            € 700 mil",
+      "position": "MEI",
+      "age": 32,
+      "strength": 73
+    },
+    {
+      "name": "Lucas Emanoel            € 300 mil",
+      "position": "MEI",
+      "age": 19,
+      "strength": 74
+    },
+    {
+      "name": "Luiz Fernando            € 1.80 mi.",
+      "position": "PE",
+      "age": 29,
+      "strength": 72
+    },
+    {
+      "name": "Rodriguinho            € 900 mil",
+      "position": "PE",
+      "age": 23,
+      "strength": 75
+    },
+    {
+      "name": "Paulo Baya            € 800 mil",
+      "position": "PE",
+      "age": 26,
+      "strength": 79
+    },
+    {
+      "name": "Vitinho            € 3.00 mi.",
+      "position": "PD",
+      "age": 25,
+      "strength": 75
+    },
+    {
+      "name": "Welliton            € 900 mil",
+      "position": "PD",
+      "age": 25,
+      "strength": 79
+    },
+    {
+      "name": "Pedro Henrique            € 400 mil",
+      "position": "PD",
+      "age": 36,
+      "strength": 71
+    },
+    {
+      "name": "Imanol Machuca",
+      "position": "PD",
+      "age": 26,
+      "strength": 70
+    },
+    {
+      "name": "Juan Miritello            € 2.30 mi.",
+      "position": "CA",
+      "age": 27,
+      "strength": 70
+    },
+    {
+      "name": "GB            € 2.00 mi.",
+      "position": "CA",
+      "age": 21,
+      "strength": 72
+    }
+  ],
+  "Sport Recife": [
+    {
+      "name": "Thiago Couto            € 900 mil",
+      "position": "GOL",
+      "age": 27,
+      "strength": 74
+    },
+    {
+      "name": "Halls            € 400 mil",
+      "position": "GOL",
+      "age": 27,
+      "strength": 68
+    },
+    {
+      "name": "Denis            € 25 mil",
+      "position": "GOL",
+      "age": 39,
+      "strength": 79
+    },
+    {
+      "name": "Adriano",
+      "position": "GOL",
+      "age": 23,
+      "strength": 77
+    },
+    {
+      "name": "João Silva            € 1.50 mi.",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 70
+    },
+    {
+      "name": "Zé Marcos            € 1.00 mi.",
+      "position": "ZAG",
+      "age": 28,
+      "strength": 71
+    },
+    {
+      "name": "Marcelo Benevenuto            € 900 mil",
+      "position": "ZAG",
+      "age": 30,
+      "strength": 65
+    },
+    {
+      "name": "Habraão            € 800 mil",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 73
+    },
+    {
+      "name": "Marcelo Ajul            € 600 mil",
+      "position": "ZAG",
+      "age": 23,
+      "strength": 76
+    },
+    {
+      "name": "Patrick",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 68
+    },
+    {
+      "name": "Felipinho            € 900 mil",
+      "position": "LE",
+      "age": 29,
+      "strength": 79
+    },
+    {
+      "name": "Edson Lucas            € 50 mil",
+      "position": "LE",
+      "age": 25,
+      "strength": 66
+    },
+    {
+      "name": "Augusto            € 700 mil",
+      "position": "LD",
+      "age": 18,
+      "strength": 69
+    },
+    {
+      "name": "Madson            € 175 mil",
+      "position": "LD",
+      "age": 34,
+      "strength": 76
+    },
+    {
+      "name": "Zé Lucas            € 8.00 mi.",
+      "position": "VOL",
+      "age": 18,
+      "strength": 70
+    },
+    {
+      "name": "Zé Gabriel            € 550 mil",
+      "position": "VOL",
+      "age": 27,
+      "strength": 67
+    },
+    {
+      "name": "Pedro Martins            € 400 mil",
+      "position": "VOL",
+      "age": 26,
+      "strength": 69
+    },
+    {
+      "name": "Yago Felipe            € 1.20 mi.",
+      "position": "MEI",
+      "age": 31,
+      "strength": 67
+    },
+    {
+      "name": "Fábio Matheus            € 500 mil",
+      "position": "MEI",
+      "age": 23,
+      "strength": 70
+    },
+    {
+      "name": "Biel Fonseca            € 500 mil",
+      "position": "MEI",
+      "age": 24,
+      "strength": 67
+    },
+    {
+      "name": "Carlos de Pena            € 750 mil",
+      "position": "PE",
+      "age": 34,
+      "strength": 70
+    },
+    {
+      "name": "Clayson            € 700 mil",
+      "position": "PE",
+      "age": 31,
+      "strength": 70
+    },
+    {
+      "name": "Gustavo Maia            € 500 mil",
+      "position": "PE",
+      "age": 25,
+      "strength": 72
+    },
+    {
+      "name": "Marlon            € 400 mil",
+      "position": "PE",
+      "age": 28,
+      "strength": 69
+    },
+    {
+      "name": "Chrystian Barletta            € 2.50 mi.",
+      "position": "PD",
+      "age": 25,
+      "strength": 74
+    },
+    {
+      "name": "Perotti            € 900 mil",
+      "position": "CA",
+      "age": 28,
+      "strength": 71
+    },
+    {
+      "name": "Iury Castilho            € 750 mil",
+      "position": "CA",
+      "age": 30,
+      "strength": 69
+    },
+    {
+      "name": "Zé Roberto            € 400 mil",
+      "position": "CA",
+      "age": 32,
+      "strength": 65
+    }
+  ],
+  "Ceará SC": [
+    {
+      "name": "Bruno            € 250 mil",
+      "position": "GOL",
+      "age": 32,
+      "strength": 74
+    },
+    {
+      "name": "Richard Costa            € 100 mil",
+      "position": "GOL",
+      "age": 35,
+      "strength": 71
+    },
+    {
+      "name": "Jorge Meurer",
+      "position": "GOL",
+      "age": 25,
+      "strength": 76
+    },
+    {
+      "name": "Luizão            € 550 mil",
+      "position": "ZAG",
+      "age": 33,
+      "strength": 69
+    },
+    {
+      "name": "Júlio César            € 400 mil",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 77
+    },
+    {
+      "name": "Éder            € 250 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 70
+    },
+    {
+      "name": "Luiz Otávio             € 50 mil",
+      "position": "ZAG",
+      "age": 37,
+      "strength": 67
+    },
+    {
+      "name": "Ronald Carvalho",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 67
+    },
+    {
+      "name": "Stanley Boateng",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 72
+    },
+    {
+      "name": "Pedro Gilmar",
+      "position": "ZAG",
+      "age": 20,
+      "strength": 76
+    },
+    {
+      "name": "Fernando            € 400 mil",
+      "position": "LE",
+      "age": 26,
+      "strength": 76
+    },
+    {
+      "name": "Sávio             € 350 mil",
+      "position": "LE",
+      "age": 31,
+      "strength": 77
+    },
+    {
+      "name": "Sánchez            € 25 mil",
+      "position": "LE",
+      "age": 30,
+      "strength": 72
+    },
+    {
+      "name": "Rafael Ramos            € 400 mil",
+      "position": "LD",
+      "age": 31,
+      "strength": 73
+    },
+    {
+      "name": "Bryan Borges            € 300 mil",
+      "position": "LD",
+      "age": 29,
+      "strength": 78
+    },
+    {
+      "name": "Alex Silva            € 250 mil",
+      "position": "LD",
+      "age": 32,
+      "strength": 71
+    },
+    {
+      "name": "Zanocelo            € 2.00 mi.",
+      "position": "VOL",
+      "age": 25,
+      "strength": 77
+    },
+    {
+      "name": "Lucas Lima            € 500 mil",
+      "position": "VOL",
+      "age": 26,
+      "strength": 71
+    },
+    {
+      "name": "Richardson            € 100 mil",
+      "position": "VOL",
+      "age": 34,
+      "strength": 68
+    },
+    {
+      "name": "João Gabriel",
+      "position": "VOL",
+      "age": 20,
+      "strength": 68
+    },
+    {
+      "name": "Juan Alano            € 900 mil",
+      "position": "MEI",
+      "age": 29,
+      "strength": 68
+    },
+    {
+      "name": "Matheus Araújo            € 1.50 mi.",
+      "position": "MEI",
+      "age": 24,
+      "strength": 71
+    },
+    {
+      "name": "Matheusinho            € 1.20 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 66
+    },
+    {
+      "name": "Melk            € 350 mil",
+      "position": "MEI",
+      "age": 19,
+      "strength": 73
+    },
+    {
+      "name": "Vina            € 250 mil",
+      "position": "MEI",
+      "age": 35,
+      "strength": 70
+    },
+    {
+      "name": "Lucas Mugni            € 200 mil",
+      "position": "MEI",
+      "age": 34,
+      "strength": 70
+    },
+    {
+      "name": "Fernandinho            € 600 mil",
+      "position": "PE",
+      "age": 28,
+      "strength": 76
+    },
+    {
+      "name": "Giulio            € 200 mil",
+      "position": "PE",
+      "age": 21,
+      "strength": 74
+    },
+    {
+      "name": "Gustavo Prado            € 2.50 mi.",
+      "position": "PD",
+      "age": 21,
+      "strength": 77
+    },
+    {
+      "name": "Wendel            € 2.00 mi.",
+      "position": "CA",
+      "age": 25,
+      "strength": 79
+    },
+    {
+      "name": "Lucca            € 600 mil",
+      "position": "CA",
+      "age": 23,
+      "strength": 75
+    },
+    {
+      "name": "Kauã",
+      "position": "CA",
+      "age": 20,
+      "strength": 75
+    }
+  ],
+  "Cuiabá EC": [
+    {
+      "name": "Marcelo Carné            € 150 mil",
+      "position": "GOL",
+      "age": 36,
+      "strength": 75
+    },
+    {
+      "name": "João Carlos             € 25 mil",
+      "position": "GOL",
+      "age": 38,
+      "strength": 65
+    },
+    {
+      "name": "Jean",
+      "position": "GOL",
+      "age": 25,
+      "strength": 73
+    },
+    {
+      "name": "Pedro Mello",
+      "position": "GOL",
+      "age": 20,
+      "strength": 75
+    },
+    {
+      "name": "João Basso            € 700 mil",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 77
+    },
+    {
+      "name": "Gabriel            € 700 mil",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 73
+    },
+    {
+      "name": "Alan Empereur            € 500 mil",
+      "position": "ZAG",
+      "age": 32,
+      "strength": 68
+    },
+    {
+      "name": "Vitor Mendes            € 200 mil",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 78
+    },
+    {
+      "name": "Luis Soares            € 200 mil",
+      "position": "ZAG",
+      "age": 20,
+      "strength": 77
+    },
+    {
+      "name": "Marlon            € 300 mil",
+      "position": "LE",
+      "age": 32,
+      "strength": 68
+    },
+    {
+      "name": "Eric            € 200 mil",
+      "position": "LE",
+      "age": 25,
+      "strength": 68
+    },
+    {
+      "name": "Lorenzo            € 150 mil",
+      "position": "LE",
+      "age": 19,
+      "strength": 77
+    },
+    {
+      "name": "Tarcísio",
+      "position": "LE",
+      "age": 22,
+      "strength": 73
+    },
+    {
+      "name": "Railan            € 300 mil",
+      "position": "LD",
+      "age": 26,
+      "strength": 78
+    },
+    {
+      "name": "Raul            € 1.00 mi.",
+      "position": "VOL",
+      "age": 29,
+      "strength": 67
+    },
+    {
+      "name": "Calebe Costa            € 300 mil",
+      "position": "VOL",
+      "age": 23,
+      "strength": 67
+    },
+    {
+      "name": "Luiz Otávio            € 250 mil",
+      "position": "VOL",
+      "age": 29,
+      "strength": 76
+    },
+    {
+      "name": "Weverson            € 200 mil",
+      "position": "VOL",
+      "age": 22,
+      "strength": 77
+    },
+    {
+      "name": "Wesley Dias",
+      "position": "VOL",
+      "age": 31,
+      "strength": 68
+    },
+    {
+      "name": "João Araújo",
+      "position": "VOL",
+      "age": 21,
+      "strength": 67
+    },
+    {
+      "name": "Pepê            € 1.20 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 76
+    },
+    {
+      "name": "David Miguel            € 400 mil",
+      "position": "MEI",
+      "age": 19,
+      "strength": 74
+    },
+    {
+      "name": "Marcos Júnior            € 300 mil",
+      "position": "MEI",
+      "age": 33,
+      "strength": 68
+    },
+    {
+      "name": "Yamil Asad            € 600 mil",
+      "position": "PE",
+      "age": 31,
+      "strength": 71
+    },
+    {
+      "name": "Hernandes            € 500 mil",
+      "position": "PE",
+      "age": 26,
+      "strength": 68
+    },
+    {
+      "name": "Eliel            € 450 mil",
+      "position": "PE",
+      "age": 23,
+      "strength": 71
+    },
+    {
+      "name": "Kauan Cristtyan            € 250 mil",
+      "position": "PE",
+      "age": 20,
+      "strength": 76
+    },
+    {
+      "name": "Gabriel Mineiro            € 150 mil",
+      "position": "PE",
+      "age": 21,
+      "strength": 72
+    },
+    {
+      "name": "Victor Barbara            € 150 mil",
+      "position": "PE",
+      "age": 21,
+      "strength": 65
+    },
+    {
+      "name": "Mateus Santos            € 300 mil",
+      "position": "PD",
+      "age": 27,
+      "strength": 77
+    },
+    {
+      "name": "Jadson            € 250 mil",
+      "position": "PD",
+      "age": 20,
+      "strength": 77
+    },
+    {
+      "name": "Jean Dias            € 75 mil",
+      "position": "PD",
+      "age": 35,
+      "strength": 67
+    },
+    {
+      "name": "Pedro Henrique             € 1.50 mi.",
+      "position": "CA",
+      "age": 29,
+      "strength": 74
+    },
+    {
+      "name": "Derik Lacerda            € 1.50 mi.",
+      "position": "CA",
+      "age": 26,
+      "strength": 77
+    },
+    {
+      "name": "Rodrigo Rodrigues            € 700 mil",
+      "position": "CA",
+      "age": 26,
+      "strength": 76
+    },
+    {
+      "name": "Vinicius Peixoto            € 250 mil",
+      "position": "CA",
+      "age": 22,
+      "strength": 69
+    },
+    {
+      "name": "Nathan Cruz            € 150 mil",
+      "position": "CA",
+      "age": 19,
+      "strength": 75
+    }
+  ],
+  "EC Juventude": [
+    {
+      "name": "Jandrei            € 200 mil",
+      "position": "GOL",
+      "age": 33,
+      "strength": 70
+    },
+    {
+      "name": "Pedro Rocha",
+      "position": "GOL",
+      "age": 28,
+      "strength": 74
+    },
+    {
+      "name": "Ruan Carneiro",
+      "position": "GOL",
+      "age": 36,
+      "strength": 69
+    },
+    {
+      "name": "Zé Henrique",
+      "position": "GOL",
+      "age": 21,
+      "strength": 74
+    },
+    {
+      "name": "Messias            € 500 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 72
+    },
+    {
+      "name": "Rodrigo Sam            € 350 mil",
+      "position": "ZAG",
+      "age": 30,
+      "strength": 78
+    },
+    {
+      "name": "Marcos Paulo            € 300 mil",
+      "position": "ZAG",
+      "age": 23,
+      "strength": 77
+    },
+    {
+      "name": "Gabriel Pinheiro            € 250 mil",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 68
+    },
+    {
+      "name": "Titi            € 50 mil",
+      "position": "ZAG",
+      "age": 38,
+      "strength": 67
+    },
+    {
+      "name": "Patryck            € 1.20 mi.",
+      "position": "LE",
+      "age": 23,
+      "strength": 67
+    },
+    {
+      "name": "Wadson            € 200 mil",
+      "position": "LE",
+      "age": 25,
+      "strength": 72
+    },
+    {
+      "name": "Diogo Barbosa            € 200 mil",
+      "position": "LE",
+      "age": 33,
+      "strength": 65
+    },
+    {
+      "name": "Alan Ruschel             € 75 mil",
+      "position": "LE",
+      "age": 36,
+      "strength": 67
+    },
+    {
+      "name": "Nathan            € 1.20 mi.",
+      "position": "LD",
+      "age": 24,
+      "strength": 75
+    },
+    {
+      "name": "Raí Ramos            € 300 mil",
+      "position": "LD",
+      "age": 32,
+      "strength": 67
+    },
+    {
+      "name": "Aderlan            € 100 mil",
+      "position": "LD",
+      "age": 35,
+      "strength": 76
+    },
+    {
+      "name": "Lucas Mineiro            € 900 mil",
+      "position": "VOL",
+      "age": 30,
+      "strength": 76
+    },
+    {
+      "name": "Luan Martins            € 250 mil",
+      "position": "VOL",
+      "age": 27,
+      "strength": 65
+    },
+    {
+      "name": "Iba Ly            € 250 mil",
+      "position": "VOL",
+      "age": 23,
+      "strength": 71
+    },
+    {
+      "name": "Davi Góes            € 250 mil",
+      "position": "VOL",
+      "age": 21,
+      "strength": 74
+    },
+    {
+      "name": "Léo Oliveira            € 50 mil",
+      "position": "VOL",
+      "age": 30,
+      "strength": 75
+    },
+    {
+      "name": "Mandaca            € 2.20 mi.",
+      "position": "MEI",
+      "age": 24,
+      "strength": 78
+    },
+    {
+      "name": "Pablo Roberto            € 600 mil",
+      "position": "MEI",
+      "age": 26,
+      "strength": 75
+    },
+    {
+      "name": "Raí            € 700 mil",
+      "position": "MEI",
+      "age": 24,
+      "strength": 73
+    },
+    {
+      "name": "Luiz Henrique",
+      "position": "MEI",
+      "age": 21,
+      "strength": 78
+    },
+    {
+      "name": "Ray Breno",
+      "position": "MEI",
+      "age": 21,
+      "strength": 67
+    },
+    {
+      "name": "Marcos Paulo            € 550 mil",
+      "position": "PE",
+      "age": 25,
+      "strength": 68
+    },
+    {
+      "name": "Allanzinho            € 400 mil",
+      "position": "PE",
+      "age": 26,
+      "strength": 77
+    },
+    {
+      "name": "Fábio Lima            € 300 mil",
+      "position": "PE",
+      "age": 29,
+      "strength": 76
+    },
+    {
+      "name": "Manuel Castro            € 1.00 mi.",
+      "position": "PD",
+      "age": 30,
+      "strength": 67
+    },
+    {
+      "name": "Alisson Safira            € 750 mil",
+      "position": "CA",
+      "age": 31,
+      "strength": 74
+    },
+    {
+      "name": "Alan Kardec            € 100 mil",
+      "position": "CA",
+      "age": 37,
+      "strength": 69
+    }
+  ],
+  "Grêmio Novorizontino": [
+    {
+      "name": "Jordi            € 350 mil",
+      "position": "GOL",
+      "age": 32,
+      "strength": 77
+    },
+    {
+      "name": "César            € 300 mil",
+      "position": "GOL",
+      "age": 31,
+      "strength": 70
+    },
+    {
+      "name": "Lucas",
+      "position": "GOL",
+      "age": 28,
+      "strength": 69
+    },
+    {
+      "name": "João Scapin",
+      "position": "GOL",
+      "age": 22,
+      "strength": 78
+    },
+    {
+      "name": "Paulo Henrique",
+      "position": "GOL",
+      "age": 35,
+      "strength": 65
+    },
+    {
+      "name": "Dantas            € 700 mil",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 74
+    },
+    {
+      "name": "Patrick            € 500 mil",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 73
+    },
+    {
+      "name": "Alexis Alvariño            € 450 mil",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 79
+    },
+    {
+      "name": "Carlinhos            € 200 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 66
+    },
+    {
+      "name": "Eduardo Brock            € 150 mil",
+      "position": "ZAG",
+      "age": 35,
+      "strength": 79
+    },
+    {
+      "name": "Kauan Alemão            € 150 mil",
+      "position": "ZAG",
+      "age": 19,
+      "strength": 71
+    },
+    {
+      "name": "Gabriel Bahia            € 50 mil",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 74
+    },
+    {
+      "name": "Renato Palm            € 50 mil",
+      "position": "ZAG",
+      "age": 34,
+      "strength": 67
+    },
+    {
+      "name": "Maykon Jesus            € 500 mil",
+      "position": "LE",
+      "age": 20,
+      "strength": 65
+    },
+    {
+      "name": "Sander            € 75 mil",
+      "position": "LE",
+      "age": 35,
+      "strength": 76
+    },
+    {
+      "name": "Jhilmar Lora            € 600 mil",
+      "position": "LD",
+      "age": 25,
+      "strength": 79
+    },
+    {
+      "name": "Nilson Castrillón            € 250 mil",
+      "position": "LD",
+      "age": 30,
+      "strength": 69
+    },
+    {
+      "name": "Léo Naldi            € 600 mil",
+      "position": "VOL",
+      "age": 24,
+      "strength": 68
+    },
+    {
+      "name": "Luís Oyama            € 500 mil",
+      "position": "VOL",
+      "age": 29,
+      "strength": 73
+    },
+    {
+      "name": "Marlon            € 100 mil",
+      "position": "VOL",
+      "age": 36,
+      "strength": 70
+    },
+    {
+      "name": "Luiz Gabriel",
+      "position": "VOL",
+      "age": 21,
+      "strength": 67
+    },
+    {
+      "name": "Matheus Bianqui            € 700 mil",
+      "position": "MEI",
+      "age": 28,
+      "strength": 74
+    },
+    {
+      "name": "Tavinho            € 500 mil",
+      "position": "MEI",
+      "age": 21,
+      "strength": 71
+    },
+    {
+      "name": "Diego Galo            € 500 mil",
+      "position": "MEI",
+      "age": 21,
+      "strength": 66
+    },
+    {
+      "name": "Rômulo            € 2.50 mi.",
+      "position": "MEI",
+      "age": 24,
+      "strength": 77
+    },
+    {
+      "name": "Juninho            € 1.20 mi.",
+      "position": "MEI",
+      "age": 25,
+      "strength": 78
+    },
+    {
+      "name": "Christian Ortíz            € 250 mil",
+      "position": "MEI",
+      "age": 33,
+      "strength": 67
+    },
+    {
+      "name": "Vinícius Paiva            € 450 mil",
+      "position": "PD",
+      "age": 25,
+      "strength": 65
+    },
+    {
+      "name": "Robson            € 400 mil",
+      "position": "PD",
+      "age": 35,
+      "strength": 74
+    },
+    {
+      "name": "Ronald Barcellos",
+      "position": "PD",
+      "age": 24,
+      "strength": 72
+    },
+    {
+      "name": "Hélio Borges",
+      "position": "PD",
+      "age": 26,
+      "strength": 72
+    },
+    {
+      "name": "Hector Bianchi",
+      "position": "PD",
+      "age": 21,
+      "strength": 66
+    },
+    {
+      "name": "Jardiel            € 500 mil",
+      "position": "CA",
+      "age": 21,
+      "strength": 71
+    },
+    {
+      "name": "Carlão            € 250 mil",
+      "position": "CA",
+      "age": 34,
+      "strength": 72
+    },
+    {
+      "name": "Diego Mathias            € 150 mil",
+      "position": "CA",
+      "age": 27,
+      "strength": 66
+    },
+    {
+      "name": "Nicolas Careca            € 100 mil",
+      "position": "CA",
+      "age": 29,
+      "strength": 75
+    }
+  ],
+  "Goiás EC": [
+    {
+      "name": "Tadeu             € 900 mil",
+      "position": "GOL",
+      "age": 34,
+      "strength": 72
+    },
+    {
+      "name": "Ezequiel Oliveira            € 100 mil",
+      "position": "GOL",
+      "age": 23,
+      "strength": 67
+    },
+    {
+      "name": "Thiago Rodrigues            € 25 mil",
+      "position": "GOL",
+      "age": 37,
+      "strength": 73
+    },
+    {
+      "name": "Lucas Ribeiro            € 750 mil",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 76
+    },
+    {
+      "name": "Luisão            € 500 mil",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 69
+    },
+    {
+      "name": "Ramon Menezes            € 400 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 67
+    },
+    {
+      "name": "Luiz Felipe            € 300 mil",
+      "position": "ZAG",
+      "age": 32,
+      "strength": 68
+    },
+    {
+      "name": "Nicolas            € 700 mil",
+      "position": "LE",
+      "age": 29,
+      "strength": 67
+    },
+    {
+      "name": "Djalma Silva            € 400 mil",
+      "position": "LE",
+      "age": 31,
+      "strength": 70
+    },
+    {
+      "name": "Danilo Cunha",
+      "position": "LE",
+      "age": 19,
+      "strength": 73
+    },
+    {
+      "name": "Diego Caito            € 800 mil",
+      "position": "LD",
+      "age": 22,
+      "strength": 65
+    },
+    {
+      "name": "Rodrigo Soares            € 750 mil",
+      "position": "LD",
+      "age": 33,
+      "strength": 76
+    },
+    {
+      "name": "Filipe Machado            € 1.00 mi.",
+      "position": "VOL",
+      "age": 30,
+      "strength": 70
+    },
+    {
+      "name": "Baldória            € 400 mil",
+      "position": "VOL",
+      "age": 21,
+      "strength": 65
+    },
+    {
+      "name": "Lucas Rodrigues            € 150 mil",
+      "position": "VOL",
+      "age": 18,
+      "strength": 77
+    },
+    {
+      "name": "Juninho            € 50 mil",
+      "position": "VOL",
+      "age": 38,
+      "strength": 67
+    },
+    {
+      "name": "Lourenço            € 2.50 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 69
+    },
+    {
+      "name": "Lucas Lima            € 300 mil",
+      "position": "MEI",
+      "age": 35,
+      "strength": 68
+    },
+    {
+      "name": "Gegê            € 200 mil",
+      "position": "MEI",
+      "age": 32,
+      "strength": 68
+    },
+    {
+      "name": "Brayann            € 200 mil",
+      "position": "MEI",
+      "age": 28,
+      "strength": 65
+    },
+    {
+      "name": "Bruno Sávio            € 150 mil",
+      "position": "MEI",
+      "age": 31,
+      "strength": 72
+    },
+    {
+      "name": "Jean Carlos            € 100 mil",
+      "position": "MEI",
+      "age": 21,
+      "strength": 70
+    },
+    {
+      "name": "Esli García            € 500 mil",
+      "position": "PE",
+      "age": 25,
+      "strength": 74
+    },
+    {
+      "name": "Kadu",
+      "position": "PE",
+      "age": 24,
+      "strength": 77
+    },
+    {
+      "name": "Pedrinho            € 600 mil",
+      "position": "PD",
+      "age": 22,
+      "strength": 78
+    },
+    {
+      "name": "Wellington Rato             € 450 mil",
+      "position": "PD",
+      "age": 34,
+      "strength": 76
+    },
+    {
+      "name": "Halerrandrio            € 50 mil",
+      "position": "PD",
+      "age": 19,
+      "strength": 78
+    },
+    {
+      "name": "Cadu            € 600 mil",
+      "position": "CA",
+      "age": 22,
+      "strength": 73
+    },
+    {
+      "name": "Anselmo Ramon            € 25 mil",
+      "position": "CA",
+      "age": 38,
+      "strength": 71
+    }
+  ],
+  "Criciúma EC": [
+    {
+      "name": "Alisson            € 500 mil",
+      "position": "GOL",
+      "age": 31,
+      "strength": 66
+    },
+    {
+      "name": "Airton            € 500 mil",
+      "position": "GOL",
+      "age": 32,
+      "strength": 73
+    },
+    {
+      "name": "Pedro Santos",
+      "position": "GOL",
+      "age": 21,
+      "strength": 72
+    },
+    {
+      "name": "César Martins            € 400 mil",
+      "position": "ZAG",
+      "age": 33,
+      "strength": 73
+    },
+    {
+      "name": "Bruno Alves            € 200 mil",
+      "position": "ZAG",
+      "age": 35,
+      "strength": 66
+    },
+    {
+      "name": "Ruan Carvalho            € 200 mil",
+      "position": "ZAG",
+      "age": 19,
+      "strength": 75
+    },
+    {
+      "name": "Luciano Castán            € 100 mil",
+      "position": "ZAG",
+      "age": 36,
+      "strength": 76
+    },
+    {
+      "name": "Rodrigo             € 25 mil",
+      "position": "ZAG",
+      "age": 39,
+      "strength": 71
+    },
+    {
+      "name": "Octávio Henrique",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 69
+    },
+    {
+      "name": "Marcelo Hermes            € 1.00 mi.",
+      "position": "LE",
+      "age": 31,
+      "strength": 69
+    },
+    {
+      "name": "Hiago Alves            € 200 mil",
+      "position": "LE",
+      "age": 20,
+      "strength": 67
+    },
+    {
+      "name": "Heitor Roca            € 50 mil",
+      "position": "LE",
+      "age": 28,
+      "strength": 73
+    },
+    {
+      "name": "Willean Lepo            € 700 mil",
+      "position": "LD",
+      "age": 29,
+      "strength": 75
+    },
+    {
+      "name": "Léo Mana            € 500 mil",
+      "position": "LD",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Marcinho            € 400 mil",
+      "position": "LD",
+      "age": 30,
+      "strength": 69
+    },
+    {
+      "name": "Sandry            € 900 mil",
+      "position": "VOL",
+      "age": 23,
+      "strength": 73
+    },
+    {
+      "name": "Ronald            € 700 mil",
+      "position": "VOL",
+      "age": 29,
+      "strength": 72
+    },
+    {
+      "name": "Eduardo            € 375 mil",
+      "position": "VOL",
+      "age": 29,
+      "strength": 76
+    },
+    {
+      "name": "Jean Irmer            € 250 mil",
+      "position": "VOL",
+      "age": 31,
+      "strength": 77
+    },
+    {
+      "name": "Thiaguinho            € 200 mil",
+      "position": "VOL",
+      "age": 20,
+      "strength": 75
+    },
+    {
+      "name": "Steven Nufour",
+      "position": "VOL",
+      "age": 21,
+      "strength": 71
+    },
+    {
+      "name": "Guilherme Lobo            € 400 mil",
+      "position": "MEI",
+      "age": 26,
+      "strength": 73
+    },
+    {
+      "name": "Rómulo Otero            € 200 mil",
+      "position": "MEI",
+      "age": 33,
+      "strength": 65
+    },
+    {
+      "name": "Fellipe Mateus            € 100 mil",
+      "position": "MEI",
+      "age": 35,
+      "strength": 79
+    },
+    {
+      "name": "Diego Gonçalves            € 400 mil",
+      "position": "PE",
+      "age": 31,
+      "strength": 77
+    },
+    {
+      "name": "Waguininho            € 50 mil",
+      "position": "PE",
+      "age": 36,
+      "strength": 72
+    },
+    {
+      "name": "Jhonata Robert            € 2.00 mi.",
+      "position": "PD",
+      "age": 26,
+      "strength": 75
+    },
+    {
+      "name": "Romarinho            € 550 mil",
+      "position": "PD",
+      "age": 32,
+      "strength": 78
+    },
+    {
+      "name": "João Carlos            € 350 mil",
+      "position": "PD",
+      "age": 25,
+      "strength": 71
+    },
+    {
+      "name": "Cauê            € 700 mil",
+      "position": "CA",
+      "age": 23,
+      "strength": 68
+    },
+    {
+      "name": "Yuri Tanque             € 350 mil",
+      "position": "CA",
+      "age": 28,
+      "strength": 76
+    },
+    {
+      "name": "Thales            € 250 mil",
+      "position": "CA",
+      "age": 19,
+      "strength": 69
+    },
+    {
+      "name": "Nicolas            € 75 mil",
+      "position": "CA",
+      "age": 36,
+      "strength": 69
+    }
+  ],
+  "CRB": [
+    {
+      "name": "Matheus Albino            € 400 mil",
+      "position": "GOL",
+      "age": 31,
+      "strength": 66
+    },
+    {
+      "name": "Vitor Caetano            € 100 mil",
+      "position": "GOL",
+      "age": 27,
+      "strength": 79
+    },
+    {
+      "name": "Fábio Henrique            € 50 mil",
+      "position": "GOL",
+      "age": 23,
+      "strength": 74
+    },
+    {
+      "name": "Henri            € 1.00 mi.",
+      "position": "ZAG",
+      "age": 24,
+      "strength": 70
+    },
+    {
+      "name": "Fábio Alemão             € 300 mil",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 79
+    },
+    {
+      "name": "Bressan            € 200 mil",
+      "position": "ZAG",
+      "age": 33,
+      "strength": 78
+    },
+    {
+      "name": "Lyncon            € 100 mil",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 73
+    },
+    {
+      "name": "Lucas Lovat            € 600 mil",
+      "position": "LE",
+      "age": 29,
+      "strength": 76
+    },
+    {
+      "name": "Reverson            € 300 mil",
+      "position": "LE",
+      "age": 29,
+      "strength": 71
+    },
+    {
+      "name": "Léo Campos            € 50 mil",
+      "position": "LE",
+      "age": 34,
+      "strength": 74
+    },
+    {
+      "name": "Hereda            € 800 mil",
+      "position": "LD",
+      "age": 27,
+      "strength": 76
+    },
+    {
+      "name": "Kevin            € 150 mil",
+      "position": "LD",
+      "age": 28,
+      "strength": 76
+    },
+    {
+      "name": "David",
+      "position": "LD",
+      "age": 22,
+      "strength": 66
+    },
+    {
+      "name": "Patrick de Lucca            € 900 mil",
+      "position": "VOL",
+      "age": 26,
+      "strength": 70
+    },
+    {
+      "name": "Luizão            € 250 mil",
+      "position": "VOL",
+      "age": 28,
+      "strength": 65
+    },
+    {
+      "name": "Crystopher            € 400 mil",
+      "position": "MEI",
+      "age": 28,
+      "strength": 74
+    },
+    {
+      "name": "Geovane            € 400 mil",
+      "position": "MEI",
+      "age": 27,
+      "strength": 68
+    },
+    {
+      "name": "Pedro Castro            € 200 mil",
+      "position": "MEI",
+      "age": 33,
+      "strength": 72
+    },
+    {
+      "name": "Danielzinho            € 1.20 mi.",
+      "position": "MEI",
+      "age": 30,
+      "strength": 76
+    },
+    {
+      "name": "Guilherme Estrella            € 1.00 mi.",
+      "position": "MEI",
+      "age": 21,
+      "strength": 67
+    },
+    {
+      "name": "Guilherme Pato            € 250 mil",
+      "position": "PE",
+      "age": 25,
+      "strength": 75
+    },
+    {
+      "name": "Thiaguinho            € 800 mil",
+      "position": "PD",
+      "age": 25,
+      "strength": 78
+    },
+    {
+      "name": "Douglas Baggio            € 500 mil",
+      "position": "PD",
+      "age": 31,
+      "strength": 69
+    },
+    {
+      "name": "Dadá Belmonte            € 300 mil",
+      "position": "PD",
+      "age": 29,
+      "strength": 75
+    },
+    {
+      "name": "Vinícius Barata            € 50 mil",
+      "position": "PD",
+      "age": 27,
+      "strength": 73
+    },
+    {
+      "name": "Mikael            € 800 mil",
+      "position": "CA",
+      "age": 27,
+      "strength": 69
+    },
+    {
+      "name": "Luiz Phellype            € 400 mil",
+      "position": "CA",
+      "age": 32,
+      "strength": 75
+    },
+    {
+      "name": "João Neto            € 150 mil",
+      "position": "CA",
+      "age": 22,
+      "strength": 75
+    }
+  ],
+  "Athletic Club": [
+    {
+      "name": "Luan Polli            € 400 mil",
+      "position": "GOL",
+      "age": 33,
+      "strength": 68
+    },
+    {
+      "name": "Jhonatan            € 150 mil",
+      "position": "GOL",
+      "age": 35,
+      "strength": 70
+    },
+    {
+      "name": "Glauco            € 100 mil",
+      "position": "GOL",
+      "age": 31,
+      "strength": 74
+    },
+    {
+      "name": "Eduardo Freire",
+      "position": "GOL",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Lucas Belezi            € 1.50 mi.",
+      "position": "ZAG",
+      "age": 23,
+      "strength": 69
+    },
+    {
+      "name": "Jhonathan            € 300 mil",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 78
+    },
+    {
+      "name": "Philipe Sampaio             € 250 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 72
+    },
+    {
+      "name": "Sidimar            € 100 mil",
+      "position": "ZAG",
+      "age": 33,
+      "strength": 74
+    },
+    {
+      "name": "Felipe Vieira",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 76
+    },
+    {
+      "name": "Rodrigo Gelado            € 300 mil",
+      "position": "LE",
+      "age": 22,
+      "strength": 78
+    },
+    {
+      "name": "Marcelo Henrique            € 250 mil",
+      "position": "LE",
+      "age": 21,
+      "strength": 73
+    },
+    {
+      "name": "Enzo",
+      "position": "LE",
+      "age": 23,
+      "strength": 72
+    },
+    {
+      "name": "Zeca             € 500 mil",
+      "position": "LD",
+      "age": 32,
+      "strength": 67
+    },
+    {
+      "name": "Diogo Batista            € 400 mil",
+      "position": "LD",
+      "age": 22,
+      "strength": 72
+    },
+    {
+      "name": "Douglas Pelé            € 250 mil",
+      "position": "LD",
+      "age": 26,
+      "strength": 67
+    },
+    {
+      "name": "Ian Luccas            € 500 mil",
+      "position": "VOL",
+      "age": 23,
+      "strength": 76
+    },
+    {
+      "name": "João Miguel            € 50 mil",
+      "position": "VOL",
+      "age": 22,
+      "strength": 75
+    },
+    {
+      "name": "Kauan Rodrigues            € 1.00 mi.",
+      "position": "MEI",
+      "age": 21,
+      "strength": 70
+    },
+    {
+      "name": "Jota            € 400 mil",
+      "position": "MEI",
+      "age": 22,
+      "strength": 76
+    },
+    {
+      "name": "Gian Cabezas            € 300 mil",
+      "position": "MEI",
+      "age": 23,
+      "strength": 68
+    },
+    {
+      "name": "Fabrício Isidoro            € 50 mil",
+      "position": "MEI",
+      "age": 34,
+      "strength": 76
+    },
+    {
+      "name": "Gustavinho            € 400 mil",
+      "position": "MEI",
+      "age": 24,
+      "strength": 73
+    },
+    {
+      "name": "Kauan Lindes            € 350 mil",
+      "position": "MEI",
+      "age": 22,
+      "strength": 74
+    },
+    {
+      "name": "Pedro Oliveira",
+      "position": "MEI",
+      "age": 27,
+      "strength": 68
+    },
+    {
+      "name": "Alexandre Pena",
+      "position": "MEI",
+      "age": 21,
+      "strength": 74
+    },
+    {
+      "name": "Léo Chú            € 1.00 mi.",
+      "position": "PE",
+      "age": 26,
+      "strength": 70
+    },
+    {
+      "name": "Dixon Vera            € 750 mil",
+      "position": "PE",
+      "age": 23,
+      "strength": 76
+    },
+    {
+      "name": "Ruan Assis            € 400 mil",
+      "position": "PD",
+      "age": 22,
+      "strength": 77
+    },
+    {
+      "name": "João Adriano            € 225 mil",
+      "position": "PD",
+      "age": 23,
+      "strength": 65
+    },
+    {
+      "name": "Max            € 175 mil",
+      "position": "PD",
+      "age": 24,
+      "strength": 77
+    },
+    {
+      "name": "Leandro Alves            € 100 mil",
+      "position": "PD",
+      "age": 27,
+      "strength": 68
+    },
+    {
+      "name": "Bruninho",
+      "position": "PD",
+      "age": 23,
+      "strength": 76
+    },
+    {
+      "name": "Ronaldo Tavares            € 800 mil",
+      "position": "CA",
+      "age": 28,
+      "strength": 70
+    },
+    {
+      "name": "Gustavão            € 100 mil",
+      "position": "CA",
+      "age": 21,
+      "strength": 75
+    },
+    {
+      "name": "Samuel Otusanya",
+      "position": "CA",
+      "age": 22,
+      "strength": 67
+    },
+    {
+      "name": "Gabriel Moysés",
+      "position": "CA",
+      "age": 23,
+      "strength": 70
+    }
+  ],
+  "Vila Nova FC": [
+    {
+      "name": "Gabriel Átila            € 300 mil",
+      "position": "GOL",
+      "age": 23,
+      "strength": 71
+    },
+    {
+      "name": "Helton Leite            € 200 mil",
+      "position": "GOL",
+      "age": 35,
+      "strength": 71
+    },
+    {
+      "name": "Dalberson",
+      "position": "GOL",
+      "age": 29,
+      "strength": 72
+    },
+    {
+      "name": "Caio Marcelo            € 350 mil",
+      "position": "ZAG",
+      "age": 28,
+      "strength": 69
+    },
+    {
+      "name": "Anderson            € 300 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 73
+    },
+    {
+      "name": "Tiago Pagnussat            € 100 mil",
+      "position": "ZAG",
+      "age": 36,
+      "strength": 75
+    },
+    {
+      "name": "Breno Bora",
+      "position": "ZAG",
+      "age": 24,
+      "strength": 76
+    },
+    {
+      "name": "Higor            € 400 mil",
+      "position": "LE",
+      "age": 21,
+      "strength": 66
+    },
+    {
+      "name": "Igor Cariús            € 200 mil",
+      "position": "LE",
+      "age": 33,
+      "strength": 76
+    },
+    {
+      "name": "Willian Formiga            € 200 mil",
+      "position": "LE",
+      "age": 31,
+      "strength": 76
+    },
+    {
+      "name": "Elias            € 550 mil",
+      "position": "LD",
+      "age": 26,
+      "strength": 74
+    },
+    {
+      "name": "Hayner            € 350 mil",
+      "position": "LD",
+      "age": 30,
+      "strength": 71
+    },
+    {
+      "name": "Higor Meritão            € 800 mil",
+      "position": "VOL",
+      "age": 32,
+      "strength": 69
+    },
+    {
+      "name": "Willian Maranhão            € 750 mil",
+      "position": "VOL",
+      "age": 30,
+      "strength": 79
+    },
+    {
+      "name": "João Vieira            € 700 mil",
+      "position": "VOL",
+      "age": 28,
+      "strength": 70
+    },
+    {
+      "name": "Dudu            € 400 mil",
+      "position": "VOL",
+      "age": 24,
+      "strength": 74
+    },
+    {
+      "name": "Nathan Camargo            € 200 mil",
+      "position": "VOL",
+      "age": 20,
+      "strength": 78
+    },
+    {
+      "name": "Enzo            € 150 mil",
+      "position": "VOL",
+      "age": 23,
+      "strength": 75
+    },
+    {
+      "name": "Luiz Henrique",
+      "position": "VOL",
+      "age": 21,
+      "strength": 77
+    },
+    {
+      "name": "Bruno Xavier            € 250 mil",
+      "position": "MEI",
+      "age": 29,
+      "strength": 69
+    },
+    {
+      "name": "Marquinhos Gabriel             € 150 mil",
+      "position": "MEI",
+      "age": 35,
+      "strength": 71
+    },
+    {
+      "name": "Ryan            € 800 mil",
+      "position": "PE",
+      "age": 25,
+      "strength": 79
+    },
+    {
+      "name": "Emerson Urso            € 400 mil",
+      "position": "PE",
+      "age": 25,
+      "strength": 75
+    },
+    {
+      "name": "Dodô            € 75 mil",
+      "position": "PE",
+      "age": 31,
+      "strength": 67
+    },
+    {
+      "name": "Janderson            € 900 mil",
+      "position": "PD",
+      "age": 27,
+      "strength": 71
+    },
+    {
+      "name": "André Luis            € 550 mil",
+      "position": "PD",
+      "age": 29,
+      "strength": 66
+    },
+    {
+      "name": "Dellatorre            € 350 mil",
+      "position": "CA",
+      "age": 34,
+      "strength": 66
+    },
+    {
+      "name": "Gustavo Puskas            € 300 mil",
+      "position": "CA",
+      "age": 18,
+      "strength": 71
+    },
+    {
+      "name": "Rafa Silva            € 225 mil",
+      "position": "CA",
+      "age": 34,
+      "strength": 72
+    },
+    {
+      "name": "Caíque",
+      "position": "CA",
+      "age": 25,
+      "strength": 68
+    }
+  ],
+  "Atlético Goianiense": [
+    {
+      "name": "Paulo Vítor            € 100 mil",
+      "position": "GOL",
+      "age": 37,
+      "strength": 70
+    },
+    {
+      "name": "Vladimir            € 50 mil",
+      "position": "GOL",
+      "age": 36,
+      "strength": 75
+    },
+    {
+      "name": "Paulo Henrique",
+      "position": "GOL",
+      "age": 32,
+      "strength": 78
+    },
+    {
+      "name": "Léo",
+      "position": "GOL",
+      "age": 24,
+      "strength": 66
+    },
+    {
+      "name": "Natã            € 900 mil",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 68
+    },
+    {
+      "name": "Adriano Martins            € 600 mil",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 74
+    },
+    {
+      "name": "Junior Barreto            € 600 mil",
+      "position": "ZAG",
+      "age": 28,
+      "strength": 79
+    },
+    {
+      "name": "Tito            € 200 mil",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 65
+    },
+    {
+      "name": "Marcão",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 78
+    },
+    {
+      "name": "Guilherme Lopes            € 800 mil",
+      "position": "LE",
+      "age": 24,
+      "strength": 79
+    },
+    {
+      "name": "Guilherme Romão            € 400 mil",
+      "position": "LE",
+      "age": 28,
+      "strength": 78
+    },
+    {
+      "name": "Gustavo Daniel            € 50 mil",
+      "position": "LE",
+      "age": 21,
+      "strength": 67
+    },
+    {
+      "name": "Ewerthon            € 250 mil",
+      "position": "LD",
+      "age": 25,
+      "strength": 67
+    },
+    {
+      "name": "Felipe Guimarães",
+      "position": "LD",
+      "age": 22,
+      "strength": 77
+    },
+    {
+      "name": "Matheus Índio            € 700 mil",
+      "position": "VOL",
+      "age": 26,
+      "strength": 75
+    },
+    {
+      "name": "Leandro Vilela            € 200 mil",
+      "position": "VOL",
+      "age": 31,
+      "strength": 76
+    },
+    {
+      "name": "Geovane            € 100 mil",
+      "position": "VOL",
+      "age": 37,
+      "strength": 70
+    },
+    {
+      "name": "Cristiano            € 200 mil",
+      "position": "MEI",
+      "age": 26,
+      "strength": 66
+    },
+    {
+      "name": "Igor Henrique            € 150 mil",
+      "position": "MEI",
+      "age": 34,
+      "strength": 76
+    },
+    {
+      "name": "Guilherme            € 200 mil",
+      "position": "MEI",
+      "age": 35,
+      "strength": 68
+    },
+    {
+      "name": "Ariel            € 50 mil",
+      "position": "MEI",
+      "age": 28,
+      "strength": 76
+    },
+    {
+      "name": "Assis",
+      "position": "MEI",
+      "age": 24,
+      "strength": 72
+    },
+    {
+      "name": "Jader Gentil            € 500 mil",
+      "position": "PE",
+      "age": 22,
+      "strength": 67
+    },
+    {
+      "name": "Guilherme Henrique",
+      "position": "PE",
+      "age": 19,
+      "strength": 73
+    },
+    {
+      "name": "Marrony            € 700 mil",
+      "position": "PD",
+      "age": 27,
+      "strength": 67
+    },
+    {
+      "name": "Bruno José            € 400 mil",
+      "position": "PD",
+      "age": 28,
+      "strength": 65
+    },
+    {
+      "name": "Vitinho            € 300 mil",
+      "position": "PD",
+      "age": 25,
+      "strength": 77
+    },
+    {
+      "name": "Léo Tocantins",
+      "position": "PD",
+      "age": 27,
+      "strength": 74
+    },
+    {
+      "name": "Lima",
+      "position": "PD",
+      "age": 21,
+      "strength": 69
+    },
+    {
+      "name": "Gustavo Coutinho            € 1.50 mi.",
+      "position": "CA",
+      "age": 27,
+      "strength": 77
+    },
+    {
+      "name": "Daniel Lima            € 500 mil",
+      "position": "CA",
+      "age": 21,
+      "strength": 66
+    },
+    {
+      "name": "Léo Jacó            € 400 mil",
+      "position": "CA",
+      "age": 21,
+      "strength": 68
+    },
+    {
+      "name": "Geovany Soares",
+      "position": "CA",
+      "age": 25,
+      "strength": 74
+    }
+  ],
+  "América Mineiro": [
+    {
+      "name": "Gustavo            € 200 mil",
+      "position": "GOL",
+      "age": 33,
+      "strength": 75
+    },
+    {
+      "name": "Cássio            € 75 mil",
+      "position": "GOL",
+      "age": 24,
+      "strength": 71
+    },
+    {
+      "name": "Bruno Brígido            € 50 mil",
+      "position": "GOL",
+      "age": 35,
+      "strength": 73
+    },
+    {
+      "name": "William",
+      "position": "GOL",
+      "age": 28,
+      "strength": 68
+    },
+    {
+      "name": "Italo Brito",
+      "position": "GOL",
+      "age": 20,
+      "strength": 77
+    },
+    {
+      "name": "Luca Sosa            € 600 mil",
+      "position": "ZAG",
+      "age": 32,
+      "strength": 68
+    },
+    {
+      "name": "Nathan Pelae            € 600 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 75
+    },
+    {
+      "name": "Ricardo Silva            € 200 mil",
+      "position": "ZAG",
+      "age": 33,
+      "strength": 67
+    },
+    {
+      "name": "Rafa Barcelos            € 100 mil",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 72
+    },
+    {
+      "name": "Manoel            € 100 mil",
+      "position": "ZAG",
+      "age": 36,
+      "strength": 75
+    },
+    {
+      "name": "Emerson            € 25 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 67
+    },
+    {
+      "name": "Wesley",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 65
+    },
+    {
+      "name": "Thallyson",
+      "position": "ZAG",
+      "age": 20,
+      "strength": 79
+    },
+    {
+      "name": "Dalbert            € 400 mil",
+      "position": "LE",
+      "age": 32,
+      "strength": 79
+    },
+    {
+      "name": "Tobias Ostchega            € 250 mil",
+      "position": "LE",
+      "age": 27,
+      "strength": 69
+    },
+    {
+      "name": "Léo Alaba            € 500 mil",
+      "position": "LD",
+      "age": 27,
+      "strength": 67
+    },
+    {
+      "name": "Jhonny            € 350 mil",
+      "position": "LD",
+      "age": 24,
+      "strength": 76
+    },
+    {
+      "name": "Heitor",
+      "position": "LD",
+      "age": 22,
+      "strength": 74
+    },
+    {
+      "name": "Val Soares            € 400 mil",
+      "position": "VOL",
+      "age": 29,
+      "strength": 72
+    },
+    {
+      "name": "Alê            € 100 mil",
+      "position": "VOL",
+      "age": 36,
+      "strength": 78
+    },
+    {
+      "name": "Jorge Jiménez",
+      "position": "VOL",
+      "age": 33,
+      "strength": 75
+    },
+    {
+      "name": "Felipe Amaral            € 500 mil",
+      "position": "MEI",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Yago Santos            € 400 mil",
+      "position": "MEI",
+      "age": 23,
+      "strength": 73
+    },
+    {
+      "name": "Eduardo Person            € 150 mil",
+      "position": "MEI",
+      "age": 29,
+      "strength": 68
+    },
+    {
+      "name": "Domingos",
+      "position": "MEI",
+      "age": 25,
+      "strength": 79
+    },
+    {
+      "name": "Otávio Gonçalves",
+      "position": "MEI",
+      "age": 20,
+      "strength": 75
+    },
+    {
+      "name": "Yago Souza            € 900 mil",
+      "position": "MEI",
+      "age": 20,
+      "strength": 76
+    },
+    {
+      "name": "Fernando Elizari            € 250 mil",
+      "position": "MEI",
+      "age": 35,
+      "strength": 68
+    },
+    {
+      "name": "Paulo Victor            € 250 mil",
+      "position": "PE",
+      "age": 25,
+      "strength": 67
+    },
+    {
+      "name": "Éverton Brito",
+      "position": "PE",
+      "age": 31,
+      "strength": 69
+    },
+    {
+      "name": "Yarlen            € 1.00 mi.",
+      "position": "PD",
+      "age": 20,
+      "strength": 77
+    },
+    {
+      "name": "Matías Segovia            € 700 mil",
+      "position": "PD",
+      "age": 23,
+      "strength": 78
+    },
+    {
+      "name": "Gabriel Barros            € 200 mil",
+      "position": "PD",
+      "age": 24,
+      "strength": 65
+    },
+    {
+      "name": "Thauan            € 200 mil",
+      "position": "PD",
+      "age": 22,
+      "strength": 76
+    },
+    {
+      "name": "Willian Bigode            € 100 mil",
+      "position": "CA",
+      "age": 39,
+      "strength": 78
+    },
+    {
+      "name": "Gonzalo Mastriani            € 1.00 mi.",
+      "position": "CA",
+      "age": 33,
+      "strength": 70
+    },
+    {
+      "name": "Breno            € 250 mil",
+      "position": "CA",
+      "age": 24,
+      "strength": 66
+    }
+  ],
+  "Operário FEC": [
+    {
+      "name": "Elias Curzel            € 100 mil",
+      "position": "GOL",
+      "age": 30,
+      "strength": 71
+    },
+    {
+      "name": "Talles            € 100 mil",
+      "position": "GOL",
+      "age": 29,
+      "strength": 76
+    },
+    {
+      "name": "Vagner",
+      "position": "GOL",
+      "age": 40,
+      "strength": 77
+    },
+    {
+      "name": "Diego Monteiro",
+      "position": "GOL",
+      "age": 26,
+      "strength": 76
+    },
+    {
+      "name": "Miranda            € 900 mil",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 67
+    },
+    {
+      "name": "José Cuenú            € 300 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 78
+    },
+    {
+      "name": "William Klaus            € 250 mil",
+      "position": "ZAG",
+      "age": 32,
+      "strength": 76
+    },
+    {
+      "name": "Jhan Torres            € 150 mil",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 79
+    },
+    {
+      "name": "André            € 150 mil",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 65
+    },
+    {
+      "name": "Bernardo Rodrigues",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 78
+    },
+    {
+      "name": "Renan Gustavo",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 65
+    },
+    {
+      "name": "Gabriel Feliciano            € 500 mil",
+      "position": "LE",
+      "age": 24,
+      "strength": 67
+    },
+    {
+      "name": "Moraes            € 250 mil",
+      "position": "LE",
+      "age": 28,
+      "strength": 74
+    },
+    {
+      "name": "Mikael Doka            € 750 mil",
+      "position": "LD",
+      "age": 26,
+      "strength": 79
+    },
+    {
+      "name": "Maguinho            € 50 mil",
+      "position": "LD",
+      "age": 34,
+      "strength": 72
+    },
+    {
+      "name": "João Gabriel",
+      "position": "LD",
+      "age": 20,
+      "strength": 75
+    },
+    {
+      "name": "Matheus Trindade            € 400 mil",
+      "position": "VOL",
+      "age": 30,
+      "strength": 78
+    },
+    {
+      "name": "Índio            € 100 mil",
+      "position": "VOL",
+      "age": 33,
+      "strength": 74
+    },
+    {
+      "name": "Charles Raphael",
+      "position": "VOL",
+      "age": 31,
+      "strength": 79
+    },
+    {
+      "name": "Felipe Favero",
+      "position": "VOL",
+      "age": 22,
+      "strength": 78
+    },
+    {
+      "name": "Pedro Vilhena            € 500 mil",
+      "position": "MEI",
+      "age": 24,
+      "strength": 78
+    },
+    {
+      "name": "Juan Zuluaga            € 400 mil",
+      "position": "MEI",
+      "age": 33,
+      "strength": 79
+    },
+    {
+      "name": "Neto Paraíba            € 50 mil",
+      "position": "MEI",
+      "age": 34,
+      "strength": 74
+    },
+    {
+      "name": "Gabriel Boschilia            € 1.50 mi.",
+      "position": "MEI",
+      "age": 30,
+      "strength": 77
+    },
+    {
+      "name": "Vinícius Diniz            € 600 mil",
+      "position": "MEI",
+      "age": 26,
+      "strength": 75
+    },
+    {
+      "name": "Maxwell            € 600 mil",
+      "position": "PE",
+      "age": 31,
+      "strength": 70
+    },
+    {
+      "name": "Kauã Gomes            € 50 mil",
+      "position": "PE",
+      "age": 22,
+      "strength": 68
+    },
+    {
+      "name": "Edwin Torres            € 500 mil",
+      "position": "PD",
+      "age": 28,
+      "strength": 75
+    },
+    {
+      "name": "Berto            € 200 mil",
+      "position": "PD",
+      "age": 30,
+      "strength": 67
+    },
+    {
+      "name": "Felipe Augusto            € 50 mil",
+      "position": "PD",
+      "age": 34,
+      "strength": 71
+    },
+    {
+      "name": "Vinicius Mingotti            € 500 mil",
+      "position": "CA",
+      "age": 26,
+      "strength": 79
+    },
+    {
+      "name": "Pablo            € 350 mil",
+      "position": "CA",
+      "age": 34,
+      "strength": 71
+    },
+    {
+      "name": "Caio Dantas            € 250 mil",
+      "position": "CA",
+      "age": 33,
+      "strength": 68
+    },
+    {
+      "name": "Aylon            € 225 mil",
+      "position": "CA",
+      "age": 34,
+      "strength": 65
+    }
+  ],
+  "São Bernardo FC": [
+    {
+      "name": "Matheus Nogueira            € 300 mil",
+      "position": "GOL",
+      "age": 28,
+      "strength": 76
+    },
+    {
+      "name": "Alex Alves            € 100 mil",
+      "position": "GOL",
+      "age": 39,
+      "strength": 72
+    },
+    {
+      "name": "Júnior Oliveira",
+      "position": "GOL",
+      "age": 36,
+      "strength": 66
+    },
+    {
+      "name": "Jemerson            € 500 mil",
+      "position": "ZAG",
+      "age": 33,
+      "strength": 74
+    },
+    {
+      "name": "Augusto            € 500 mil",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 68
+    },
+    {
+      "name": "Luizão            € 400 mil",
+      "position": "ZAG",
+      "age": 24,
+      "strength": 68
+    },
+    {
+      "name": "Hélder Maciel            € 75 mil",
+      "position": "ZAG",
+      "age": 36,
+      "strength": 66
+    },
+    {
+      "name": "Matheus Salustiano            € 75 mil",
+      "position": "ZAG",
+      "age": 33,
+      "strength": 73
+    },
+    {
+      "name": "Miguel Alcântara",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 76
+    },
+    {
+      "name": "Wellington",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 78
+    },
+    {
+      "name": "Pará            € 300 mil",
+      "position": "LE",
+      "age": 30,
+      "strength": 78
+    },
+    {
+      "name": "Mário Sérgio            € 150 mil",
+      "position": "LE",
+      "age": 32,
+      "strength": 68
+    },
+    {
+      "name": "Jota",
+      "position": "LE",
+      "age": 21,
+      "strength": 76
+    },
+    {
+      "name": "Rodrigo Ferreira            € 400 mil",
+      "position": "LD",
+      "age": 31,
+      "strength": 71
+    },
+    {
+      "name": "Hugo Sanches",
+      "position": "LD",
+      "age": 31,
+      "strength": 66
+    },
+    {
+      "name": "Romisson            € 500 mil",
+      "position": "VOL",
+      "age": 29,
+      "strength": 77
+    },
+    {
+      "name": "Rodrigo Andrade            € 500 mil",
+      "position": "VOL",
+      "age": 29,
+      "strength": 79
+    },
+    {
+      "name": "Foguinho            € 200 mil",
+      "position": "VOL",
+      "age": 34,
+      "strength": 70
+    },
+    {
+      "name": "Marcão            € 50 mil",
+      "position": "VOL",
+      "age": 35,
+      "strength": 67
+    },
+    {
+      "name": "Dudu Miraíma            € 300 mil",
+      "position": "MEI",
+      "age": 26,
+      "strength": 79
+    },
+    {
+      "name": "Júnior Urso            € 75 mil",
+      "position": "MEI",
+      "age": 37,
+      "strength": 74
+    },
+    {
+      "name": "Lucas Fernandes            € 800 mil",
+      "position": "MEI",
+      "age": 28,
+      "strength": 71
+    },
+    {
+      "name": "Hyoran            € 500 mil",
+      "position": "MEI",
+      "age": 33,
+      "strength": 77
+    },
+    {
+      "name": "Pedrinho            € 600 mil",
+      "position": "PE",
+      "age": 26,
+      "strength": 78
+    },
+    {
+      "name": "Pedro Vitor            € 500 mil",
+      "position": "PE",
+      "age": 28,
+      "strength": 69
+    },
+    {
+      "name": "Echaporã            € 100 mil",
+      "position": "PE",
+      "age": 26,
+      "strength": 72
+    },
+    {
+      "name": "Fabrício Daniel            € 600 mil",
+      "position": "PD",
+      "age": 28,
+      "strength": 66
+    },
+    {
+      "name": "Felipe Garcia            € 75 mil",
+      "position": "PD",
+      "age": 35,
+      "strength": 79
+    },
+    {
+      "name": "Lucas Rian            € 200 mil",
+      "position": "CA",
+      "age": 26,
+      "strength": 75
+    },
+    {
+      "name": "Pablo Dyego            € 250 mil",
+      "position": "CA",
+      "age": 32,
+      "strength": 76
+    },
+    {
+      "name": "Neto Costa            € 150 mil",
+      "position": "CA",
+      "age": 29,
+      "strength": 69
+    },
+    {
+      "name": "Daniel Amorim",
+      "position": "CA",
+      "age": 36,
+      "strength": 68
+    },
+    {
+      "name": "Lucas Reis",
+      "position": "CA",
+      "age": 25,
+      "strength": 73
+    },
+    {
+      "name": "Daniel Davi",
+      "position": "CA",
+      "age": 21,
+      "strength": 78
+    }
+  ],
+  "Avaí FC": [
+    {
+      "name": "Igor Bohn            € 250 mil",
+      "position": "GOL",
+      "age": 30,
+      "strength": 73
+    },
+    {
+      "name": "Otávio            € 150 mil",
+      "position": "GOL",
+      "age": 33,
+      "strength": 76
+    },
+    {
+      "name": "Guilherme Aquino            € 400 mil",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 74
+    },
+    {
+      "name": "Nicolás Cabral            € 300 mil",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 77
+    },
+    {
+      "name": "Jefferson            € 300 mil",
+      "position": "ZAG",
+      "age": 23,
+      "strength": 73
+    },
+    {
+      "name": "Allyson",
+      "position": "ZAG",
+      "age": 35,
+      "strength": 69
+    },
+    {
+      "name": "João Maistro",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 66
+    },
+    {
+      "name": "Gabriel Simples",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 76
+    },
+    {
+      "name": "Quaresma            € 300 mil",
+      "position": "LE",
+      "age": 29,
+      "strength": 78
+    },
+    {
+      "name": "Douglas Teixeira            € 50 mil",
+      "position": "LE",
+      "age": 25,
+      "strength": 71
+    },
+    {
+      "name": "Wesley Gasolina            € 600 mil",
+      "position": "LD",
+      "age": 26,
+      "strength": 68
+    },
+    {
+      "name": "Wallison            € 300 mil",
+      "position": "LD",
+      "age": 24,
+      "strength": 78
+    },
+    {
+      "name": "Paulo Vitor            € 800 mil",
+      "position": "VOL",
+      "age": 21,
+      "strength": 74
+    },
+    {
+      "name": "Zé Ricardo            € 650 mil",
+      "position": "VOL",
+      "age": 30,
+      "strength": 67
+    },
+    {
+      "name": "Jamerson            € 200 mil",
+      "position": "VOL",
+      "age": 19,
+      "strength": 65
+    },
+    {
+      "name": "Vinicius Gugel",
+      "position": "VOL",
+      "age": 19,
+      "strength": 74
+    },
+    {
+      "name": "Wenderson            € 800 mil",
+      "position": "MEI",
+      "age": 27,
+      "strength": 69
+    },
+    {
+      "name": "Romildo Del Piage            € 300 mil",
+      "position": "MEI",
+      "age": 26,
+      "strength": 76
+    },
+    {
+      "name": "Hyan            € 300 mil",
+      "position": "MEI",
+      "age": 22,
+      "strength": 78
+    },
+    {
+      "name": "Pedro Cuiabá",
+      "position": "MEI",
+      "age": 24,
+      "strength": 71
+    },
+    {
+      "name": "Daniel Penha            € 700 mil",
+      "position": "MEI",
+      "age": 27,
+      "strength": 67
+    },
+    {
+      "name": "Luiz Henrique            € 250 mil",
+      "position": "MEI",
+      "age": 27,
+      "strength": 70
+    },
+    {
+      "name": "Jean Lucas            € 200 mil",
+      "position": "MEI",
+      "age": 31,
+      "strength": 68
+    },
+    {
+      "name": "Sorriso            € 300 mil",
+      "position": "PE",
+      "age": 21,
+      "strength": 72
+    },
+    {
+      "name": "Isaías",
+      "position": "PE",
+      "age": 21,
+      "strength": 73
+    },
+    {
+      "name": "Thayllon            € 900 mil",
+      "position": "PD",
+      "age": 19,
+      "strength": 66
+    },
+    {
+      "name": "Renanzinho",
+      "position": "PD",
+      "age": 22,
+      "strength": 74
+    },
+    {
+      "name": "Léo Gamalho            € 75 mil",
+      "position": "CA",
+      "age": 40,
+      "strength": 65
+    }
+  ],
+  "Botafogo FC": [
+    {
+      "name": "Victor Souza            € 100 mil",
+      "position": "GOL",
+      "age": 33,
+      "strength": 78
+    },
+    {
+      "name": "Jordan",
+      "position": "GOL",
+      "age": 28,
+      "strength": 69
+    },
+    {
+      "name": "Brenno Klippel",
+      "position": "GOL",
+      "age": 23,
+      "strength": 79
+    },
+    {
+      "name": "Wallace            € 350 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 72
+    },
+    {
+      "name": "Guilherme Mariano            € 250 mil",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 65
+    },
+    {
+      "name": "Vilar            € 150 mil",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 75
+    },
+    {
+      "name": "Carlão            € 100 mil",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 72
+    },
+    {
+      "name": "Darlan",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 65
+    },
+    {
+      "name": "Badaró",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 79
+    },
+    {
+      "name": "Patrick Brey            € 450 mil",
+      "position": "LE",
+      "age": 29,
+      "strength": 66
+    },
+    {
+      "name": "Felipe Vieira            € 250 mil",
+      "position": "LE",
+      "age": 27,
+      "strength": 66
+    },
+    {
+      "name": "Pedro Souza            € 300 mil",
+      "position": "LD",
+      "age": 19,
+      "strength": 76
+    },
+    {
+      "name": "Gabriel Inocêncio            € 250 mil",
+      "position": "LD",
+      "age": 31,
+      "strength": 76
+    },
+    {
+      "name": "Jonathan            € 100 mil",
+      "position": "LD",
+      "age": 33,
+      "strength": 65
+    },
+    {
+      "name": "Ericson            € 50 mil",
+      "position": "LD",
+      "age": 27,
+      "strength": 72
+    },
+    {
+      "name": "Leandro Maciel            € 600 mil",
+      "position": "VOL",
+      "age": 30,
+      "strength": 79
+    },
+    {
+      "name": "Matheus Sales            € 550 mil",
+      "position": "VOL",
+      "age": 31,
+      "strength": 77
+    },
+    {
+      "name": "Marco Antônio",
+      "position": "VOL",
+      "age": 25,
+      "strength": 73
+    },
+    {
+      "name": "Thiaguinho",
+      "position": "VOL",
+      "age": 28,
+      "strength": 66
+    },
+    {
+      "name": "Erik Rebello",
+      "position": "VOL",
+      "age": 21,
+      "strength": 76
+    },
+    {
+      "name": "Everton Morelli            € 1.00 mi.",
+      "position": "MEI",
+      "age": 28,
+      "strength": 79
+    },
+    {
+      "name": "João Costa            € 300 mil",
+      "position": "MEI",
+      "age": 21,
+      "strength": 70
+    },
+    {
+      "name": "Yuri Felipe",
+      "position": "MEI",
+      "age": 20,
+      "strength": 75
+    },
+    {
+      "name": "Rafael Gava            € 350 mil",
+      "position": "MEI",
+      "age": 33,
+      "strength": 67
+    },
+    {
+      "name": "Arthur Caíke            € 300 mil",
+      "position": "PE",
+      "age": 34,
+      "strength": 78
+    },
+    {
+      "name": "Zé Hugo            € 250 mil",
+      "position": "PE",
+      "age": 26,
+      "strength": 66
+    },
+    {
+      "name": "Jefferson Nem            € 200 mil",
+      "position": "PE",
+      "age": 30,
+      "strength": 72
+    },
+    {
+      "name": "Márcio Maranhão",
+      "position": "PE",
+      "age": 27,
+      "strength": 71
+    },
+    {
+      "name": "Wesley Santos",
+      "position": "PE",
+      "age": 25,
+      "strength": 77
+    },
+    {
+      "name": "Kelvin            € 500 mil",
+      "position": "PD",
+      "age": 28,
+      "strength": 71
+    },
+    {
+      "name": "Luizão            € 250 mil",
+      "position": "CA",
+      "age": 23,
+      "strength": 78
+    },
+    {
+      "name": "Hygor            € 100 mil",
+      "position": "CA",
+      "age": 33,
+      "strength": 66
+    },
+    {
+      "name": "Guilherme Queiróz",
+      "position": "CA",
+      "age": 36,
+      "strength": 69
+    },
+    {
+      "name": "Kauã Freire",
+      "position": "CA",
+      "age": 19,
+      "strength": 79
+    },
+    {
+      "name": "Thalles",
+      "position": "CA",
+      "age": 21,
+      "strength": 72
+    }
+  ],
+  "Náutico": [
+    {
+      "name": "Gastón Guruceaga            € 200 mil",
+      "position": "GOL",
+      "age": 31,
+      "strength": 74
+    },
+    {
+      "name": "Muriel            € 50 mil",
+      "position": "GOL",
+      "age": 39,
+      "strength": 77
+    },
+    {
+      "name": "Arthur",
+      "position": "GOL",
+      "age": 29,
+      "strength": 74
+    },
+    {
+      "name": "Betão            € 200 mil",
+      "position": "ZAG",
+      "age": 27,
+      "strength": 79
+    },
+    {
+      "name": "Mateus Silva            € 150 mil",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 72
+    },
+    {
+      "name": "Alemão",
+      "position": "ZAG",
+      "age": 35,
+      "strength": 67
+    },
+    {
+      "name": "Índio",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 75
+    },
+    {
+      "name": "Wanderson",
+      "position": "ZAG",
+      "age": 31,
+      "strength": 78
+    },
+    {
+      "name": "Gustavo Henrique",
+      "position": "ZAG",
+      "age": 20,
+      "strength": 74
+    },
+    {
+      "name": "Yuri            € 250 mil",
+      "position": "LE",
+      "age": 30,
+      "strength": 77
+    },
+    {
+      "name": "Igor Fernandes            € 150 mil",
+      "position": "LE",
+      "age": 34,
+      "strength": 72
+    },
+    {
+      "name": "Luiz Paulo",
+      "position": "LE",
+      "age": 33,
+      "strength": 69
+    },
+    {
+      "name": "Léo Jance",
+      "position": "LE",
+      "age": 21,
+      "strength": 79
+    },
+    {
+      "name": "Matheus Ribeiro            € 200 mil",
+      "position": "LD",
+      "age": 33,
+      "strength": 70
+    },
+    {
+      "name": "Luiz Felipe            € 150 mil",
+      "position": "LD",
+      "age": 28,
+      "strength": 68
+    },
+    {
+      "name": "Reginaldo            € 100 mil",
+      "position": "LD",
+      "age": 33,
+      "strength": 75
+    },
+    {
+      "name": "Arnaldo",
+      "position": "LD",
+      "age": 34,
+      "strength": 66
+    },
+    {
+      "name": "Leonai            € 1.00 mi.",
+      "position": "VOL",
+      "age": 31,
+      "strength": 72
+    },
+    {
+      "name": "Wenderson            € 300 mil",
+      "position": "VOL",
+      "age": 28,
+      "strength": 71
+    },
+    {
+      "name": "Samuel            € 150 mil",
+      "position": "VOL",
+      "age": 22,
+      "strength": 79
+    },
+    {
+      "name": "Auremir",
+      "position": "VOL",
+      "age": 34,
+      "strength": 73
+    },
+    {
+      "name": "Vitinho            € 500 mil",
+      "position": "MEI",
+      "age": 22,
+      "strength": 72
+    },
+    {
+      "name": "Ramon            € 100 mil",
+      "position": "MEI",
+      "age": 29,
+      "strength": 70
+    },
+    {
+      "name": "Dodô            € 1.00 mi.",
+      "position": "MEI",
+      "age": 25,
+      "strength": 77
+    },
+    {
+      "name": "Jean Carlos            € 350 mil",
+      "position": "MEI",
+      "age": 34,
+      "strength": 73
+    },
+    {
+      "name": "Juninho            € 200 mil",
+      "position": "MEI",
+      "age": 30,
+      "strength": 72
+    },
+    {
+      "name": "Felipe Redaelli",
+      "position": "MEI",
+      "age": 22,
+      "strength": 72
+    },
+    {
+      "name": "Vinícius            € 200 mil",
+      "position": "PE",
+      "age": 32,
+      "strength": 69
+    },
+    {
+      "name": "Victor Andrade            € 200 mil",
+      "position": "PE",
+      "age": 30,
+      "strength": 72
+    },
+    {
+      "name": "Felipe Cardoso            € 200 mil",
+      "position": "PE",
+      "age": 23,
+      "strength": 70
+    },
+    {
+      "name": "Thalissinho",
+      "position": "PE",
+      "age": 20,
+      "strength": 73
+    },
+    {
+      "name": "Felipe Saraiva            € 200 mil",
+      "position": "PD",
+      "age": 28,
+      "strength": 67
+    },
+    {
+      "name": "Derek            € 400 mil",
+      "position": "CA",
+      "age": 28,
+      "strength": 71
+    },
+    {
+      "name": "Júnior Todinho            € 200 mil",
+      "position": "CA",
+      "age": 32,
+      "strength": 71
+    },
+    {
+      "name": "Paulo Sérgio",
+      "position": "CA",
+      "age": 37,
+      "strength": 68
+    },
+    {
+      "name": "Kauã Maranhão",
+      "position": "CA",
+      "age": 22,
+      "strength": 69
+    }
+  ],
+  "AA Ponte Preta": [
+    {
+      "name": "Diogo Silva            € 75 mil",
+      "position": "GOL",
+      "age": 39,
+      "strength": 66
+    },
+    {
+      "name": "Vinicius Ferrari",
+      "position": "GOL",
+      "age": 23,
+      "strength": 74
+    },
+    {
+      "name": "Guilherme Viana",
+      "position": "GOL",
+      "age": 22,
+      "strength": 65
+    },
+    {
+      "name": "Lucas Cunha            € 1.20 mi.",
+      "position": "ZAG",
+      "age": 29,
+      "strength": 76
+    },
+    {
+      "name": "Sergio Palacios            € 900 mil",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 74
+    },
+    {
+      "name": "Márcio Silva            € 400 mil",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 70
+    },
+    {
+      "name": "Kevyson            € 800 mil",
+      "position": "LE",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Danilo Barcelos            € 150 mil",
+      "position": "LE",
+      "age": 34,
+      "strength": 76
+    },
+    {
+      "name": "Diego Porfírio            € 100 mil",
+      "position": "LE",
+      "age": 26,
+      "strength": 74
+    },
+    {
+      "name": "Thalys            € 300 mil",
+      "position": "LD",
+      "age": 26,
+      "strength": 74
+    },
+    {
+      "name": "Diego Tavares            € 75 mil",
+      "position": "LD",
+      "age": 35,
+      "strength": 75
+    },
+    {
+      "name": "Guilherme Martins",
+      "position": "LD",
+      "age": 21,
+      "strength": 69
+    },
+    {
+      "name": "Kawann",
+      "position": "LD",
+      "age": 21,
+      "strength": 78
+    },
+    {
+      "name": "André Lima            € 200 mil",
+      "position": "VOL",
+      "age": 26,
+      "strength": 70
+    },
+    {
+      "name": "Murilo            € 200 mil",
+      "position": "VOL",
+      "age": 27,
+      "strength": 73
+    },
+    {
+      "name": "Rodrigo Souza            € 50 mil",
+      "position": "VOL",
+      "age": 38,
+      "strength": 77
+    },
+    {
+      "name": "Léo Gomes            € 250 mil",
+      "position": "MEI",
+      "age": 29,
+      "strength": 65
+    },
+    {
+      "name": "Élvis            € 75 mil",
+      "position": "MEI",
+      "age": 35,
+      "strength": 76
+    },
+    {
+      "name": "Diogo Mora",
+      "position": "MEI",
+      "age": 24,
+      "strength": 72
+    },
+    {
+      "name": "David da Hora            € 400 mil",
+      "position": "PE",
+      "age": 26,
+      "strength": 77
+    },
+    {
+      "name": "Daniel Baianinho",
+      "position": "PE",
+      "age": 26,
+      "strength": 79
+    },
+    {
+      "name": "Jonathan Cafu            € 50 mil",
+      "position": "PD",
+      "age": 34,
+      "strength": 66
+    },
+    {
+      "name": "Rodriguinho            € 100 mil",
+      "position": "CA",
+      "age": 25,
+      "strength": 76
+    },
+    {
+      "name": "Brandão            € 200 mil",
+      "position": "CA",
+      "age": 22,
+      "strength": 72
+    },
+    {
+      "name": "Vitor Ribeiro",
+      "position": "CA",
+      "age": 27,
+      "strength": 71
+    }
+  ],
+  "Londrina EC": [
+    {
+      "name": "Mauricio Kozlinski            € 100 mil",
+      "position": "GOL",
+      "age": 35,
+      "strength": 69
+    },
+    {
+      "name": "Luan Ribeiro",
+      "position": "GOL",
+      "age": 29,
+      "strength": 74
+    },
+    {
+      "name": "Zanella",
+      "position": "GOL",
+      "age": 22,
+      "strength": 78
+    },
+    {
+      "name": "Heron            € 350 mil",
+      "position": "ZAG",
+      "age": 25,
+      "strength": 78
+    },
+    {
+      "name": "Gabriel Lacerda            € 250 mil",
+      "position": "ZAG",
+      "age": 26,
+      "strength": 76
+    },
+    {
+      "name": "Yago Lincoln",
+      "position": "ZAG",
+      "age": 23,
+      "strength": 79
+    },
+    {
+      "name": "Wallace",
+      "position": "ZAG",
+      "age": 38,
+      "strength": 67
+    },
+    {
+      "name": "Caio",
+      "position": "ZAG",
+      "age": 21,
+      "strength": 74
+    },
+    {
+      "name": "João Vitor",
+      "position": "ZAG",
+      "age": 22,
+      "strength": 69
+    },
+    {
+      "name": "Kevyn            € 250 mil",
+      "position": "LE",
+      "age": 28,
+      "strength": 71
+    },
+    {
+      "name": "Artur",
+      "position": "LE",
+      "age": 31,
+      "strength": 72
+    },
+    {
+      "name": "Rafael Monteiro",
+      "position": "LE",
+      "age": 22,
+      "strength": 71
+    },
+    {
+      "name": "Rafael Soares",
+      "position": "LE",
+      "age": 21,
+      "strength": 65
+    },
+    {
+      "name": "André Dhominique            € 600 mil",
+      "position": "LD",
+      "age": 22,
+      "strength": 68
+    },
+    {
+      "name": "Weverton            € 250 mil",
+      "position": "LD",
+      "age": 27,
+      "strength": 75
+    },
+    {
+      "name": "Nino Paraíba",
+      "position": "LD",
+      "age": 40,
+      "strength": 66
+    },
+    {
+      "name": "Kauê Leonardo",
+      "position": "LD",
+      "age": 21,
+      "strength": 68
+    },
+    {
+      "name": "Chumbinho            € 200 mil",
+      "position": "VOL",
+      "age": 22,
+      "strength": 76
+    },
+    {
+      "name": "André Luiz            € 150 mil",
+      "position": "VOL",
+      "age": 30,
+      "strength": 69
+    },
+    {
+      "name": "Fabiano            € 150 mil",
+      "position": "VOL",
+      "age": 21,
+      "strength": 72
+    },
+    {
+      "name": "João Tavares",
+      "position": "VOL",
+      "age": 22,
+      "strength": 72
+    },
+    {
+      "name": "André Cardoso",
+      "position": "VOL",
+      "age": 23,
+      "strength": 67
+    },
+    {
+      "name": "Murilo Chico",
+      "position": "VOL",
+      "age": 21,
+      "strength": 70
+    },
+    {
+      "name": "Lucas Marques            € 250 mil",
+      "position": "MEI",
+      "age": 31,
+      "strength": 78
+    },
+    {
+      "name": "Thalis            € 600 mil",
+      "position": "MEI",
+      "age": 30,
+      "strength": 78
+    },
+    {
+      "name": "Caio Rafael",
+      "position": "MEI",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Iago Teles            € 300 mil",
+      "position": "PE",
+      "age": 26,
+      "strength": 73
+    },
+    {
+      "name": "Paulinho Moccelin            € 200 mil",
+      "position": "PE",
+      "age": 32,
+      "strength": 68
+    },
+    {
+      "name": "Caio Maia            € 100 mil",
+      "position": "PE",
+      "age": 21,
+      "strength": 75
+    },
+    {
+      "name": "Juninho            € 100 mil",
+      "position": "PE",
+      "age": 20,
+      "strength": 66
+    },
+    {
+      "name": "Raí Nascimento",
+      "position": "PE",
+      "age": 28,
+      "strength": 79
+    },
+    {
+      "name": "Athyrson",
+      "position": "PE",
+      "age": 22,
+      "strength": 70
+    },
+    {
+      "name": "Fabricio",
+      "position": "PE",
+      "age": 22,
+      "strength": 73
+    },
+    {
+      "name": "Vitor Jacaré            € 450 mil",
+      "position": "PD",
+      "age": 26,
+      "strength": 68
+    },
+    {
+      "name": "Vitinho Mota            € 250 mil",
+      "position": "PD",
+      "age": 22,
+      "strength": 73
+    },
+    {
+      "name": "Emiliano Rodríguez            € 600 mil",
+      "position": "CA",
+      "age": 22,
+      "strength": 68
+    },
+    {
+      "name": "Bruno Santos            € 200 mil",
+      "position": "CA",
+      "age": 29,
+      "strength": 77
+    },
+    {
+      "name": "Gilberto            € 150 mil",
+      "position": "CA",
+      "age": 37,
+      "strength": 71
+    }
+  ]
+}
